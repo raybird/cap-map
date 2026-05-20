@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## ⚠️ 最重要規則
+
+**Git commit 訊息絕對不可包含 `Co-Authored-By: Claude` 或任何 AI 署名資訊。** 只寫功能描述，不附加任何尾行。
+
 ## Project Overview
 
 **cap-map** is a Taiwan historical geography map application for studying social studies. It shows 33+ historical events on a Leaflet map, filtered by a horizontal timeline spanning from 5000 BCE to 2025 CE. Clicking an event opens a sidebar with details and an auto-generated quiz.
