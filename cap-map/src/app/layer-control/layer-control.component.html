@@ -1,18 +1,21 @@
-<div class="layer-control">
-  <div class="layer-header">
-    <h3>地圖圖層</h3>
+<div class="layer-toggle" (click)="togglePanel()" [class.active]="isOpen" title="圖層控制">
+  <span class="layer-icon">🗺</span>
+</div>
+
+<div class="layer-panel" *ngIf="isOpen" [class.open]="isOpen">
+  <div class="panel-header">
+    <h4>地圖圖層</h4>
     <button class="close-btn" (click)="togglePanel()">×</button>
   </div>
-  
-  <div class="layer-body">
+  <div class="panel-body">
     <div class="layer-item" *ngFor="let layer of availableLayers">
       <label class="layer-label">
-        <input type="checkbox" 
+        <input type="checkbox"
                [checked]="isLayerActive(layer.id)"
                (change)="toggleLayer(layer.id)">
-        {{ layer.name }}
+        <span class="layer-name">{{ layer.name }}</span>
       </label>
-      <div class="layer-description">{{ layer.description }}</div>
+      <div class="layer-desc">{{ layer.description }}</div>
     </div>
   </div>
 </div>
