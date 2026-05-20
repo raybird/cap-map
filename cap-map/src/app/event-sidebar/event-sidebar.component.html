@@ -1,0 +1,74 @@
+<div class="event-card" *ngIf="(selectedEvent$ | async) as event; else emptyTemplate">
+  <div class="card-header">
+    <div class="header-left">
+      <div class="dynasty-badge">{{ event.date?.period || '' }}</div>
+      <h3>{{ event.title }}</h3>
+    </div>
+    <button class="close-btn" (click)="closeSidebar()">×</button>
+  </div>
+
+  <div class="card-meta">
+    <span class="year">{{ event.date?.start }} ~ {{ event.date?.end }}</span>
+    <span class="location">{{ event.location?.name }}</span>
+  </div>
+
+  <div class="card-body">
+    <div class="section">
+      <h4>事件描述</h4>
+      <p>{{ event.description }}</p>
+    </div>
+
+    <div class="section" *ngIf="event.categories?.length">
+      <h4>類別</h4>
+      <div class="tags">
+        <span class="tag" *ngFor="let cat of event.categories">{{ cat }}</span>
+      </div>
+    </div>
+
+    <div class="section" *ngIf="event.keywords?.length">
+      <h4>關鍵詞</h4>
+      <div class="tags">
+        <span class="tag" *ngFor="let kw of event.keywords">{{ kw }}</span>
+      </div>
+    </div>
+
+    <div class="section exam-section" *ngIf="event.examRelevance">
+      <h4>考試重點</h4>
+      <div class="exam-item">
+        <span class="exam-label">重要度: </span>
+        <span class="exam-value importance-{{ event.examRelevance.importance }}">
+          {{ event.examRelevance.importance === 'high' ? '★★★★★' : event.examRelevance.importance === 'medium' ? '★★★☆☆' : '★★☆☆☆' }}
+        </span>
+      </div>
+      <div class="exam-item" *ngIf="event.examRelevance.questionTypes?.length">
+        <span class="exam-label">題型: </span>
+        <span class="exam-value">{{ event.examRelevance.questionTypes.join('、') }}</span>
+      </div>
+      <div class="exam-item" *ngIf="event.examRelevance.textbookReferences?.length">
+        <span class="exam-label">教科書對應: </span>
+        <span class="exam-value">{{ event.examRelevance.textbookReferences.join('、') }}</span>
+      </div>
+    </div>
+
+    <div class="section related-section" *ngIf="event.relatedEvents?.length">
+      <h4>相關事件</h4>
+      <div class="related-list">
+        <div class="related-item" *ngFor="let relId of event.relatedEvents">
+          <span class="rel-title">{{ relId }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #emptyTemplate>
+  <div class="event-card">
+    <div class="card-header">
+      <h3>請選擇一個事件</h3>
+      <button class="close-btn" (click)="closeSidebar()">×</button>
+    </div>
+    <div class="card-meta">
+      <span>點擊地圖標記或搜尋事件以查看詳細資訊</span>
+    </div>
+  </div>
+</ng-template>

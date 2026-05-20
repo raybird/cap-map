@@ -1,0 +1,61 @@
+.layer-control {
+  position: fixed;
+  top: 50%;
+  right: -250px;
+  width: 250px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  transition: right 0.3s ease;
+  z-index: 1000;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.layer-control.open {
+  right: 0;
+}
+
+.layer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.layer-header h3 {
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.layer-body {
+  padding: 1rem;
+}
+
+.layer-item {
+  margin-bottom: 1rem;
+}
+
+.layer-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.layer-label input {
+  margin-right: 0.5rem;
+}
+
+.layer-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.25rem;
+}

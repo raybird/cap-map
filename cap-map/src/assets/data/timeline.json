@@ -1,0 +1,82 @@
+[
+  {
+    "id": "prehistory",
+    "label": "史前時代",
+    "startDate": "-5000-01-01",
+    "endDate": "-300-01-01",
+    "startYear": -5000,
+    "endYear": -300,
+    "color": "#8B4513",
+    "description": "臺灣史前時代至金屬器時代"
+  },
+  {
+    "id": "dutch-spanish",
+    "label": "荷西時期",
+    "startDate": "1624-01-01",
+    "endDate": "1662-01-01",
+    "startYear": 1624,
+    "endYear": 1662,
+    "color": "#FF6B6B",
+    "description": "荷蘭與西班牙在臺灣的殖民統治"
+  },
+  {
+    "id": "zhengshi",
+    "label": "鄭氏時期",
+    "startDate": "1662-02-01",
+    "endDate": "1683-07-01",
+    "startYear": 1662,
+    "endYear": 1683,
+    "color": "#4ECDC4",
+    "description": "鄭成功家族統治臺灣期間"
+  },
+  {
+    "id": "qing-rule",
+    "label": "清治時期",
+    "startDate": "1683-07-01",
+    "endDate": "1895-05-01",
+    "startYear": 1683,
+    "endYear": 1895,
+    "color": "#45B7D1",
+    "description": "清朝統治臺灣期間"
+  },
+  {
+    "id": "japanese-rule",
+    "label": "日治時期",
+    "startDate": "1895-05-01",
+    "endDate": "1945-10-01",
+    "startYear": 1895,
+    "endYear": 1945,
+    "color": "#96CEB4",
+    "description": "日本統治臺灣期間"
+  },
+  {
+    "id": "postwar",
+    "label": "戰後時期",
+    "startDate": "1945-10-01",
+    "endDate": "1987-07-15",
+    "startYear": 1945,
+    "endYear": 1987,
+    "color": "#FFEAA7",
+    "description": "二戰後至解嚴前的臺灣時期"
+  },
+  {
+    "id": "democratization",
+    "label": "民主化時期",
+    "startDate": "1987-07-15",
+    "endDate": "2000-05-20",
+    "startYear": 1987,
+    "endYear": 2000,
+    "color": "#DDA0DD",
+    "description": "解嚴至首次政黨輪替的民主化進程"
+  },
+  {
+    "id": "modern",
+    "label": "當代",
+    "startDate": "2000-05-20",
+    "endDate": "2025-12-31",
+    "startYear": 2000,
+    "endYear": 2025,
+    "color": "#B8D4E3",
+    "description": "2000年後的臺灣社會發展"
+  }
+]

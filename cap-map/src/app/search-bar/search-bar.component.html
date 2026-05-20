@@ -1,0 +1,37 @@
+<div class="search-box-container">
+  <div class="search-input-wrapper">
+    <span class="search-icon">🔍</span>
+    <input
+      type="text"
+      class="search-input"
+      id="search-input"
+      placeholder="搜尋歷史事件..."
+      (input)="onSearch($event)"
+      (focus)="onFocus()"
+      (blur)="onBlur()"
+      autocomplete="off"
+    />
+    <button class="clear-button" *ngIf="searchResults.length > 0 || queryText" (click)="clearSearch()">×</button>
+  </div>
+
+  <div class="search-results-container" *ngIf="isFocused && searchResults.length > 0">
+    <div class="results-header">
+      <h4>搜尋結果</h4>
+      <span class="result-count">{{ searchResults.length }} 個結果</span>
+    </div>
+    <ul class="results-list">
+      <li class="result-item" *ngFor="let event of searchResults" (click)="selectEvent(event.id)">
+        <div class="result-header">
+          <span class="result-title">{{ event.title }}</span>
+        </div>
+        <div class="result-meta">
+          <span class="result-dynasty">{{ event.date?.period || event.date?.start }}</span>
+          <span class="result-location">{{ event.location?.name }}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="search-loading" *ngIf="loading$ | async">載入中...</div>
+  <div class="search-message" *ngIf="(error$ | async) && !(loading$ | async)">搜尋失敗: {{ error$ | async }}</div>
+</div>

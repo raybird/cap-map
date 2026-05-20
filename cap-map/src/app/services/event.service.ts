@@ -1,0 +1,29 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Store } from '@ngrx/store';
+import { AppState } from '../store/app.state';
+import * as EventActions from '../store/actions/event.actions';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class EventService {
+  private eventsDataUrl = 'assets/data/events.json';
+
+  constructor(private http: HttpClient, private store: Store<AppState>) {}
+
+  loadEvents(): void {
+    this.store.dispatch(EventActions.loadEvents());
+    
+    this.http.get<any[]>(this.eventsDataUrl).subscribe({
+      next: (events) => {
+        this.store.dispatch(EventActions.loadEventsSuccess({ events }));
+      },
+      error: (error) => {
+        this.store.dispatch(EventActions.loadEventsFailure({ 
+          error: error.message || 'Failed to load events data' 
+        }));
+      }
+    });
+  }
+}

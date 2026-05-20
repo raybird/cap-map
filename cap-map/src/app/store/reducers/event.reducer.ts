@@ -1,0 +1,44 @@
+import { createReducer, on } from '@ngrx/store';
+import * as EventActions from '../actions/event.actions';
+
+export interface EventState {
+  events: any[];
+  selectedEventId: string | null;
+  loading: boolean;
+  error: string | null;
+}
+
+export const initialEventState: EventState = {
+  events: [],
+  selectedEventId: null,
+  loading: false,
+  error: null
+};
+
+export const eventReducer = createReducer(
+  initialEventState,
+  on(EventActions.loadEvents, state => ({
+    ...state,
+    loading: true,
+    error: null
+  })),
+  on(EventActions.loadEventsSuccess, (state, { events }) => ({
+    ...state,
+    events,
+    loading: false,
+    error: null
+  })),
+  on(EventActions.loadEventsFailure, (state, { error }) => ({
+    ...state,
+    loading: false,
+    error
+  })),
+  on(EventActions.selectEvent, (state, { eventId }) => ({
+    ...state,
+    selectedEventId: eventId
+  })),
+  on(EventActions.clearSelectedEvent, state => ({
+    ...state,
+    selectedEventId: null
+  }))
+);

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "dutch-settlement-taoyuan",
+    "title": "荷西時期在臺南建國",
+    "description": "荷蘭人在臺南建造熱蘭遮城，為臺灣第一座西式堡壘。",
+    "date": {
+      "start": "1624-01-01",
+      "end": "1662-01-01",
+      "period": "荷西時期"
+    },
+    "location": {
+      "name": "熱蘭遮城（今臺南市安平區）",
+      "coordinates": [22.9953, 120.1657],
+      "adminDivisions": ["臺南市", "安平區"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["荷蘭", "堡壘", "殖民"],
+    "relatedEvents": ["zhengxi-expulsion"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科七年級上冊 第3章"]
+    },
+    "media": {
+      "images": ["assets/images/fort-zeelandia.jpg"],
+      "maps": ["assets/maps/dutch-taiwan-map.jpg"]
+    }
+  },
+  {
+    "id": "zhengxi-expulsion",
+    "title": "鄭成功逐荷復台",
+    "description": "鄭成功率領軍隊擊敗荷蘭人，收復臺灣。",
+    "date": {
+      "start": "1661-01-01",
+      "end": "1662-02-01",
+      "period": "鄭氏時期"
+    },
+    "location": {
+      "name": "熱蘭遮城（今臺南市安平區）",
+      "coordinates": [22.9953, 120.1657],
+      "adminDivisions": ["臺南市", "安平區"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["鄭成功", "逐荷", "臺灣"],
+    "relatedEvents": ["dutch-settlement-taoyuan"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "因果分析"],
+      "textbookReferences": ["社會科七年級上冊 第3章"]
+    },
+    "media": {
+      "images": ["assets/images/zhengxi.jpg"],
+      "maps": ["assets/maps/zhengxi-taiwan-map.jpg"]
+    }
+  },
+  {
+    "id": "qing-rule-taiwan",
+    "title": "清治時期臺北建城",
+    "description": "清朝在臺北建築府城墻，奠定今日臺北市都市格局。",
+    "date": {
+      "start": "1875-01-01",
+      "end": "1884-12-31",
+      "period": "清治時期"
+    },
+    "location": {
+      "name": "臺北府城（今臺北市萬華區）",
+      "coordinates": [25.0330, 121.5054],
+      "adminDivisions": ["臺北市", "萬華區"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["清朝", "府城", "臺北"],
+    "relatedEvents": ["japanese-invasion-1895"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科七年級下冊 第4章"]
+    },
+    "media": {
+      "images": ["assets/images/qing-taipei.jpg"],
+      "maps": ["assets/maps/qing-taipei-map.jpg"]
+    }
+  },
+  {
+    "id": "japanese-invasion-1895",
+    "title": "日治時期開端",
+    "description": "日本根據《馬關條約》取得臺灣，開始統治。",
+    "date": {
+      "start": "1895-05-01",
+      "end": "1945-10-01",
+      "period": "日治時期"
+    },
+    "location": {
+      "name": "臺灣全島",
+      "coordinates": [23.7, 121.0],
+      "adminDivisions": ["臺灣省"]
+    },
+    "categories": ["歷史", "地理", "公民"],
+    "keywords": ["日本", "殖民", "台灣"],
+    "relatedEvents": ["wushe-incident"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科八年級上冊 第2章"]
+    },
+    "media": {
+      "images": ["assets/images/japanese-taiwan.jpg"],
+      "maps": ["assets/maps/japanese-taiwan-map.jpg"]
+    }
+  },
+  {
+    "id": "wushe-incident",
+    "title": "武霸事件",
+    "description": "塞德克族人反抗日壓迫，發動武霸事件，為日治時期最大規模原住民抗日行動。",
+    "date": {
+      "start": "1930-10-27",
+      "end": "1930-12-01",
+      "period": "日治時期"
+    },
+    "location": {
+      "name": "武霸社（今南投縣仁愛鄉）",
+      "coordinates": [24.0367, 121.2761],
+      "adminDivisions": ["南投縣", "仁愛鄉"]
+    },
+    "categories": ["歷史", "公民"],
+    "keywords": ["原住民", "抗日", "塞德克族"],
+    "relatedEvents": ["japanese-invasion-1895"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "價值辨析"],
+      "textbookReferences": ["社會科八年級上冊 第3章"]
+    },
+    "media": {
+      "images": ["assets/images/wushe-incident.jpg"],
+      "maps": ["assets/maps/wushe-map.jpg"]
+    }
+  },
+  {
+    "id": "wwii-taiwan",
+    "title": "二戰末期臺灣狀況",
+    "description": "1945年日本投降後，臺灣由中華民國政府接管，但引發兩二事件。",
+    "date": {
+      "start": "1945-08-15",
+      "end": "1947-03-01",
+      "period": "戰後時期"
+    },
+    "location": {
+      "name": "臺灣全島",
+      "coordinates": [23.7, 121.0],
+      "adminDivisions": ["臺灣省"]
+    },
+    "categories": ["歷史", "公民"],
+    "keywords": ["二二事件", "戰後", "政府接管"],
+    "relatedEvents": ["japanese-invasion-1895", "wushe-incident"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "因果分析"],
+      "textbookReferences": ["社會科八年級下冊 第1章"]
+    },
+    "media": {
+      "images": ["assets/images/wwii-taiwan.jpg"],
+      "maps": ["assets/maps/wwii-taiwan-map.jpg"]
+    }
+  },
+  {
+    "id": "land-reform-1950s",
+    "title": "土地改革實施",
+    "description": "1949年至1953年實施的土地改革政策，包括減租、售地和公糧，奠定台灣經濟發展基礎。",
+    "date": {
+      "start": "1949-01-01",
+      "end": "1953-12-31",
+      "period": "戰後時期"
+    },
+    "location": {
+      "name": "臺灣全島",
+      "coordinates": [23.7, 121.0],
+      "adminDivisions": ["臺灣省"]
+    },
+    "categories": ["歷史", "地理", "公民"],
+    "keywords": ["土地改革", "經濟發展", "農村"],
+    "relatedEvents": ["wwii-taiwan"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "圖表判讀"],
+      "textbookReferences": ["社會科八年級下冊 第2章"]
+    },
+    "media": {
+      "images": ["assets/images/land-reform.jpg"],
+      "maps": ["assets/maps/land-reform-map.jpg"]
+    }
+  },
+  {
+    "id": "democratization-1980s",
+    "title": "民主化進程",
+    "description": "1980年代至1990年代臺灣民主化進程，包括解嚴、黨禁解除及直選總統。",
+    "date": {
+      "start": "1987-07-15",
+      "end": "1996-03-23",
+      "period": "民主化時期"
+    },
+    "location": {
+      "name": "臺灣全島",
+      "coordinates": [23.7, 121.0],
+      "adminDivisions": ["臺灣省"]
+    },
+    "categories": ["歷史", "公民"],
+    "keywords": ["民主化", "解嚴", "直選總統"],
+    "relatedEvents": ["wwii-taiwan", "land-reform-1950s"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "價值辨析"],
+      "textbookReferences": ["社會科九年級上冊 第3章"]
+    },
+    "media": {
+      "images": ["assets/images/democratization.jpg"],
+      "maps": ["assets/maps/democratization-map.jpg"]
+    }
+  }
+]

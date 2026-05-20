@@ -1,0 +1,39 @@
+<div class="timeline-wrapper">
+  <div class="timeline-container" #scrollContainer (scroll)="onScroll()">
+    <div class="timeline-track" [style.width.px]="trackWidth">
+      <!-- Dynasty bands -->
+      <div class="dynasty-bands">
+        <div class="dynasty-band"
+          *ngFor="let period of (periods$ | async)"
+          [style.left.px]="getPixelPosition(period.startYear)"
+          [style.width.px]="getPixelWidth(period.startYear, period.endYear)"
+          [style.background-color]="period.color">
+          <span class="dynasty-label">
+            {{ period.label }}
+            <span class="dynasty-years">{{ period.startYear }} ~ {{ period.endYear }}</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Event dots -->
+      <div class="event-dots">
+        <div class="event-dot"
+          *ngFor="let event of (events$ | async)"
+          [style.left.px]="getPixelPosition(getEventYear(event))"
+          [style.background-color]="getEventColor(event)"
+          (click)="onEventClick(event)">
+        </div>
+      </div>
+
+      <!-- Year ticks -->
+      <div class="year-ticks">
+        <div class="year-tick"
+          *ngFor="let tick of yearTicks"
+          [style.left.px]="getPixelPosition(tick.year)"
+          [class.major-tick]="tick.major">
+          <span class="year-label" *ngIf="tick.major">{{ tick.label }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

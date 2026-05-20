@@ -29,6 +29,7 @@
     "@angular/forms": "^20.3.0",
     "@angular/material": "^21.2.11",
     "@angular/platform-browser": "^20.3.0",
+    "@angular/platform-browser-dynamic": "^21.2.13",
     "@angular/router": "^20.3.0",
     "@ngrx/effects": "^21.1.0",
     "@ngrx/store": "^21.1.0",
