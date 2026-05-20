@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as EventActions from '../store/actions/event.actions';
+import * as MapActions from '../store/actions/map.actions';
 import * as EventSelectors from '../store/selectors/event.selectors';
 import { Subscription, Observable } from 'rxjs';
 import Fuse from 'fuse.js';
@@ -82,6 +83,7 @@ export class SearchBarComponent implements OnInit, OnDestroy {
     this.isFocused = false;
     this.searchResults = [];
     this.store.dispatch(EventActions.selectEvent({ eventId }));
+    this.store.dispatch(MapActions.selectEvent({ eventId }));
   }
 
   clearSearch(): void {

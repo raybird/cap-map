@@ -3,6 +3,7 @@ import * as L from 'leaflet';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import { selectEvent, clearSelectedEvent } from '../store/actions/map.actions';
+import * as EventActions from '../store/actions/event.actions';
 import { selectMapEvents, selectSelectedEventId, selectMapActiveLayers } from '../store/selectors/map.selectors';
 import { Subscription, Observable } from 'rxjs';
 
@@ -92,6 +93,7 @@ export class MapContainerComponent implements OnInit, OnDestroy {
 
         marker.on('click', () => {
           this.store.dispatch(selectEvent({ eventId: event.id }));
+          this.store.dispatch(EventActions.selectEvent({ eventId: event.id }));
         });
 
         this.markers.addLayer(marker);
