@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as EventActions from '../store/actions/event.actions';
+import * as MapActions from '../store/actions/map.actions';
 import { selectSelectedEvent, selectEventLoading, selectEventError } from '../store/selectors/event.selectors';
 import { Subscription, Observable } from 'rxjs';
 
@@ -37,6 +38,7 @@ export class EventSidebarComponent implements OnInit, OnDestroy {
   }
 
   closeSidebar(): void {
-    this.store.dispatch(EventActions.selectEvent({ eventId: '' }));
+    this.store.dispatch(EventActions.clearSelectedEvent());
+    this.store.dispatch(MapActions.clearSelectedEvent());
   }
 }
