@@ -1,218 +1,376 @@
 [
   {
-    "id": "dutch-settlement-taoyuan",
-    "title": "荷西時期在臺南建國",
-    "description": "荷蘭人在臺南建造熱蘭遮城，為臺灣第一座西式堡壘。",
-    "date": {
-      "start": "1624-01-01",
-      "end": "1662-01-01",
-      "period": "荷西時期"
-    },
-    "location": {
-      "name": "熱蘭遮城（今臺南市安平區）",
-      "coordinates": [22.9953, 120.1657],
-      "adminDivisions": ["臺南市", "安平區"]
-    },
+    "id": "changbin-culture",
+    "title": "長濱文化",
+    "description": "臺灣目前發現最早的舊石器時代文化，約五萬至五千年前，以臺東八仙洞遺址為代表。使用打製石器，過著狩獵採集生活。",
+    "date": { "start": "-50000-01-01", "end": "-5000-01-01", "period": "史前時代", "periodId": "prehistory" },
+    "location": { "name": "八仙洞（臺東縣長濱鄉）", "coordinates": [23.375, 121.452], "adminDivisions": ["臺東縣", "長濱鄉"] },
     "categories": ["歷史", "地理"],
-    "keywords": ["荷蘭", "堡壘", "殖民"],
-    "relatedEvents": ["zhengxi-expulsion"],
-    "examRelevance": {
-      "importance": "high",
-      "questionTypes": ["圖表判讀", "概念解釋"],
-      "textbookReferences": ["社會科七年級上冊 第3章"]
-    },
-    "media": {
-      "images": ["assets/images/fort-zeelandia.jpg"],
-      "maps": ["assets/maps/dutch-taiwan-map.jpg"]
-    }
+    "keywords": ["舊石器時代", "八仙洞", "長濱文化", "打製石器"],
+    "relatedEvents": ["peinan-culture"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 第1章"] }
   },
   {
-    "id": "zhengxi-expulsion",
-    "title": "鄭成功逐荷復台",
-    "description": "鄭成功率領軍隊擊敗荷蘭人，收復臺灣。",
-    "date": {
-      "start": "1661-01-01",
-      "end": "1662-02-01",
-      "period": "鄭氏時期"
-    },
-    "location": {
-      "name": "熱蘭遮城（今臺南市安平區）",
-      "coordinates": [22.9953, 120.1657],
-      "adminDivisions": ["臺南市", "安平區"]
-    },
-    "categories": ["歷史", "地理"],
-    "keywords": ["鄭成功", "逐荷", "臺灣"],
-    "relatedEvents": ["dutch-settlement-taoyuan"],
-    "examRelevance": {
-      "importance": "high",
-      "questionTypes": ["圖表判讀", "因果分析"],
-      "textbookReferences": ["社會科七年級上冊 第3章"]
-    },
-    "media": {
-      "images": ["assets/images/zhengxi.jpg"],
-      "maps": ["assets/maps/zhengxi-taiwan-map.jpg"]
-    }
-  },
-  {
-    "id": "qing-rule-taiwan",
-    "title": "清治時期臺北建城",
-    "description": "清朝在臺北建築府城墻，奠定今日臺北市都市格局。",
-    "date": {
-      "start": "1875-01-01",
-      "end": "1884-12-31",
-      "period": "清治時期"
-    },
-    "location": {
-      "name": "臺北府城（今臺北市萬華區）",
-      "coordinates": [25.0330, 121.5054],
-      "adminDivisions": ["臺北市", "萬華區"]
-    },
-    "categories": ["歷史", "地理"],
-    "keywords": ["清朝", "府城", "臺北"],
-    "relatedEvents": ["japanese-invasion-1895"],
-    "examRelevance": {
-      "importance": "medium",
-      "questionTypes": ["圖表判讀", "概念解釋"],
-      "textbookReferences": ["社會科七年級下冊 第4章"]
-    },
-    "media": {
-      "images": ["assets/images/qing-taipei.jpg"],
-      "maps": ["assets/maps/qing-taipei-map.jpg"]
-    }
-  },
-  {
-    "id": "japanese-invasion-1895",
-    "title": "日治時期開端",
-    "description": "日本根據《馬關條約》取得臺灣，開始統治。",
-    "date": {
-      "start": "1895-05-01",
-      "end": "1945-10-01",
-      "period": "日治時期"
-    },
-    "location": {
-      "name": "臺灣全島",
-      "coordinates": [23.7, 121.0],
-      "adminDivisions": ["臺灣省"]
-    },
+    "id": "peinan-culture",
+    "title": "卑南文化",
+    "description": "新石器時代晚期文化，距今約3500至2000年前，以臺東卑南遺址為代表。出土大量石板棺、玉器陪葬品，顯示已有社會階層分化。",
+    "date": { "start": "-1500-01-01", "end": "-1-01-01", "period": "史前時代", "periodId": "prehistory" },
+    "location": { "name": "卑南遺址（臺東縣臺東市）", "coordinates": [22.79, 121.117], "adminDivisions": ["臺東縣", "臺東市"] },
     "categories": ["歷史", "地理", "公民"],
-    "keywords": ["日本", "殖民", "台灣"],
-    "relatedEvents": ["wushe-incident"],
-    "examRelevance": {
-      "importance": "high",
-      "questionTypes": ["圖表判讀", "概念解釋"],
-      "textbookReferences": ["社會科八年級上冊 第2章"]
-    },
-    "media": {
-      "images": ["assets/images/japanese-taiwan.jpg"],
-      "maps": ["assets/maps/japanese-taiwan-map.jpg"]
-    }
+    "keywords": ["新石器時代", "卑南文化", "玉器", "石板棺"],
+    "relatedEvents": ["changbin-culture", "shihsanhang-culture"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 第1章"] }
+  },
+  {
+    "id": "shihsanhang-culture",
+    "title": "十三行文化",
+    "description": "金石並用時代文化，距今約1800至500年前，以新北市八里區十三行遺址為代表。已掌握煉鐵技術，與中國東南沿海有貿易往來。",
+    "date": { "start": "0200-01-01", "end": "1500-01-01", "period": "史前時代", "periodId": "prehistory" },
+    "location": { "name": "十三行遺址（新北市八里區）", "coordinates": [25.155, 121.415], "adminDivisions": ["新北市", "八里區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["金石並用", "煉鐵", "貿易", "十三行"],
+    "relatedEvents": ["peinan-culture"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級上冊 第1章"] }
+  },
+  {
+    "id": "dutch-zeelandia",
+    "title": "荷蘭建熱蘭遮城",
+    "description": "荷蘭東印度公司於1624年在臺南安平建造熱蘭遮城，作為東亞貿易據點，開啟臺灣信史時代。",
+    "date": { "start": "1624-01-01", "end": "1634-12-31", "period": "荷西時期", "periodId": "dutch-spanish" },
+    "location": { "name": "熱蘭遮城（臺南市安平區）", "coordinates": [22.9953, 120.1657], "adminDivisions": ["臺南市", "安平區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["荷蘭", "熱蘭遮城", "東印度公司", "安平"],
+    "relatedEvents": ["spanish-kelang", "zheng-expel-dutch"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+  },
+  {
+    "id": "spanish-kelang",
+    "title": "西班牙佔領北臺灣",
+    "description": "1626年西班牙人從菲律賓北上佔領基隆，在和平島建聖薩爾瓦多城，1642年遭荷蘭人驅逐。",
+    "date": { "start": "1626-01-01", "end": "1642-08-01", "period": "荷西時期", "periodId": "dutch-spanish" },
+    "location": { "name": "聖薩爾瓦多城（基隆市和平島）", "coordinates": [25.158, 121.767], "adminDivisions": ["基隆市", "中正區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["西班牙", "基隆", "和平島", "聖薩爾瓦多"],
+    "relatedEvents": ["dutch-zeelandia"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+  },
+  {
+    "id": "guo-huaiyi-revolt",
+    "title": "郭懷一事件",
+    "description": "1652年漢人農民郭懷一率眾反抗荷蘭統治，為臺灣史上首次大規模漢人抗爭，遭荷蘭軍隊鎮壓。",
+    "date": { "start": "1652-09-01", "end": "1652-09-30", "period": "荷西時期", "periodId": "dutch-spanish" },
+    "location": { "name": "赤崁一帶（臺南市）", "coordinates": [23.0, 120.21], "adminDivisions": ["臺南市"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["郭懷一", "抗荷", "農民起義"],
+    "relatedEvents": ["dutch-zeelandia", "zheng-expel-dutch"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+  },
+  {
+    "id": "zheng-expel-dutch",
+    "title": "鄭成功驅逐荷蘭",
+    "description": "1661年鄭成功率軍渡海攻臺，圍困熱蘭遮城九個月後，1662年荷蘭守將揆一投降，鄭成功收復臺灣。",
+    "date": { "start": "1661-04-01", "end": "1662-02-01", "period": "鄭氏時期", "periodId": "zhengshi" },
+    "location": { "name": "熱蘭遮城（臺南市安平區）", "coordinates": [22.9953, 120.1657], "adminDivisions": ["臺南市", "安平區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["鄭成功", "驅逐荷蘭", "熱蘭遮城", "揆一"],
+    "relatedEvents": ["dutch-zeelandia", "zheng-tuntian"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+  },
+  {
+    "id": "zheng-tuntian",
+    "title": "鄭氏屯田制度",
+    "description": "鄭成功為解決軍糧問題，實施「寓兵於農」的屯田政策，軍人開墾營盤田，為臺灣農業發展奠定基礎。",
+    "date": { "start": "1662-01-01", "end": "1683-07-01", "period": "鄭氏時期", "periodId": "zhengshi" },
+    "location": { "name": "臺南至高雄一帶", "coordinates": [22.85, 120.35], "adminDivisions": ["臺南市", "高雄市"] },
+    "categories": ["歷史", "地理", "公民"],
+    "keywords": ["屯田", "寓兵於農", "農業開發", "營盤田"],
+    "relatedEvents": ["zheng-expel-dutch", "qing-annex-taiwan"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+  },
+  {
+    "id": "qing-annex-taiwan",
+    "title": "施琅攻臺",
+    "description": "1683年清朝將領施琅率水師攻克澎湖，鄭克塽投降，清朝正式將臺灣納入版圖。",
+    "date": { "start": "1683-07-01", "end": "1683-10-01", "period": "清治時期", "periodId": "qing-rule" },
+    "location": { "name": "澎湖海域", "coordinates": [23.571, 119.579], "adminDivisions": ["澎湖縣"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["施琅", "澎湖", "鄭克塽", "清朝", "納入版圖"],
+    "relatedEvents": ["zheng-tuntian", "qing-cross-strait"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+  },
+  {
+    "id": "qing-cross-strait",
+    "title": "渡臺禁令",
+    "description": "清朝初期對臺灣實施渡臺禁令，禁止民眾私自渡海來臺，但因福建人口壓力，偷渡屢禁不止。",
+    "date": { "start": "1684-01-01", "end": "1875-01-01", "period": "清治時期", "periodId": "qing-rule" },
+    "location": { "name": "臺灣海峽、廈門至鹿港航線", "coordinates": [24.05, 120.43], "adminDivisions": ["彰化縣", "鹿港鎮"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["渡臺禁令", "移民", "偷渡", "福建"],
+    "relatedEvents": ["qing-annex-taiwan", "lin-shuang-wen"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+  },
+  {
+    "id": "lin-shuang-wen",
+    "title": "林爽文事件",
+    "description": "1786年天地會首領林爽文起兵反清，攻佔彰化，全臺震動，為臺灣史上最大規模民變，1788年遭福康安平定。",
+    "date": { "start": "1786-11-01", "end": "1788-02-01", "period": "清治時期", "periodId": "qing-rule" },
+    "location": { "name": "大里杙（臺中市大里區）", "coordinates": [24.1, 120.68], "adminDivisions": ["臺中市", "大里區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["林爽文", "天地會", "民變", "福康安"],
+    "relatedEvents": ["qing-cross-strait"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+  },
+  {
+    "id": "dagou-port",
+    "title": "打狗開港",
+    "description": "1858年天津條約後臺灣開放通商口岸，打狗（高雄）成為國際貿易港口，糖、茶、樟腦大量出口。",
+    "date": { "start": "1858-01-01", "end": "1895-05-01", "period": "清治時期", "periodId": "qing-rule" },
+    "location": { "name": "打狗港（高雄市鼓山區）", "coordinates": [22.618, 120.275], "adminDivisions": ["高雄市", "鼓山區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["開港通商", "打狗", "糖", "茶葉", "樟腦"],
+    "relatedEvents": ["tamsui-open", "japanese-1895"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+  },
+  {
+    "id": "tamsui-open",
+    "title": "淡水開港",
+    "description": "1860年淡水正式開港，成為北臺灣最重要的通商口岸，洋行林立，茶葉經淡水出口至歐美。",
+    "date": { "start": "1860-01-01", "end": "1895-05-01", "period": "清治時期", "periodId": "qing-rule" },
+    "location": { "name": "淡水港（新北市淡水區）", "coordinates": [25.172, 121.44], "adminDivisions": ["新北市", "淡水區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["淡水", "開港", "茶葉", "洋行", "馬偕"],
+    "relatedEvents": ["dagou-port", "mackay-mission"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+  },
+  {
+    "id": "mackay-mission",
+    "title": "馬偕來臺傳教",
+    "description": "1872年加拿大傳教士馬偕抵達淡水，建立教會、醫院和學堂，推動西方醫學與教育在臺發展。",
+    "date": { "start": "1872-03-01", "end": "1901-06-01", "period": "清治時期", "periodId": "qing-rule" },
+    "location": { "name": "淡水（新北市淡水區）", "coordinates": [25.172, 121.44], "adminDivisions": ["新北市", "淡水區"] },
+    "categories": ["歷史", "地理", "公民"],
+    "keywords": ["馬偕", "傳教士", "淡水", "醫療", "教育"],
+    "relatedEvents": ["tamsui-open"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+  },
+  {
+    "id": "taipei-city-wall",
+    "title": "臺北府城建城",
+    "description": "1884年清朝設立臺北府，建築城牆與城門，今日臺北城門即為當時遺跡，標誌北臺灣行政中心遷移。",
+    "date": { "start": "1882-01-01", "end": "1884-12-31", "period": "清治時期", "periodId": "qing-rule" },
+    "location": { "name": "臺北府城（臺北市中正區）", "coordinates": [25.037, 121.515], "adminDivisions": ["臺北市", "中正區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["臺北建城", "城門", "劉銘傳", "北門"],
+    "relatedEvents": ["liu-mingchuan", "japanese-1895"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+  },
+  {
+    "id": "liu-mingchuan",
+    "title": "劉銘傳建設臺灣",
+    "description": "1885年臺灣建省，劉銘傳任首任巡撫，推動鐵路建設、電報、新式學堂、清丈田畝等現代化改革。",
+    "date": { "start": "1885-01-01", "end": "1891-06-01", "period": "清治時期", "periodId": "qing-rule" },
+    "location": { "name": "臺北（臺灣省城）", "coordinates": [25.037, 121.515], "adminDivisions": ["臺北市"] },
+    "categories": ["歷史", "地理", "公民"],
+    "keywords": ["劉銘傳", "臺灣建省", "鐵路", "現代化"],
+    "relatedEvents": ["taipei-city-wall", "japanese-1895"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+  },
+  {
+    "id": "japanese-1895",
+    "title": "日治時期開始",
+    "description": "1895年甲午戰爭清廷戰敗，簽訂馬關條約割讓臺灣給日本，臺灣進入日治時期。",
+    "date": { "start": "1895-04-17", "end": "1895-06-17", "period": "日治時期", "periodId": "japanese-rule" },
+    "location": { "name": "馬關（今日本下關）／臺灣", "coordinates": [25.037, 121.515], "adminDivisions": ["臺北市"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["馬關條約", "甲午戰爭", "割讓", "日治"],
+    "relatedEvents": ["liu-mingchuan", "tang-jing-song", "taiwan-republic"],
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+  },
+  {
+    "id": "taiwan-republic",
+    "title": "臺灣民主國",
+    "description": "1895年5月臺灣紳民宣告成立臺灣民主國，唐景崧任總統，抵抗日本接收，僅存在約150天即潰散。",
+    "date": { "start": "1895-05-23", "end": "1895-10-21", "period": "日治時期", "periodId": "japanese-rule" },
+    "location": { "name": "臺北城（臺北市中正區）", "coordinates": [25.037, 121.515], "adminDivisions": ["臺北市", "中正區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["臺灣民主國", "唐景崧", "抗日", "藍地黃虎旗"],
+    "relatedEvents": ["japanese-1895", "bagua-mountain"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+  },
+  {
+    "id": "bagua-mountain",
+    "title": "八卦山之役",
+    "description": "1895年8月日軍進攻彰化八卦山，臺灣義軍激烈抵抗但遭殲滅，為乙未戰爭中最大規模會戰。",
+    "date": { "start": "1895-08-27", "end": "1895-08-28", "period": "日治時期", "periodId": "japanese-rule" },
+    "location": { "name": "八卦山（彰化縣彰化市）", "coordinates": [24.078, 120.55], "adminDivisions": ["彰化縣", "彰化市"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["八卦山", "乙未戰爭", "義軍", "抗日"],
+    "relatedEvents": ["taiwan-republic", "tainan-fall"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+  },
+  {
+    "id": "hsinchu-railway",
+    "title": "縱貫鐵路通車",
+    "description": "1908年縱貫鐵路全線通車，連接基隆至高雄，大幅縮短南北交通時間，促進臺灣經濟整合。",
+    "date": { "start": "1908-04-20", "end": "1908-04-20", "period": "日治時期", "periodId": "japanese-rule" },
+    "location": { "name": "臺中公園（臺中市北區）", "coordinates": [24.145, 120.683], "adminDivisions": ["臺中市", "北區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["縱貫鐵路", "交通", "現代化", "基隆", "高雄"],
+    "relatedEvents": ["japanese-1895"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+  },
+  {
+    "id": "taichung-park",
+    "title": "臺中市區改正",
+    "description": "日治時期臺中實施市區改正計劃，仿京都棋盤式街道設計，建設臺中公園及車站，成為中部現代化都市。",
+    "date": { "start": "1900-01-01", "end": "1917-12-31", "period": "日治時期", "periodId": "japanese-rule" },
+    "location": { "name": "臺中市區（臺中市中區）", "coordinates": [24.138, 120.683], "adminDivisions": ["臺中市", "中區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["市區改正", "都市計畫", "棋盤式街道", "臺中"],
+    "relatedEvents": ["hsinchu-railway"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+  },
+  {
+    "id": "chiayi-tapani",
+    "title": "嘉義事件",
+    "description": "1915年余清芳等人在臺南玉井（噍吧哖）武裝抗日，日軍大規模鎮壓，為日治時期最大規模漢人武裝抗爭。",
+    "date": { "start": "1915-07-01", "end": "1916-04-01", "period": "日治時期", "periodId": "japanese-rule" },
+    "location": { "name": "噍吧哖（臺南市玉井區）", "coordinates": [23.123, 120.464], "adminDivisions": ["臺南市", "玉井區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["西來庵", "余清芳", "抗日", "噍吧哖"],
+    "relatedEvents": ["japanese-1895", "wushe-incident"],
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析"], "textbookReferences": ["社會科八年級上冊 第3章"] }
   },
   {
     "id": "wushe-incident",
     "title": "武霸事件",
-    "description": "塞德克族人反抗日壓迫，發動武霸事件，為日治時期最大規模原住民抗日行動。",
-    "date": {
-      "start": "1930-10-27",
-      "end": "1930-12-01",
-      "period": "日治時期"
-    },
-    "location": {
-      "name": "武霸社（今南投縣仁愛鄉）",
-      "coordinates": [24.0367, 121.2761],
-      "adminDivisions": ["南投縣", "仁愛鄉"]
-    },
+    "description": "1930年賽德克族頭目莫那·魯道率族人於霧社起義抗日，為日治時期最大規模原住民武裝抗爭。",
+    "date": { "start": "1930-10-27", "end": "1930-12-01", "period": "日治時期", "periodId": "japanese-rule" },
+    "location": { "name": "霧社（南投縣仁愛鄉）", "coordinates": [24.02, 121.13], "adminDivisions": ["南投縣", "仁愛鄉"] },
     "categories": ["歷史", "公民"],
-    "keywords": ["原住民", "抗日", "塞德克族"],
-    "relatedEvents": ["japanese-invasion-1895"],
-    "examRelevance": {
-      "importance": "high",
-      "questionTypes": ["概念解釋", "價值辨析"],
-      "textbookReferences": ["社會科八年級上冊 第3章"]
-    },
-    "media": {
-      "images": ["assets/images/wushe-incident.jpg"],
-      "maps": ["assets/maps/wushe-map.jpg"]
-    }
+    "keywords": ["霧社", "莫那魯道", "賽德克族", "原住民", "抗日"],
+    "relatedEvents": ["chiayi-tapani"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科八年級上冊 第3章"] }
+  },
+  {
+    "id": "taihoku-imperial",
+    "title": "臺北帝國大學成立",
+    "description": "1928年臺北帝國大學成立（今國立臺灣大學），為日治時期臺灣最高學府，培育許多在地菁英。",
+    "date": { "start": "1928-03-01", "end": "1928-03-01", "period": "日治時期", "periodId": "japanese-rule" },
+    "location": { "name": "臺北帝國大學（臺北市大安區）", "coordinates": [25.017, 121.537], "adminDivisions": ["臺北市", "大安區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["帝國大學", "教育", "臺大", "高等教育"],
+    "relatedEvents": ["japanese-1895"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科八年級上冊 第2章"] }
   },
   {
     "id": "wwii-taiwan",
-    "title": "二戰末期臺灣狀況",
-    "description": "1945年日本投降後，臺灣由中華民國政府接管，但引發兩二事件。",
-    "date": {
-      "start": "1945-08-15",
-      "end": "1947-03-01",
-      "period": "戰後時期"
-    },
-    "location": {
-      "name": "臺灣全島",
-      "coordinates": [23.7, 121.0],
-      "adminDivisions": ["臺灣省"]
-    },
-    "categories": ["歷史", "公民"],
-    "keywords": ["二二事件", "戰後", "政府接管"],
-    "relatedEvents": ["japanese-invasion-1895", "wushe-incident"],
-    "examRelevance": {
-      "importance": "high",
-      "questionTypes": ["圖表判讀", "因果分析"],
-      "textbookReferences": ["社會科八年級下冊 第1章"]
-    },
-    "media": {
-      "images": ["assets/images/wwii-taiwan.jpg"],
-      "maps": ["assets/maps/wwii-taiwan-map.jpg"]
-    }
+    "title": "二戰下的臺灣",
+    "description": "二戰期間臺灣作為日本南進基地，遭受盟軍大規模轟炸，戰後1945年日本投降，臺灣由中華民國接收。",
+    "date": { "start": "1941-12-08", "end": "1945-08-15", "period": "戰後時期", "periodId": "postwar" },
+    "location": { "name": "臺灣全島", "coordinates": [23.7, 121.0], "adminDivisions": ["臺灣省"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["二戰", "轟炸", "南進基地", "日本投降"],
+    "relatedEvents": ["japanese-1895", "feb28-incident"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科八年級下冊 第1章"] }
   },
   {
-    "id": "land-reform-1950s",
-    "title": "土地改革實施",
-    "description": "1949年至1953年實施的土地改革政策，包括減租、售地和公糧，奠定台灣經濟發展基礎。",
-    "date": {
-      "start": "1949-01-01",
-      "end": "1953-12-31",
-      "period": "戰後時期"
-    },
-    "location": {
-      "name": "臺灣全島",
-      "coordinates": [23.7, 121.0],
-      "adminDivisions": ["臺灣省"]
-    },
+    "id": "feb28-incident",
+    "title": "二二八事件",
+    "description": "1947年2月27日因查緝私菸引發臺北市民與軍警衝突，迅速蔓延全臺，成為臺灣戰後重大政治創傷。",
+    "date": { "start": "1947-02-27", "end": "1947-05-16", "period": "戰後時期", "periodId": "postwar" },
+    "location": { "name": "臺北市大稻埕（臺北市大同區）", "coordinates": [25.057, 121.51], "adminDivisions": ["臺北市", "大同區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["二二八", "緝菸", "衝突", "清鄉", "戒嚴"],
+    "relatedEvents": ["wwii-taiwan", "martial-law"],
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "價值辨析"], "textbookReferences": ["社會科八年級下冊 第1章"] }
+  },
+  {
+    "id": "martial-law",
+    "title": "戒嚴時期",
+    "description": "1949年5月20日臺灣實施戒嚴，限制憲法保障的基本人權，白色恐怖期間許多政治犯遭逮捕審判，長達38年。",
+    "date": { "start": "1949-05-20", "end": "1987-07-15", "period": "戰後時期", "periodId": "postwar" },
+    "location": { "name": "臺灣全島", "coordinates": [23.7, 121.0], "adminDivisions": ["臺灣省"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["戒嚴", "白色恐怖", "人權", "黨禁"],
+    "relatedEvents": ["feb28-incident", "lift-martial-law"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科八年級下冊 第1章"] }
+  },
+  {
+    "id": "land-reform",
+    "title": "土地改革",
+    "description": "1949至1953年政府實施三七五減租、公地放領、耕者有其田三部曲，改善佃農生活，奠定工業化基礎。",
+    "date": { "start": "1949-01-01", "end": "1953-12-31", "period": "戰後時期", "periodId": "postwar" },
+    "location": { "name": "臺灣農村地區", "coordinates": [23.7, 121.0], "adminDivisions": ["臺灣省"] },
     "categories": ["歷史", "地理", "公民"],
-    "keywords": ["土地改革", "經濟發展", "農村"],
-    "relatedEvents": ["wwii-taiwan"],
-    "examRelevance": {
-      "importance": "high",
-      "questionTypes": ["概念解釋", "圖表判讀"],
-      "textbookReferences": ["社會科八年級下冊 第2章"]
-    },
-    "media": {
-      "images": ["assets/images/land-reform.jpg"],
-      "maps": ["assets/maps/land-reform-map.jpg"]
-    }
+    "keywords": ["三七五減租", "公地放領", "耕者有其田", "土地改革"],
+    "relatedEvents": ["economic-miracle"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科八年級下冊 第2章"] }
   },
   {
-    "id": "democratization-1980s",
-    "title": "民主化進程",
-    "description": "1980年代至1990年代臺灣民主化進程，包括解嚴、黨禁解除及直選總統。",
-    "date": {
-      "start": "1987-07-15",
-      "end": "1996-03-23",
-      "period": "民主化時期"
-    },
-    "location": {
-      "name": "臺灣全島",
-      "coordinates": [23.7, 121.0],
-      "adminDivisions": ["臺灣省"]
-    },
+    "id": "economic-miracle",
+    "title": "臺灣經濟奇蹟",
+    "description": "1960至1980年代臺灣經歷快速工業化與出口導向經濟成長，加工出口區、十大建設推動經濟起飛。",
+    "date": { "start": "1960-01-01", "end": "1980-12-31", "period": "戰後時期", "periodId": "postwar" },
+    "location": { "name": "高雄加工出口區（高雄市前鎮區）", "coordinates": [22.58, 120.32], "adminDivisions": ["高雄市", "前鎮區"] },
+    "categories": ["歷史", "地理", "公民"],
+    "keywords": ["經濟奇蹟", "加工出口區", "十大建設", "工業化"],
+    "relatedEvents": ["land-reform", "lift-martial-law"],
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級下冊 第2章"] }
+  },
+  {
+    "id": "lift-martial-law",
+    "title": "解嚴",
+    "description": "1987年7月15日蔣經國總統宣布解嚴，結束38年戒嚴統治，開放黨禁報禁，臺灣邁入民主化新階段。",
+    "date": { "start": "1987-07-15", "end": "1987-07-15", "period": "民主化時期", "periodId": "democratization" },
+    "location": { "name": "臺北（中華民國總統府）", "coordinates": [25.04, 121.512], "adminDivisions": ["臺北市", "中正區"] },
     "categories": ["歷史", "公民"],
-    "keywords": ["民主化", "解嚴", "直選總統"],
-    "relatedEvents": ["wwii-taiwan", "land-reform-1950s"],
-    "examRelevance": {
-      "importance": "high",
-      "questionTypes": ["概念解釋", "價值辨析"],
-      "textbookReferences": ["社會科九年級上冊 第3章"]
-    },
-    "media": {
-      "images": ["assets/images/democratization.jpg"],
-      "maps": ["assets/maps/democratization-map.jpg"]
-    }
+    "keywords": ["解嚴", "蔣經國", "黨禁", "報禁", "民主化"],
+    "relatedEvents": ["martial-law", "direct-election"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 第3章"] }
+  },
+  {
+    "id": "wild-lily",
+    "title": "野百合學運",
+    "description": "1990年3月大學生在中正紀念堂前靜坐抗議萬年國代，要求國會全面改選，為臺灣最大規模學生運動。",
+    "date": { "start": "1990-03-16", "end": "1990-03-22", "period": "民主化時期", "periodId": "democratization" },
+    "location": { "name": "中正紀念堂（臺北市中正區）", "coordinates": [25.035, 121.52], "adminDivisions": ["臺北市", "中正區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["野百合", "學運", "國會改革", "萬年國代"],
+    "relatedEvents": ["lift-martial-law", "direct-election"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 第3章"] }
+  },
+  {
+    "id": "direct-election",
+    "title": "首次總統直選",
+    "description": "1996年3月23日臺灣舉行首次總統直接民選，李登輝當選，完成民主化最後一哩路。",
+    "date": { "start": "1996-03-23", "end": "1996-03-23", "period": "民主化時期", "periodId": "democratization" },
+    "location": { "name": "臺北市中正區", "coordinates": [25.037, 121.518], "adminDivisions": ["臺北市", "中正區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["總統直選", "李登輝", "民主化", "選舉"],
+    "relatedEvents": ["lift-martial-law", "wild-lily", "power-transfer"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 第3章"] }
+  },
+  {
+    "id": "power-transfer",
+    "title": "政黨輪替",
+    "description": "2000年5月20日陳水扁就任總統，民進黨首次執政，實現臺灣首次和平政黨輪替。",
+    "date": { "start": "2000-05-20", "end": "2000-05-20", "period": "當代", "periodId": "modern" },
+    "location": { "name": "總統府（臺北市中正區）", "coordinates": [25.04, 121.512], "adminDivisions": ["臺北市", "中正區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["政黨輪替", "陳水扁", "民進黨", "民主"],
+    "relatedEvents": ["direct-election"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 第3章"] }
+  },
+  {
+    "id": "sunflower-movement",
+    "title": "太陽花學運",
+    "description": "2014年3月學生因反對兩岸服務貿易協議審查程序，佔領立法院24天，影響後續兩岸政策走向。",
+    "date": { "start": "2014-03-18", "end": "2014-04-10", "period": "當代", "periodId": "modern" },
+    "location": { "name": "立法院（臺北市中正區）", "coordinates": [25.043, 121.52], "adminDivisions": ["臺北市", "中正區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["太陽花", "服貿", "學運", "佔領立法院"],
+    "relatedEvents": ["wild-lily", "power-transfer"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級下冊 第2章"] }
   }
 ]
