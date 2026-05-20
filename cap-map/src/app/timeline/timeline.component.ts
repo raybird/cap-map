@@ -1,9 +1,12 @@
-import { Component, OnInit, OnDestroy, Input, Output, EventEmitter, ElementRef, ViewChild } from '@angular/core';
+import { Component, OnInit, OnDestroy, ElementRef, ViewChild } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as TimelineActions from '../store/actions/timeline.actions';
+import * as EventActions from '../store/actions/event.actions';
 import { selectPeriods, selectCurrentPeriodId, selectTimelineLoading, selectTimelineError } from '../store/selectors/timeline.selectors';
-import { Subscription, Observable } from 'rxjs';
+import { selectEvents } from '../store/selectors/event.selectors';
+import { Subscription, Observable, combineLatest } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-timeline',
@@ -37,16 +40,23 @@ export class TimelineComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.store.dispatch(TimelineActions.loadTimelinePeriods());
+    this.store.dispatch(EventActions.loadEvents());
 
     this.periods$ = this.store.select(selectPeriods);
     this.currentPeriodId$ = this.store.select(selectCurrentPeriodId);
     this.loading$ = this.store.select(selectTimelineLoading);
     this.error$ = this.store.select(selectTimelineError);
 
-    const periodSub = this.currentPeriodId$.subscribe(periodId => {
-      console.log('Period changed to:', periodId);
-    });
-    this.subscriptions.push(periodSub);
+    this.events$ = combineLatest([
+      this.store.select(selectEvents),
+      this.store.select(selectCurrentPeriodId)
+    ]).pipe(
+      map(([events, periodId]) => {
+        if (!events) return [];
+        if (!periodId) return events;
+        return events.filter((e: any) => e.date?.periodId === periodId || !e.date?.periodId);
+      })
+    );
   }
 
   ngOnDestroy(): void {
@@ -73,17 +83,11 @@ export class TimelineComponent implements OnInit, OnDestroy {
     this.store.dispatch(TimelineActions.setCurrentPeriod({ periodId }));
   }
 
-  onEventClick(event: any): void {
-    // Dispatch to select event
+  onEventClick(eventItem: any): void {
+    this.store.dispatch(EventActions.selectEvent({ eventId: eventItem.id }));
   }
 
-  onScroll(): void {
-    // Track scroll position for syncing
-  }
-
-  getPeriodLabel(period: any): string {
-    return period.label || period.id;
-  }
+  onScroll(): void {}
 
   private generateYearTicks(): void {
     this.yearTicks = [];
