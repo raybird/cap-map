@@ -1,5 +1,5 @@
 {
-  "name": "cap-map",
+  "name": "webapp",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

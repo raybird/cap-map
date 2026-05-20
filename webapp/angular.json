@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cap-map": {
+    "webapp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -81,10 +81,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "cap-map:build:production"
+              "buildTarget": "webapp:build:production"
             },
             "development": {
-              "buildTarget": "cap-map:build:development"
+              "buildTarget": "webapp:build:development"
             }
           },
           "defaultConfiguration": "development"
