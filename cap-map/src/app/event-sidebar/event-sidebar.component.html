@@ -50,6 +50,40 @@
       </div>
     </div>
 
+    <div class="section quiz-section" *ngIf="questions.length > 0">
+      <h4>隨堂測驗</h4>
+
+      <div class="quiz-question" *ngFor="let q of questions; let qi = index">
+        <p class="quiz-prompt">{{ qi + 1 }}. {{ q.question }}</p>
+        <div class="quiz-options">
+          <button
+            class="quiz-option"
+            *ngFor="let opt of q.options; let oi = index"
+            [class.selected]="selectedAnswers[qi] === oi"
+            [class.correct]="isCorrect(q, oi)"
+            [class.wrong]="isSelectedWrong(q, qi, oi)"
+            (click)="selectAnswer(qi, oi)">
+            {{ opt }}
+          </button>
+        </div>
+      </div>
+
+      <div class="quiz-footer" *ngIf="!showResults">
+        <button class="submit-btn" (click)="submitAnswers()"
+                [disabled]="!allQuestionsAnswered()">
+          提交答案
+        </button>
+      </div>
+
+      <div class="quiz-result" *ngIf="showResults">
+        <span class="result-badge" [class.pass]="correctCount === questions.length" [class.fail]="correctCount < questions.length">
+          {{ correctCount }} / {{ questions.length }} 正確
+          {{ correctCount === questions.length ? ' 🎉' : '' }}
+        </span>
+        <button class="retry-btn" (click)="retryQuiz(event)">再試一次</button>
+      </div>
+    </div>
+
     <div class="section related-section" *ngIf="event.relatedEvents?.length">
       <h4>相關事件</h4>
       <div class="related-list">
