@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { StoreModule } from '@ngrx/store';
 
 import { AppComponent } from './app.component';
@@ -23,6 +24,7 @@ import { appReducer } from './store/app.state';
   imports: [
     BrowserModule,
     CommonModule,
+    HttpClientModule,
     StoreModule.forRoot(appReducer)
   ],
   providers: [],

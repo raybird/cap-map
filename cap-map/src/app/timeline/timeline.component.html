@@ -7,7 +7,8 @@
           *ngFor="let period of (periods$ | async)"
           [style.left.px]="getPixelPosition(period.startYear)"
           [style.width.px]="getPixelWidth(period.startYear, period.endYear)"
-          [style.background-color]="period.color">
+          [style.background-color]="period.color"
+          (click)="onPeriodClick(period)">
           <span class="dynasty-label">
             {{ period.label }}
             <span class="dynasty-years">{{ period.startYear }} ~ {{ period.endYear }}</span>

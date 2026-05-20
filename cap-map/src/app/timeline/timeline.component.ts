@@ -3,6 +3,7 @@ import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as TimelineActions from '../store/actions/timeline.actions';
 import * as EventActions from '../store/actions/event.actions';
+import * as MapActions from '../store/actions/map.actions';
 import { selectPeriods, selectCurrentPeriodId, selectTimelineLoading, selectTimelineError } from '../store/selectors/timeline.selectors';
 import { selectEvents } from '../store/selectors/event.selectors';
 import { Subscription, Observable, combineLatest } from 'rxjs';
@@ -53,8 +54,11 @@ export class TimelineComponent implements OnInit, OnDestroy {
     ]).pipe(
       map(([events, periodId]) => {
         if (!events) return [];
-        if (!periodId) return events;
-        return events.filter((e: any) => e.date?.periodId === periodId || !e.date?.periodId);
+        const filtered = !periodId
+          ? events
+          : events.filter((e: any) => e.date?.periodId === periodId || !e.date?.periodId);
+        this.store.dispatch(MapActions.setMapEvents({ events: filtered }));
+        return filtered;
       })
     );
   }
@@ -85,6 +89,10 @@ export class TimelineComponent implements OnInit, OnDestroy {
 
   onEventClick(eventItem: any): void {
     this.store.dispatch(EventActions.selectEvent({ eventId: eventItem.id }));
+  }
+
+  onPeriodClick(period: any): void {
+    this.store.dispatch(TimelineActions.setCurrentPeriod({ periodId: period.id }));
   }
 
   onScroll(): void {}
