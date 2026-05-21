@@ -8,14 +8,16 @@
     <button class="close-btn" (click)="togglePanel()">×</button>
   </div>
   <div class="panel-body">
-    <div class="layer-item" *ngFor="let layer of availableLayers">
-      <label class="layer-label">
-        <input type="checkbox"
-               [checked]="isLayerActive(layer.id)"
-               (change)="toggleLayer(layer.id)">
-        <span class="layer-name">{{ layer.name }}</span>
-      </label>
-      <div class="layer-desc">{{ layer.description }}</div>
-    </div>
+    <ng-container *ngIf="activeLayers$ | async as activeLayers">
+      <div class="layer-item" *ngFor="let layer of availableLayers">
+        <label class="layer-label">
+          <input type="checkbox"
+                 [checked]="activeLayers.includes(layer.id)"
+                 (change)="toggleLayer(layer.id)">
+          <span class="layer-name">{{ layer.name }}</span>
+        </label>
+        <div class="layer-desc">{{ layer.description }}</div>
+      </div>
+    </ng-container>
   </div>
 </div>
