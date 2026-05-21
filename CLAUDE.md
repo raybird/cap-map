@@ -70,3 +70,4 @@ The store is defined in `src/app/store/app.state.ts`. Three independent slices:
 - Event selection has two parallel actions that must both be dispatched: `EventActions.selectEvent` (updates `event` slice) and `MapActions.selectEvent` (updates `map` slice). Same for clear.
 - Map coordinates are `[lat, lng]` arrays (not GeoJSON `[lng, lat]` order).
 - Timeline year positions: `pixelX = (year - minYear) * pixelsPerYear` where `minYear = -5000`, `pixelsPerYear = 5`.
+- **Commit 訊息**：Commit 絕對不添加相關 `Co-Authored-By: Claude` 在 message 內
