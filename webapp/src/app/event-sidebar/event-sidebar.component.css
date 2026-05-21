@@ -179,7 +179,9 @@
   color: #4a3d32;
 }
 
-.exam-section {
+.exam-section,
+.related-section,
+.quiz-section {
   margin-top: 24px;
   padding-top: 16px;
   border-top: 1px dashed #d4c9b8;
@@ -202,12 +204,6 @@
 .importance-high { color: #c41e3a; }
 .importance-medium { color: #c8a427; }
 .importance-low { color: #8b7355; }
-
-.related-section {
-  margin-top: 24px;
-  padding-top: 16px;
-  border-top: 1px dashed #d4c9b8;
-}
 
 .related-list {
   display: flex;
@@ -234,12 +230,6 @@
   font-weight: 600;
   color: #2c241b;
   font-size: 0.9rem;
-}
-
-.quiz-section {
-  margin-top: 24px;
-  padding-top: 16px;
-  border-top: 1px dashed #d4c9b8;
 }
 
 .quiz-question {
