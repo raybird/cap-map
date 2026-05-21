@@ -72,11 +72,9 @@ export class MapContainerComponent implements OnInit, OnDestroy {
   }
 
   private getCategoryColor(categories: string[]): string {
-    const hasGeo = categories.includes('地理');
-    const hasCivic = categories.includes('公民');
-    if (hasGeo && hasCivic) return '#c8863a';
-    if (hasGeo) return '#3a87bc';
-    if (hasCivic) return '#5a9a3a';
+    if (categories.includes('歷史')) return '#c41e3a';
+    if (categories.includes('地理')) return '#3a87bc';
+    if (categories.includes('公民')) return '#5a9a3a';
     return '#c41e3a';
   }
 
@@ -153,10 +151,18 @@ export class MapContainerComponent implements OnInit, OnDestroy {
         const coords = (layer as any)._coords;
         if (coords) {
           const targetZoom = Math.max(this.map.getZoom(), 11);
+          const isMobile = window.innerWidth <= 480;
+          let flyTarget: [number, number] = coords;
+          if (isMobile) {
+            const offsetPx = window.innerHeight * 0.62 / 2;
+            const pt = this.map.project(L.latLng(coords[0], coords[1]), targetZoom);
+            const adjusted = this.map.unproject(L.point(pt.x, pt.y + offsetPx), targetZoom);
+            flyTarget = [adjusted.lat, adjusted.lng];
+          }
           this.map.once('moveend', () => {
             (layer as L.Marker).openPopup();
           });
-          this.map.flyTo(coords, targetZoom, { animate: true, duration: 0.8 });
+          this.map.flyTo(flyTarget, targetZoom, { animate: true, duration: 0.8 });
         } else {
           (layer as L.Marker).openPopup();
         }
