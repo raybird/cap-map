@@ -3,803 +3,3332 @@
     "id": "changbin-culture",
     "title": "長濱文化",
     "description": "臺灣目前發現最早的舊石器時代文化，約五萬至五千年前，以臺東八仙洞遺址為代表。使用打製石器，過著狩獵採集生活。",
-    "date": { "start": "-50000-01-01", "end": "-5000-01-01", "period": "史前時代", "periodId": "prehistory" },
-    "location": { "name": "八仙洞（臺東縣長濱鄉）", "coordinates": [23.375, 121.452], "adminDivisions": ["臺東縣", "長濱鄉"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["舊石器時代", "八仙洞", "長濱文化", "打製石器"],
-    "relatedEvents": ["peinan-culture"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "peinan-culture",
-    "title": "卑南文化",
-    "description": "新石器時代晚期文化，距今約3500至2000年前，以臺東卑南遺址為代表。出土大量石板棺、玉器陪葬品，顯示已有社會階層分化。",
-    "date": { "start": "-1500-01-01", "end": "-1-01-01", "period": "史前時代", "periodId": "prehistory" },
-    "location": { "name": "卑南遺址（臺東縣臺東市）", "coordinates": [22.79, 121.117], "adminDivisions": ["臺東縣", "臺東市"] },
-    "categories": ["歷史", "地理", "公民"],
-    "keywords": ["新石器時代", "卑南文化", "玉器", "石板棺"],
-    "relatedEvents": ["changbin-culture", "shihsanhang-culture"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "shihsanhang-culture",
-    "title": "十三行文化",
-    "description": "金石並用時代文化，距今約1800至500年前，以新北市八里區十三行遺址為代表。已掌握煉鐵技術，與中國東南沿海有貿易往來。",
-    "date": { "start": "0200-01-01", "end": "1500-01-01", "period": "古代文明", "periodId": "ancient" },
-    "location": { "name": "十三行遺址（新北市八里區）", "coordinates": [25.155, 121.415], "adminDivisions": ["新北市", "八里區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["金石並用", "煉鐵", "貿易", "十三行"],
-    "relatedEvents": ["peinan-culture"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "dutch-zeelandia",
-    "title": "荷蘭建熱蘭遮城",
-    "description": "荷蘭東印度公司於1624年在臺南安平建造熱蘭遮城，作為東亞貿易據點，開啟臺灣信史時代。",
-    "date": { "start": "1624-01-01", "end": "1634-12-31", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "熱蘭遮城（臺南市安平區）", "coordinates": [22.9953, 120.1657], "adminDivisions": ["臺南市", "安平區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["荷蘭", "熱蘭遮城", "東印度公司", "安平"],
-    "relatedEvents": ["spanish-kelang", "zheng-expel-dutch"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "spanish-kelang",
-    "title": "西班牙佔領北臺灣",
-    "description": "1626年西班牙人從菲律賓北上佔領基隆，在和平島建聖薩爾瓦多城，1642年遭荷蘭人驅逐。",
-    "date": { "start": "1626-01-01", "end": "1642-08-01", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "聖薩爾瓦多城（基隆市和平島）", "coordinates": [25.158, 121.767], "adminDivisions": ["基隆市", "中正區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["西班牙", "基隆", "和平島", "聖薩爾瓦多"],
-    "relatedEvents": ["dutch-zeelandia"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "guo-huaiyi-revolt",
-    "title": "郭懷一事件",
-    "description": "1652年漢人農民郭懷一率眾反抗荷蘭統治，為臺灣史上首次大規模漢人抗爭，遭荷蘭軍隊鎮壓。",
-    "date": { "start": "1652-09-01", "end": "1652-09-30", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "赤崁一帶（臺南市）", "coordinates": [23.0, 120.21], "adminDivisions": ["臺南市"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["郭懷一", "抗荷", "農民起義"],
-    "relatedEvents": ["dutch-zeelandia", "zheng-expel-dutch"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "zheng-expel-dutch",
-    "title": "鄭成功驅逐荷蘭",
-    "description": "1661年鄭成功率軍渡海攻臺，圍困熱蘭遮城九個月後，1662年荷蘭守將揆一投降，鄭成功收復臺灣。",
-    "date": { "start": "1661-04-01", "end": "1662-02-01", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "熱蘭遮城（臺南市安平區）", "coordinates": [22.9953, 120.1657], "adminDivisions": ["臺南市", "安平區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["鄭成功", "驅逐荷蘭", "熱蘭遮城", "揆一"],
-    "relatedEvents": ["dutch-zeelandia", "zheng-tuntian"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "zheng-tuntian",
-    "title": "鄭氏屯田制度",
-    "description": "鄭成功為解決軍糧問題，實施「寓兵於農」的屯田政策，軍人開墾營盤田，為臺灣農業發展奠定基礎。",
-    "date": { "start": "1662-01-01", "end": "1683-07-01", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "臺南至高雄一帶", "coordinates": [22.85, 120.35], "adminDivisions": ["臺南市", "高雄市"] },
-    "categories": ["歷史", "地理", "公民"],
-    "keywords": ["屯田", "寓兵於農", "農業開發", "營盤田"],
-    "relatedEvents": ["zheng-expel-dutch", "qing-annex-taiwan"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "qing-annex-taiwan",
-    "title": "施琅攻臺",
-    "description": "1683年清朝將領施琅率水師攻克澎湖，鄭克塽投降，清朝正式將臺灣納入版圖。",
-    "date": { "start": "1683-07-01", "end": "1683-10-01", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "澎湖海域", "coordinates": [23.571, 119.579], "adminDivisions": ["澎湖縣"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["施琅", "澎湖", "鄭克塽", "清朝", "納入版圖"],
-    "relatedEvents": ["zheng-tuntian", "qing-cross-strait"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
-  },
-  {
-    "id": "qing-cross-strait",
-    "title": "渡臺禁令",
-    "description": "清朝初期對臺灣實施渡臺禁令，禁止民眾私自渡海來臺，但因福建人口壓力，偷渡屢禁不止。",
-    "date": { "start": "1684-01-01", "end": "1875-01-01", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "臺灣海峽、廈門至鹿港航線", "coordinates": [24.05, 120.43], "adminDivisions": ["彰化縣", "鹿港鎮"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["渡臺禁令", "移民", "偷渡", "福建"],
-    "relatedEvents": ["qing-annex-taiwan", "lin-shuang-wen"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
-  },
-  {
-    "id": "lin-shuang-wen",
-    "title": "林爽文事件",
-    "description": "1786年天地會首領林爽文起兵反清，攻佔彰化，全臺震動，為臺灣史上最大規模民變，1788年遭福康安平定。",
-    "date": { "start": "1786-11-01", "end": "1788-02-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "大里杙（臺中市大里區）", "coordinates": [24.1, 120.68], "adminDivisions": ["臺中市", "大里區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["林爽文", "天地會", "民變", "福康安"],
-    "relatedEvents": ["qing-cross-strait"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
-  },
-  {
-    "id": "dagou-port",
-    "title": "打狗開港",
-    "description": "1858年天津條約後臺灣開放通商口岸，打狗（高雄）成為國際貿易港口，糖、茶、樟腦大量出口。",
-    "date": { "start": "1858-01-01", "end": "1895-05-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "打狗港（高雄市鼓山區）", "coordinates": [22.618, 120.275], "adminDivisions": ["高雄市", "鼓山區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["開港通商", "打狗", "糖", "茶葉", "樟腦"],
-    "relatedEvents": ["tamsui-open", "japanese-1895"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
-  },
-  {
-    "id": "tamsui-open",
-    "title": "淡水開港",
-    "description": "1860年淡水正式開港，成為北臺灣最重要的通商口岸，洋行林立，茶葉經淡水出口至歐美。",
-    "date": { "start": "1860-01-01", "end": "1895-05-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "淡水港（新北市淡水區）", "coordinates": [25.172, 121.44], "adminDivisions": ["新北市", "淡水區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["淡水", "開港", "茶葉", "洋行", "馬偕"],
-    "relatedEvents": ["dagou-port", "mackay-mission"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
-  },
-  {
-    "id": "mackay-mission",
-    "title": "馬偕來臺傳教",
-    "description": "1872年加拿大傳教士馬偕抵達淡水，建立教會、醫院和學堂，推動西方醫學與教育在臺發展。",
-    "date": { "start": "1872-03-01", "end": "1901-06-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "淡水（新北市淡水區）", "coordinates": [25.172, 121.44], "adminDivisions": ["新北市", "淡水區"] },
-    "categories": ["歷史", "地理", "公民"],
-    "keywords": ["馬偕", "傳教士", "淡水", "醫療", "教育"],
-    "relatedEvents": ["tamsui-open"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
-  },
-  {
-    "id": "taipei-city-wall",
-    "title": "臺北府城建城",
-    "description": "1884年清朝設立臺北府，建築城牆與城門，今日臺北城門即為當時遺跡，標誌北臺灣行政中心遷移。",
-    "date": { "start": "1882-01-01", "end": "1884-12-31", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺北府城（臺北市中正區）", "coordinates": [25.037, 121.515], "adminDivisions": ["臺北市", "中正區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["臺北建城", "城門", "劉銘傳", "北門"],
-    "relatedEvents": ["liu-mingchuan", "japanese-1895"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
-  },
-  {
-    "id": "liu-mingchuan",
-    "title": "劉銘傳建設臺灣",
-    "description": "1885年臺灣建省，劉銘傳任首任巡撫，推動鐵路建設、電報、新式學堂、清丈田畝等現代化改革。",
-    "date": { "start": "1885-01-01", "end": "1891-06-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺北（臺灣省城）", "coordinates": [25.037, 121.515], "adminDivisions": ["臺北市"] },
-    "categories": ["歷史", "地理", "公民"],
-    "keywords": ["劉銘傳", "臺灣建省", "鐵路", "現代化"],
-    "relatedEvents": ["taipei-city-wall", "japanese-1895"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
-  },
-  {
-    "id": "japanese-1895",
-    "title": "日治時期開始",
-    "description": "1895年甲午戰爭清廷戰敗，簽訂馬關條約割讓臺灣給日本，臺灣進入日治時期。",
-    "date": { "start": "1895-04-17", "end": "1895-06-17", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "馬關（今日本下關）／臺灣", "coordinates": [25.037, 121.515], "adminDivisions": ["臺北市"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["馬關條約", "甲午戰爭", "割讓", "日治"],
-    "relatedEvents": ["liu-mingchuan", "taiwan-republic"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "taiwan-republic",
-    "title": "臺灣民主國",
-    "description": "1895年5月臺灣紳民宣告成立臺灣民主國，唐景崧任總統，抵抗日本接收，僅存在約150天即潰散。",
-    "date": { "start": "1895-05-23", "end": "1895-10-21", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺北城（臺北市中正區）", "coordinates": [25.037, 121.515], "adminDivisions": ["臺北市", "中正區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["臺灣民主國", "唐景崧", "抗日", "藍地黃虎旗"],
-    "relatedEvents": ["japanese-1895", "bagua-mountain"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "bagua-mountain",
-    "title": "八卦山之役",
-    "description": "1895年8月日軍進攻彰化八卦山，臺灣義軍激烈抵抗但遭殲滅，為乙未戰爭中最大規模會戰。",
-    "date": { "start": "1895-08-27", "end": "1895-08-28", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "八卦山（彰化縣彰化市）", "coordinates": [24.078, 120.55], "adminDivisions": ["彰化縣", "彰化市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["八卦山", "乙未戰爭", "義軍", "抗日"],
-    "relatedEvents": ["taiwan-republic"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "hsinchu-railway",
-    "title": "縱貫鐵路通車",
-    "description": "1908年縱貫鐵路全線通車，連接基隆至高雄，大幅縮短南北交通時間，促進臺灣經濟整合。",
-    "date": { "start": "1908-04-20", "end": "1908-04-20", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺中公園（臺中市北區）", "coordinates": [24.145, 120.683], "adminDivisions": ["臺中市", "北區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["縱貫鐵路", "交通", "現代化", "基隆", "高雄"],
-    "relatedEvents": ["japanese-1895"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "taichung-park",
-    "title": "臺中市區改正",
-    "description": "日治時期臺中實施市區改正計劃，仿京都棋盤式街道設計，建設臺中公園及車站，成為中部現代化都市。",
-    "date": { "start": "1900-01-01", "end": "1917-12-31", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺中市區（臺中市中區）", "coordinates": [24.138, 120.683], "adminDivisions": ["臺中市", "中區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["市區改正", "都市計畫", "棋盤式街道", "臺中"],
-    "relatedEvents": ["hsinchu-railway"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "chiayi-tapani",
-    "title": "嘉義事件",
-    "description": "1915年余清芳等人在臺南玉井（噍吧哖）武裝抗日，日軍大規模鎮壓，為日治時期最大規模漢人武裝抗爭。",
-    "date": { "start": "1915-07-01", "end": "1916-04-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "噍吧哖（臺南市玉井區）", "coordinates": [23.123, 120.464], "adminDivisions": ["臺南市", "玉井區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["西來庵", "余清芳", "抗日", "噍吧哖"],
-    "relatedEvents": ["japanese-1895", "wushe-incident"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "wushe-incident",
-    "title": "武霸事件",
-    "description": "1930年賽德克族頭目莫那·魯道率族人於霧社起義抗日，為日治時期最大規模原住民武裝抗爭。",
-    "date": { "start": "1930-10-27", "end": "1930-12-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "霧社（南投縣仁愛鄉）", "coordinates": [24.02, 121.13], "adminDivisions": ["南投縣", "仁愛鄉"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["霧社", "莫那魯道", "賽德克族", "原住民", "抗日"],
-    "relatedEvents": ["chiayi-tapani"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "taihoku-imperial",
-    "title": "臺北帝國大學成立",
-    "description": "1928年臺北帝國大學成立（今國立臺灣大學），為日治時期臺灣最高學府，培育許多在地菁英。",
-    "date": { "start": "1928-03-01", "end": "1928-03-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺北帝國大學（臺北市大安區）", "coordinates": [25.017, 121.537], "adminDivisions": ["臺北市", "大安區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["帝國大學", "教育", "臺大", "高等教育"],
-    "relatedEvents": ["japanese-1895"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "wwii-taiwan",
-    "title": "二戰下的臺灣",
-    "description": "二戰期間臺灣作為日本南進基地，遭受盟軍大規模轟炸，戰後1945年日本投降，臺灣由中華民國接收。",
-    "date": { "start": "1941-12-08", "end": "1945-08-15", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺灣全島", "coordinates": [23.7, 121.0], "adminDivisions": ["臺灣省"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["二戰", "轟炸", "南進基地", "日本投降"],
-    "relatedEvents": ["japanese-1895", "feb28-incident"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "feb28-incident",
-    "title": "二二八事件",
-    "description": "1947年2月27日因查緝私菸引發臺北市民與軍警衝突，迅速蔓延全臺，成為臺灣戰後重大政治創傷。",
-    "date": { "start": "1947-02-27", "end": "1947-05-16", "period": "戰後時期", "periodId": "postwar" },
-    "location": { "name": "臺北市大稻埕（臺北市大同區）", "coordinates": [25.057, 121.51], "adminDivisions": ["臺北市", "大同區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["二二八", "緝菸", "衝突", "清鄉", "戒嚴"],
-    "relatedEvents": ["wwii-taiwan", "martial-law"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "martial-law",
-    "title": "戒嚴令發布",
-    "description": "1949年5月20日臺灣實施戒嚴，限制憲法保障的基本人權，白色恐怖期間許多政治犯遭逮捕審判，長達38年。",
-    "date": { "start": "1949-05-20", "end": "1987-07-15", "period": "戰後時期", "periodId": "postwar" },
-    "location": { "name": "臺灣全島", "coordinates": [23.7, 121.0], "adminDivisions": ["臺灣省"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["戒嚴", "白色恐怖", "人權", "黨禁"],
-    "relatedEvents": ["feb28-incident", "lift-martial-law"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "land-reform",
-    "title": "土地改革",
-    "description": "1949至1953年政府實施三七五減租、公地放領、耕者有其田三部曲，改善佃農生活，奠定工業化基礎。",
-    "date": { "start": "1949-01-01", "end": "1953-12-31", "period": "戰後時期", "periodId": "postwar" },
-    "location": { "name": "臺灣農村地區", "coordinates": [23.7, 121.0], "adminDivisions": ["臺灣省"] },
-    "categories": ["歷史", "地理", "公民"],
-    "keywords": ["三七五減租", "公地放領", "耕者有其田", "土地改革"],
-    "relatedEvents": ["economic-miracle"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "economic-miracle",
-    "title": "臺灣經濟奇蹟",
-    "description": "1960至1980年代臺灣經歷快速工業化與出口導向經濟成長，加工出口區、十大建設推動經濟起飛。",
-    "date": { "start": "1960-01-01", "end": "1980-12-31", "period": "戰後時期", "periodId": "postwar" },
-    "location": { "name": "高雄加工出口區（高雄市前鎮區）", "coordinates": [22.58, 120.32], "adminDivisions": ["高雄市", "前鎮區"] },
-    "categories": ["歷史", "地理", "公民"],
-    "keywords": ["經濟奇蹟", "加工出口區", "十大建設", "工業化"],
-    "relatedEvents": ["land-reform", "lift-martial-law"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "lift-martial-law",
-    "title": "臺灣解嚴",
-    "description": "1987年7月15日蔣經國總統宣布解嚴，結束38年戒嚴統治，開放黨禁報禁，臺灣邁入民主化新階段。",
-    "date": { "start": "1987-07-15", "end": "1987-07-15", "period": "民主化時期", "periodId": "democratization" },
-    "location": { "name": "臺北（中華民國總統府）", "coordinates": [25.04, 121.512], "adminDivisions": ["臺北市", "中正區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["解嚴", "蔣經國", "黨禁", "報禁", "民主化"],
-    "relatedEvents": ["martial-law", "direct-election"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "wild-lily",
-    "title": "野百合學運",
-    "description": "1990年3月大學生在中正紀念堂前靜坐抗議萬年國代，要求國會全面改選，為臺灣最大規模學生運動。",
-    "date": { "start": "1990-03-16", "end": "1990-03-22", "period": "民主化時期", "periodId": "democratization" },
-    "location": { "name": "中正紀念堂（臺北市中正區）", "coordinates": [25.035, 121.52], "adminDivisions": ["臺北市", "中正區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["野百合", "學運", "國會改革", "萬年國代"],
-    "relatedEvents": ["lift-martial-law", "direct-election"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "direct-election",
-    "title": "首次總統直選",
-    "description": "1996年3月23日臺灣舉行首次總統直接民選，李登輝當選，完成民主化最後一哩路。",
-    "date": { "start": "1996-03-23", "end": "1996-03-23", "period": "民主化時期", "periodId": "democratization" },
-    "location": { "name": "臺北市中正區", "coordinates": [25.037, 121.518], "adminDivisions": ["臺北市", "中正區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["總統直選", "李登輝", "民主化", "選舉"],
-    "relatedEvents": ["lift-martial-law", "wild-lily", "power-transfer"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "power-transfer",
-    "title": "首次政黨輪替",
-    "description": "2000年5月20日陳水扁就任總統，民進黨首次執政，實現臺灣首次和平政黨輪替。",
-    "date": { "start": "2000-05-20", "end": "2000-05-20", "period": "當代", "periodId": "contemporary" },
-    "location": { "name": "總統府（臺北市中正區）", "coordinates": [25.04, 121.512], "adminDivisions": ["臺北市", "中正區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["政黨輪替", "陳水扁", "民進黨", "民主"],
-    "relatedEvents": ["direct-election"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
-  },
-  {
-    "id": "sunflower-movement",
-    "title": "太陽花學運",
-    "description": "2014年3月學生因反對兩岸服務貿易協議審查程序，佔領立法院24天，影響後續兩岸政策走向。",
-    "date": { "start": "2014-03-18", "end": "2014-04-10", "period": "當代", "periodId": "contemporary" },
-    "location": { "name": "立法院（臺北市中正區）", "coordinates": [25.043, 121.52], "adminDivisions": ["臺北市", "中正區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["太陽花", "服貿", "學運", "佔領立法院"],
-    "relatedEvents": ["wild-lily", "power-transfer"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級下冊 臺灣近現代史"] }
-  },
-  {
-    "id": "yellow-river-agriculture",
-    "title": "黃河與長江流域農業發展",
-    "description": "中國早期農業文明在黃河與長江流域發展，逐漸形成定居聚落與社會分工，是中國古代文明的基礎。",
-    "date": { "start": "-3000-01-01", "end": "-2000-01-01", "period": "史前時代", "periodId": "prehistory" },
-    "location": { "name": "黃河與長江流域", "coordinates": [34.5, 112.5], "adminDivisions": ["中國"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["農業起源", "黃河", "長江", "聚落", "文明起源"],
-    "relatedEvents": ["shang-bronze-civilization", "qin-unification"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "shang-bronze-civilization",
-    "title": "商朝青銅文明",
-    "description": "商朝在黃河流域發展成熟的青銅器文化與王權政治，甲骨文也成為研究中國早期歷史的重要材料。",
-    "date": { "start": "-1600-01-01", "end": "-1046-01-01", "period": "史前時代", "periodId": "prehistory" },
-    "location": { "name": "殷墟（今河南安陽）", "coordinates": [36.12, 114.32], "adminDivisions": ["中國", "河南省", "安陽市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["商朝", "青銅器", "甲骨文", "殷墟"],
-    "relatedEvents": ["yellow-river-agriculture", "qin-unification"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "qin-unification",
-    "title": "秦始皇統一六國",
-    "description": "秦王嬴政於西元前221年統一六國，建立中國第一個大一統帝國，並推動文字、度量衡與道路制度整合。",
-    "date": { "start": "-221-01-01", "end": "-210-01-01", "period": "古代文明", "periodId": "ancient" },
-    "location": { "name": "咸陽", "coordinates": [34.34, 108.71], "adminDivisions": ["中國", "陝西省", "咸陽市"] },
-    "categories": ["歷史"],
-    "keywords": ["秦始皇", "統一六國", "郡縣制", "度量衡"],
-    "relatedEvents": ["shang-bronze-civilization", "han-silk-road"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "han-silk-road",
-    "title": "漢朝開通絲路",
-    "description": "漢代張騫出使西域後，陸上絲路逐漸形成，促進中國與中亞、西亞之間的商貿與文化交流。",
-    "date": { "start": "-138-01-01", "end": "0220-12-31", "period": "古代文明", "periodId": "ancient" },
-    "location": { "name": "長安", "coordinates": [34.26, 108.95], "adminDivisions": ["中國", "陝西省", "西安市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["漢朝", "絲路", "張騫", "西域", "貿易"],
-    "relatedEvents": ["qin-unification", "buddhism-china"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "buddhism-china",
-    "title": "佛教傳入中國",
-    "description": "佛教沿絲路傳入中國後，逐步影響思想、藝術與社會文化，成為中國中古時期的重要宗教力量。",
-    "date": { "start": "0067-01-01", "end": "0589-12-31", "period": "古代文明", "periodId": "ancient" },
-    "location": { "name": "白馬寺（今河南洛陽）", "coordinates": [34.72, 112.62], "adminDivisions": ["中國", "河南省", "洛陽市"] },
-    "categories": ["歷史"],
-    "keywords": ["佛教", "白馬寺", "絲路", "宗教傳播"],
-    "relatedEvents": ["han-silk-road", "sui-grand-canal"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "sui-grand-canal",
-    "title": "隋朝開鑿大運河",
-    "description": "隋朝為了整合南北交通與糧食運輸而開鑿大運河，強化中央控制，也成為後世重要水運系統。",
-    "date": { "start": "0605-01-01", "end": "0610-12-31", "period": "中古交流", "periodId": "medieval" },
-    "location": { "name": "洛陽", "coordinates": [34.62, 112.45], "adminDivisions": ["中國", "河南省", "洛陽市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["隋朝", "大運河", "南北交通", "中央集權"],
-    "relatedEvents": ["buddhism-china", "tang-changan-exchange"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "tang-changan-exchange",
-    "title": "唐代長安與東亞交流",
-    "description": "唐代長安是東亞重要國際都市，日本、新羅與西域使節雲集，展現中古時期中國對外交流的高度發展。",
-    "date": { "start": "0618-01-01", "end": "0907-12-31", "period": "中古交流", "periodId": "medieval" },
-    "location": { "name": "長安（今西安）", "coordinates": [34.26, 108.95], "adminDivisions": ["中國", "陝西省", "西安市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["唐朝", "長安", "遣唐使", "國際都市"],
-    "relatedEvents": ["sui-grand-canal", "song-commercial-revolution"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "song-commercial-revolution",
-    "title": "宋代商業繁榮",
-    "description": "宋代城市經濟與海外貿易發展快速，市民社會與貨幣流通更為活絡，被視為中國古代商業高度發展的時期。",
-    "date": { "start": "0960-01-01", "end": "1279-12-31", "period": "中古交流", "periodId": "medieval" },
-    "location": { "name": "開封", "coordinates": [34.8, 114.3], "adminDivisions": ["中國", "河南省", "開封市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["宋朝", "商業", "市舶司", "紙幣", "城市發展"],
-    "relatedEvents": ["tang-changan-exchange", "yuan-empire"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "yuan-empire",
-    "title": "元朝建立與跨域統治",
-    "description": "忽必烈建立元朝後，中國首次由北方草原政權長期統治全境，並與歐亞大陸形成更緊密的交通與交流。",
-    "date": { "start": "1271-01-01", "end": "1368-09-14", "period": "中古交流", "periodId": "medieval" },
-    "location": { "name": "大都（今北京）", "coordinates": [39.9, 116.4], "adminDivisions": ["中國", "北京市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["元朝", "忽必烈", "蒙古帝國", "歐亞交流"],
-    "relatedEvents": ["song-commercial-revolution", "zheng-he-voyages"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "zheng-he-voyages",
-    "title": "鄭和下西洋",
-    "description": "明成祖派鄭和七次下西洋，展現明朝海上實力，也促進中國與東南亞、南亞、東非的交流。",
-    "date": { "start": "1405-01-01", "end": "1433-12-31", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "南京", "coordinates": [32.06, 118.78], "adminDivisions": ["中國", "江蘇省", "南京市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["鄭和", "下西洋", "朝貢", "海上交流"],
-    "relatedEvents": ["yuan-empire", "age-of-discovery"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "opium-war",
-    "title": "鴉片戰爭",
-    "description": "英國與清朝因通商與鴉片問題爆發戰爭，清朝戰敗後簽訂不平等條約，成為中國近代史的重要轉折。",
-    "date": { "start": "1839-01-01", "end": "1842-08-29", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "廣州", "coordinates": [23.13, 113.26], "adminDivisions": ["中國", "廣東省", "廣州市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["鴉片戰爭", "不平等條約", "近代化", "通商口岸"],
-    "relatedEvents": ["zheng-he-voyages", "first-sino-japanese-war", "dagou-port"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "first-sino-japanese-war",
-    "title": "甲午戰爭",
-    "description": "清朝與日本因朝鮮問題爆發甲午戰爭，清朝戰敗後簽訂馬關條約，深刻影響東亞局勢與臺灣命運。",
-    "date": { "start": "1894-07-25", "end": "1895-04-17", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "威海衛", "coordinates": [37.5, 122.12], "adminDivisions": ["中國", "山東省", "威海市"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["甲午戰爭", "清朝", "日本", "馬關條約"],
-    "relatedEvents": ["opium-war", "japanese-1895", "taiwan-republic"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科八年級上冊 中國史"] }
-  },
-  {
-    "id": "xinhai-revolution",
-    "title": "辛亥革命",
-    "description": "武昌起義引發辛亥革命，推翻清朝，建立中華民國，象徵中國帝制結束與近代政治轉型。",
-    "date": { "start": "1911-10-10", "end": "1912-02-12", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "武昌", "coordinates": [30.55, 114.31], "adminDivisions": ["中國", "湖北省", "武漢市"] },
-    "categories": ["歷史"],
-    "keywords": ["辛亥革命", "武昌起義", "中華民國", "清朝滅亡"],
-    "relatedEvents": ["first-sino-japanese-war", "opium-war"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科八年級上冊 中國史"] }
+    "date": {
+      "start": "-50000-01-01",
+      "end": "-5000-01-01",
+      "period": "史前時代",
+      "periodId": "prehistory"
+    },
+    "location": {
+      "name": "八仙洞（臺東縣長濱鄉）",
+      "coordinates": [
+        23.375,
+        121.452
+      ],
+      "adminDivisions": [
+        "臺東縣",
+        "長濱鄉"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "舊石器時代",
+      "八仙洞",
+      "長濱文化",
+      "打製石器"
+    ],
+    "relatedEvents": [
+      "peinan-culture"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
   },
   {
     "id": "mesopotamia-civilization",
     "title": "兩河文明發展",
     "description": "幼發拉底河與底格里斯河流域發展出早期城市文明，出現文字、法典與灌溉農業，是世界古文明的重要起點。",
-    "date": { "start": "-3500-01-01", "end": "-539-01-01", "period": "史前時代", "periodId": "prehistory" },
-    "location": { "name": "兩河流域", "coordinates": [33.22, 44.36], "adminDivisions": ["伊拉克"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["兩河文明", "楔形文字", "漢摩拉比法典", "城市文明"],
-    "relatedEvents": ["ancient-egypt", "athens-democracy"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "-3500-01-01",
+      "end": "-539-01-01",
+      "period": "史前時代",
+      "periodId": "prehistory"
+    },
+    "location": {
+      "name": "兩河流域",
+      "coordinates": [
+        33.22,
+        44.36
+      ],
+      "adminDivisions": [
+        "伊拉克"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "兩河文明",
+      "楔形文字",
+      "漢摩拉比法典",
+      "城市文明"
+    ],
+    "relatedEvents": [
+      "ancient-egypt",
+      "athens-democracy"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
   },
   {
     "id": "ancient-egypt",
     "title": "古埃及文明",
     "description": "尼羅河流域發展出古埃及文明，法老統治、金字塔與象形文字皆是其代表特色。",
-    "date": { "start": "-3100-01-01", "end": "-30-01-01", "period": "史前時代", "periodId": "prehistory" },
-    "location": { "name": "吉薩金字塔", "coordinates": [29.98, 31.13], "adminDivisions": ["埃及"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["古埃及", "尼羅河", "金字塔", "法老"],
-    "relatedEvents": ["mesopotamia-civilization", "roman-empire"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "-3100-01-01",
+      "end": "-30-01-01",
+      "period": "史前時代",
+      "periodId": "prehistory"
+    },
+    "location": {
+      "name": "吉薩金字塔",
+      "coordinates": [
+        29.98,
+        31.13
+      ],
+      "adminDivisions": [
+        "埃及"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "古埃及",
+      "尼羅河",
+      "金字塔",
+      "法老"
+    ],
+    "relatedEvents": [
+      "mesopotamia-civilization",
+      "roman-empire"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "yellow-river-agriculture",
+    "title": "黃河與長江流域農業發展",
+    "description": "中國早期農業文明在黃河與長江流域發展，逐漸形成定居聚落與社會分工，是中國古代文明的基礎。",
+    "date": {
+      "start": "-3000-01-01",
+      "end": "-2000-01-01",
+      "period": "史前時代",
+      "periodId": "prehistory"
+    },
+    "location": {
+      "name": "黃河與長江流域",
+      "coordinates": [
+        34.5,
+        112.5
+      ],
+      "adminDivisions": [
+        "中國"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "農業起源",
+      "黃河",
+      "長江",
+      "聚落",
+      "文明起源"
+    ],
+    "relatedEvents": [
+      "shang-bronze-civilization",
+      "qin-unification"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
+    "id": "shang-bronze-civilization",
+    "title": "商朝青銅文明",
+    "description": "商朝在黃河流域發展成熟的青銅器文化與王權政治，甲骨文也成為研究中國早期歷史的重要材料。",
+    "date": {
+      "start": "-1600-01-01",
+      "end": "-1046-01-01",
+      "period": "史前時代",
+      "periodId": "prehistory"
+    },
+    "location": {
+      "name": "殷墟（今河南安陽）",
+      "coordinates": [
+        36.12,
+        114.32
+      ],
+      "adminDivisions": [
+        "中國",
+        "河南省",
+        "安陽市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "商朝",
+      "青銅器",
+      "甲骨文",
+      "殷墟"
+    ],
+    "relatedEvents": [
+      "yellow-river-agriculture",
+      "qin-unification"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
+    "id": "peinan-culture",
+    "title": "卑南文化",
+    "description": "新石器時代晚期文化，距今約3500至2000年前，以臺東卑南遺址為代表。出土大量石板棺、玉器陪葬品，顯示已有社會階層分化。",
+    "date": {
+      "start": "-1500-01-01",
+      "end": "-1-01-01",
+      "period": "史前時代",
+      "periodId": "prehistory"
+    },
+    "location": {
+      "name": "卑南遺址（臺東縣臺東市）",
+      "coordinates": [
+        22.79,
+        121.117
+      ],
+      "adminDivisions": [
+        "臺東縣",
+        "臺東市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理",
+      "公民"
+    ],
+    "keywords": [
+      "新石器時代",
+      "卑南文化",
+      "玉器",
+      "石板棺"
+    ],
+    "relatedEvents": [
+      "changbin-culture",
+      "shihsanhang-culture"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
   },
   {
     "id": "athens-democracy",
     "title": "雅典民主政治發展",
     "description": "古希臘雅典逐步發展出公民參與政治的制度，成為後世民主政治的重要歷史來源。",
-    "date": { "start": "-508-01-01", "end": "-322-01-01", "period": "古代文明", "periodId": "ancient" },
-    "location": { "name": "雅典", "coordinates": [37.98, 23.72], "adminDivisions": ["希臘"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["雅典", "民主政治", "公民", "城邦"],
-    "relatedEvents": ["mesopotamia-civilization", "roman-empire"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "-508-01-01",
+      "end": "-322-01-01",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "雅典",
+      "coordinates": [
+        37.98,
+        23.72
+      ],
+      "adminDivisions": [
+        "希臘"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "雅典",
+      "民主政治",
+      "公民",
+      "城邦"
+    ],
+    "relatedEvents": [
+      "mesopotamia-civilization",
+      "roman-empire"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "qin-unification",
+    "title": "秦始皇統一六國",
+    "description": "秦王嬴政於西元前221年統一六國，建立中國第一個大一統帝國，並推動文字、度量衡與道路制度整合。",
+    "date": {
+      "start": "-221-01-01",
+      "end": "-210-01-01",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "咸陽",
+      "coordinates": [
+        34.34,
+        108.71
+      ],
+      "adminDivisions": [
+        "中國",
+        "陝西省",
+        "咸陽市"
+      ]
+    },
+    "categories": [
+      "歷史"
+    ],
+    "keywords": [
+      "秦始皇",
+      "統一六國",
+      "郡縣制",
+      "度量衡"
+    ],
+    "relatedEvents": [
+      "shang-bronze-civilization",
+      "han-silk-road"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
+    "id": "han-silk-road",
+    "title": "漢朝開通絲路",
+    "description": "漢代張騫出使西域後，陸上絲路逐漸形成，促進中國與中亞、西亞之間的商貿與文化交流。",
+    "date": {
+      "start": "-138-01-01",
+      "end": "0220-12-31",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "長安",
+      "coordinates": [
+        34.26,
+        108.95
+      ],
+      "adminDivisions": [
+        "中國",
+        "陝西省",
+        "西安市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "漢朝",
+      "絲路",
+      "張騫",
+      "西域",
+      "貿易"
+    ],
+    "relatedEvents": [
+      "qin-unification",
+      "buddhism-china"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
   },
   {
     "id": "roman-empire",
     "title": "羅馬帝國興起",
     "description": "羅馬由共和走向帝國，建立橫跨歐洲、北非與西亞的大帝國，深刻影響法律、道路與城市文化。",
-    "date": { "start": "-27-01-01", "end": "0476-09-04", "period": "古代文明", "periodId": "ancient" },
-    "location": { "name": "羅馬", "coordinates": [41.89, 12.49], "adminDivisions": ["義大利"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["羅馬帝國", "法治", "道路", "地中海"],
-    "relatedEvents": ["athens-democracy", "christianity-expansion"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "-27-01-01",
+      "end": "0476-09-04",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "羅馬",
+      "coordinates": [
+        41.89,
+        12.49
+      ],
+      "adminDivisions": [
+        "義大利"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "羅馬帝國",
+      "法治",
+      "道路",
+      "地中海"
+    ],
+    "relatedEvents": [
+      "athens-democracy",
+      "christianity-expansion"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
   },
   {
     "id": "christianity-expansion",
     "title": "基督教傳播",
     "description": "基督教從巴勒斯坦地區發展並在羅馬帝國內擴散，之後成為歐洲中古社會的重要精神力量。",
-    "date": { "start": "0030-01-01", "end": "0600-12-31", "period": "古代文明", "periodId": "ancient" },
-    "location": { "name": "耶路撒冷", "coordinates": [31.78, 35.22], "adminDivisions": ["以色列"] },
-    "categories": ["歷史"],
-    "keywords": ["基督教", "耶路撒冷", "羅馬帝國", "宗教傳播"],
-    "relatedEvents": ["roman-empire", "islam-expansion"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "0030-01-01",
+      "end": "0600-12-31",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "耶路撒冷",
+      "coordinates": [
+        31.78,
+        35.22
+      ],
+      "adminDivisions": [
+        "以色列"
+      ]
+    },
+    "categories": [
+      "歷史"
+    ],
+    "keywords": [
+      "基督教",
+      "耶路撒冷",
+      "羅馬帝國",
+      "宗教傳播"
+    ],
+    "relatedEvents": [
+      "roman-empire",
+      "islam-expansion"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "buddhism-china",
+    "title": "佛教傳入中國",
+    "description": "佛教沿絲路傳入中國後，逐步影響思想、藝術與社會文化，成為中國中古時期的重要宗教力量。",
+    "date": {
+      "start": "0067-01-01",
+      "end": "0589-12-31",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "白馬寺（今河南洛陽）",
+      "coordinates": [
+        34.72,
+        112.62
+      ],
+      "adminDivisions": [
+        "中國",
+        "河南省",
+        "洛陽市"
+      ]
+    },
+    "categories": [
+      "歷史"
+    ],
+    "keywords": [
+      "佛教",
+      "白馬寺",
+      "絲路",
+      "宗教傳播"
+    ],
+    "relatedEvents": [
+      "han-silk-road",
+      "sui-grand-canal"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
+    "id": "shihsanhang-culture",
+    "title": "十三行文化",
+    "description": "金石並用時代文化，距今約1800至500年前，以新北市八里區十三行遺址為代表。已掌握煉鐵技術，與中國東南沿海有貿易往來。",
+    "date": {
+      "start": "0200-01-01",
+      "end": "1500-01-01",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "十三行遺址（新北市八里區）",
+      "coordinates": [
+        25.155,
+        121.415
+      ],
+      "adminDivisions": [
+        "新北市",
+        "八里區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "金石並用",
+      "煉鐵",
+      "貿易",
+      "十三行"
+    ],
+    "relatedEvents": [
+      "peinan-culture"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "sui-grand-canal",
+    "title": "隋朝開鑿大運河",
+    "description": "隋朝為了整合南北交通與糧食運輸而開鑿大運河，強化中央控制，也成為後世重要水運系統。",
+    "date": {
+      "start": "0605-01-01",
+      "end": "0610-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "洛陽",
+      "coordinates": [
+        34.62,
+        112.45
+      ],
+      "adminDivisions": [
+        "中國",
+        "河南省",
+        "洛陽市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "隋朝",
+      "大運河",
+      "南北交通",
+      "中央集權"
+    ],
+    "relatedEvents": [
+      "buddhism-china",
+      "tang-changan-exchange"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
+    "id": "tang-changan-exchange",
+    "title": "唐代長安與東亞交流",
+    "description": "唐代長安是東亞重要國際都市，日本、新羅與西域使節雲集，展現中古時期中國對外交流的高度發展。",
+    "date": {
+      "start": "0618-01-01",
+      "end": "0907-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "長安（今西安）",
+      "coordinates": [
+        34.26,
+        108.95
+      ],
+      "adminDivisions": [
+        "中國",
+        "陝西省",
+        "西安市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "唐朝",
+      "長安",
+      "遣唐使",
+      "國際都市"
+    ],
+    "relatedEvents": [
+      "sui-grand-canal",
+      "song-commercial-revolution"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
   },
   {
     "id": "islam-expansion",
     "title": "伊斯蘭文明擴張",
     "description": "伊斯蘭教創立後迅速向西亞、北非與伊比利半島擴張，形成連接歐亞非的重要文明網絡。",
-    "date": { "start": "0622-01-01", "end": "0750-12-31", "period": "中古交流", "periodId": "medieval" },
-    "location": { "name": "麥加", "coordinates": [21.42, 39.83], "adminDivisions": ["沙烏地阿拉伯"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["伊斯蘭", "麥加", "阿拉伯帝國", "文明交流"],
-    "relatedEvents": ["christianity-expansion", "crusades"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "0622-01-01",
+      "end": "0750-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "麥加",
+      "coordinates": [
+        21.42,
+        39.83
+      ],
+      "adminDivisions": [
+        "沙烏地阿拉伯"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "伊斯蘭",
+      "麥加",
+      "阿拉伯帝國",
+      "文明交流"
+    ],
+    "relatedEvents": [
+      "christianity-expansion",
+      "crusades"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "song-commercial-revolution",
+    "title": "宋代商業繁榮",
+    "description": "宋代城市經濟與海外貿易發展快速，市民社會與貨幣流通更為活絡，被視為中國古代商業高度發展的時期。",
+    "date": {
+      "start": "0960-01-01",
+      "end": "1279-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "開封",
+      "coordinates": [
+        34.8,
+        114.3
+      ],
+      "adminDivisions": [
+        "中國",
+        "河南省",
+        "開封市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "宋朝",
+      "商業",
+      "市舶司",
+      "紙幣",
+      "城市發展"
+    ],
+    "relatedEvents": [
+      "tang-changan-exchange",
+      "yuan-empire"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
   },
   {
     "id": "crusades",
     "title": "十字軍東征",
     "description": "歐洲基督教世界多次向聖地發動十字軍東征，雖未長期控制耶路撒冷，卻促進東西方接觸。",
-    "date": { "start": "1096-01-01", "end": "1291-08-12", "period": "中古交流", "periodId": "medieval" },
-    "location": { "name": "耶路撒冷", "coordinates": [31.78, 35.22], "adminDivisions": ["以色列"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["十字軍", "耶路撒冷", "宗教衝突", "東西交流"],
-    "relatedEvents": ["islam-expansion", "renaissance"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1096-01-01",
+      "end": "1291-08-12",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "耶路撒冷",
+      "coordinates": [
+        31.78,
+        35.22
+      ],
+      "adminDivisions": [
+        "以色列"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "十字軍",
+      "耶路撒冷",
+      "宗教衝突",
+      "東西交流"
+    ],
+    "relatedEvents": [
+      "islam-expansion",
+      "renaissance"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "因果分析",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "yuan-empire",
+    "title": "元朝建立與跨域統治",
+    "description": "忽必烈建立元朝後，中國首次由北方草原政權長期統治全境，並與歐亞大陸形成更緊密的交通與交流。",
+    "date": {
+      "start": "1271-01-01",
+      "end": "1368-09-14",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "大都（今北京）",
+      "coordinates": [
+        39.9,
+        116.4
+      ],
+      "adminDivisions": [
+        "中國",
+        "北京市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "元朝",
+      "忽必烈",
+      "蒙古帝國",
+      "歐亞交流"
+    ],
+    "relatedEvents": [
+      "song-commercial-revolution",
+      "zheng-he-voyages"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
   },
   {
     "id": "renaissance",
     "title": "文藝復興",
     "description": "義大利城市興起的文藝復興強調人文精神與古典文化再發現，帶動歐洲思想、藝術與學術轉變。",
-    "date": { "start": "1350-01-01", "end": "1600-12-31", "period": "中古交流", "periodId": "medieval" },
-    "location": { "name": "佛羅倫斯", "coordinates": [43.77, 11.25], "adminDivisions": ["義大利"] },
-    "categories": ["歷史"],
-    "keywords": ["文藝復興", "人文主義", "佛羅倫斯", "歐洲轉型"],
-    "relatedEvents": ["crusades", "age-of-discovery"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1350-01-01",
+      "end": "1600-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "佛羅倫斯",
+      "coordinates": [
+        43.77,
+        11.25
+      ],
+      "adminDivisions": [
+        "義大利"
+      ]
+    },
+    "categories": [
+      "歷史"
+    ],
+    "keywords": [
+      "文藝復興",
+      "人文主義",
+      "佛羅倫斯",
+      "歐洲轉型"
+    ],
+    "relatedEvents": [
+      "crusades",
+      "age-of-discovery"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "zheng-he-voyages",
+    "title": "鄭和下西洋",
+    "description": "明成祖派鄭和七次下西洋，展現明朝海上實力，也促進中國與東南亞、南亞、東非的交流。",
+    "date": {
+      "start": "1405-01-01",
+      "end": "1433-12-31",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "南京",
+      "coordinates": [
+        32.06,
+        118.78
+      ],
+      "adminDivisions": [
+        "中國",
+        "江蘇省",
+        "南京市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "鄭和",
+      "下西洋",
+      "朝貢",
+      "海上交流"
+    ],
+    "relatedEvents": [
+      "yuan-empire",
+      "age-of-discovery"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
   },
   {
     "id": "age-of-discovery",
     "title": "地理大發現",
     "description": "歐洲各國在十五、十六世紀進行遠洋航行，開啟新航路，改變全球貿易、殖民與文化交流格局。",
-    "date": { "start": "1488-01-01", "end": "1522-12-31", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "里斯本", "coordinates": [38.72, -9.14], "adminDivisions": ["葡萄牙"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["地理大發現", "新航路", "殖民", "全球貿易"],
-    "relatedEvents": ["renaissance", "dutch-zeelandia", "zheng-he-voyages"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1488-01-01",
+      "end": "1522-12-31",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "里斯本",
+      "coordinates": [
+        38.72,
+        -9.14
+      ],
+      "adminDivisions": [
+        "葡萄牙"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "地理大發現",
+      "新航路",
+      "殖民",
+      "全球貿易"
+    ],
+    "relatedEvents": [
+      "renaissance",
+      "dutch-zeelandia",
+      "zheng-he-voyages"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
   },
   {
     "id": "reformation",
     "title": "宗教改革",
     "description": "馬丁路德發起宗教改革，衝擊天主教權威，也促成歐洲宗教與政治秩序的重整。",
-    "date": { "start": "1517-10-31", "end": "1648-10-24", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "威登堡", "coordinates": [51.87, 12.65], "adminDivisions": ["德國"] },
-    "categories": ["歷史"],
-    "keywords": ["宗教改革", "馬丁路德", "新教", "天主教"],
-    "relatedEvents": ["renaissance", "scientific-revolution"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1517-10-31",
+      "end": "1648-10-24",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "威登堡",
+      "coordinates": [
+        51.87,
+        12.65
+      ],
+      "adminDivisions": [
+        "德國"
+      ]
+    },
+    "categories": [
+      "歷史"
+    ],
+    "keywords": [
+      "宗教改革",
+      "馬丁路德",
+      "新教",
+      "天主教"
+    ],
+    "relatedEvents": [
+      "renaissance",
+      "scientific-revolution"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
   },
   {
     "id": "scientific-revolution",
     "title": "科學革命",
     "description": "近代科學革命強調觀察與實驗，改變人們對自然世界的理解，也成為近代思想轉型的重要基礎。",
-    "date": { "start": "1543-01-01", "end": "1700-12-31", "period": "近世交流", "periodId": "early-modern" },
-    "location": { "name": "倫敦", "coordinates": [51.51, -0.13], "adminDivisions": ["英國"] },
-    "categories": ["歷史"],
-    "keywords": ["科學革命", "實驗", "哥白尼", "牛頓"],
-    "relatedEvents": ["reformation", "industrial-revolution"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1543-01-01",
+      "end": "1700-12-31",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "倫敦",
+      "coordinates": [
+        51.51,
+        -0.13
+      ],
+      "adminDivisions": [
+        "英國"
+      ]
+    },
+    "categories": [
+      "歷史"
+    ],
+    "keywords": [
+      "科學革命",
+      "實驗",
+      "哥白尼",
+      "牛頓"
+    ],
+    "relatedEvents": [
+      "reformation",
+      "industrial-revolution"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "dutch-zeelandia",
+    "title": "荷蘭建熱蘭遮城",
+    "description": "荷蘭東印度公司於1624年在臺南安平建造熱蘭遮城，作為東亞貿易據點，開啟臺灣信史時代。",
+    "date": {
+      "start": "1624-01-01",
+      "end": "1634-12-31",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "熱蘭遮城（臺南市安平區）",
+      "coordinates": [
+        22.9953,
+        120.1657
+      ],
+      "adminDivisions": [
+        "臺南市",
+        "安平區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "荷蘭",
+      "熱蘭遮城",
+      "東印度公司",
+      "安平"
+    ],
+    "relatedEvents": [
+      "spanish-kelang",
+      "zheng-expel-dutch"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "spanish-kelang",
+    "title": "西班牙佔領北臺灣",
+    "description": "1626年西班牙人從菲律賓北上佔領基隆，在和平島建聖薩爾瓦多城，1642年遭荷蘭人驅逐。",
+    "date": {
+      "start": "1626-01-01",
+      "end": "1642-08-01",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "聖薩爾瓦多城（基隆市和平島）",
+      "coordinates": [
+        25.158,
+        121.767
+      ],
+      "adminDivisions": [
+        "基隆市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "西班牙",
+      "基隆",
+      "和平島",
+      "聖薩爾瓦多"
+    ],
+    "relatedEvents": [
+      "dutch-zeelandia"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "guo-huaiyi-revolt",
+    "title": "郭懷一事件",
+    "description": "1652年漢人農民郭懷一率眾反抗荷蘭統治，為臺灣史上首次大規模漢人抗爭，遭荷蘭軍隊鎮壓。",
+    "date": {
+      "start": "1652-09-01",
+      "end": "1652-09-30",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "赤崁一帶（臺南市）",
+      "coordinates": [
+        23,
+        120.21
+      ],
+      "adminDivisions": [
+        "臺南市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "郭懷一",
+      "抗荷",
+      "農民起義"
+    ],
+    "relatedEvents": [
+      "dutch-zeelandia",
+      "zheng-expel-dutch"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "zheng-expel-dutch",
+    "title": "鄭成功驅逐荷蘭",
+    "description": "1661年鄭成功率軍渡海攻臺，圍困熱蘭遮城九個月後，1662年荷蘭守將揆一投降，鄭成功收復臺灣。",
+    "date": {
+      "start": "1661-04-01",
+      "end": "1662-02-01",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "熱蘭遮城（臺南市安平區）",
+      "coordinates": [
+        22.9953,
+        120.1657
+      ],
+      "adminDivisions": [
+        "臺南市",
+        "安平區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "鄭成功",
+      "驅逐荷蘭",
+      "熱蘭遮城",
+      "揆一"
+    ],
+    "relatedEvents": [
+      "dutch-zeelandia",
+      "zheng-tuntian"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "zheng-tuntian",
+    "title": "鄭氏屯田制度",
+    "description": "鄭成功為解決軍糧問題，實施「寓兵於農」的屯田政策，軍人開墾營盤田，為臺灣農業發展奠定基礎。",
+    "date": {
+      "start": "1662-01-01",
+      "end": "1683-07-01",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "臺南至高雄一帶",
+      "coordinates": [
+        22.85,
+        120.35
+      ],
+      "adminDivisions": [
+        "臺南市",
+        "高雄市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理",
+      "公民"
+    ],
+    "keywords": [
+      "屯田",
+      "寓兵於農",
+      "農業開發",
+      "營盤田"
+    ],
+    "relatedEvents": [
+      "zheng-expel-dutch",
+      "qing-annex-taiwan"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "qing-annex-taiwan",
+    "title": "施琅攻臺",
+    "description": "1683年清朝將領施琅率水師攻克澎湖，鄭克塽投降，清朝正式將臺灣納入版圖。",
+    "date": {
+      "start": "1683-07-01",
+      "end": "1683-10-01",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "澎湖海域",
+      "coordinates": [
+        23.571,
+        119.579
+      ],
+      "adminDivisions": [
+        "澎湖縣"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "施琅",
+      "澎湖",
+      "鄭克塽",
+      "清朝",
+      "納入版圖"
+    ],
+    "relatedEvents": [
+      "zheng-tuntian",
+      "qing-cross-strait"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科七年級上冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "qing-cross-strait",
+    "title": "渡臺禁令",
+    "description": "清朝初期對臺灣實施渡臺禁令，禁止民眾私自渡海來臺，但因福建人口壓力，偷渡屢禁不止。",
+    "date": {
+      "start": "1684-01-01",
+      "end": "1875-01-01",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "臺灣海峽、廈門至鹿港航線",
+      "coordinates": [
+        24.05,
+        120.43
+      ],
+      "adminDivisions": [
+        "彰化縣",
+        "鹿港鎮"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "渡臺禁令",
+      "移民",
+      "偷渡",
+      "福建"
+    ],
+    "relatedEvents": [
+      "qing-annex-taiwan",
+      "lin-shuang-wen"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
   },
   {
     "id": "industrial-revolution",
     "title": "工業革命",
     "description": "英國率先發生工業革命，機器生產與工廠制度改變經濟、社會與全球權力分布。",
-    "date": { "start": "1760-01-01", "end": "1840-12-31", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "曼徹斯特", "coordinates": [53.48, -2.24], "adminDivisions": ["英國"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["工業革命", "工廠", "蒸汽機", "工業化"],
-    "relatedEvents": ["scientific-revolution", "american-independence", "imperialism"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1760-01-01",
+      "end": "1840-12-31",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "曼徹斯特",
+      "coordinates": [
+        53.48,
+        -2.24
+      ],
+      "adminDivisions": [
+        "英國"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "工業革命",
+      "工廠",
+      "蒸汽機",
+      "工業化"
+    ],
+    "relatedEvents": [
+      "scientific-revolution",
+      "american-independence",
+      "imperialism"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
   },
   {
     "id": "american-independence",
     "title": "美國獨立戰爭",
     "description": "北美十三州反抗英國統治而爆發獨立戰爭，最終建立美國，成為近代民主革命的重要案例。",
-    "date": { "start": "1775-04-19", "end": "1783-09-03", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "費城", "coordinates": [39.95, -75.16], "adminDivisions": ["美國", "賓夕法尼亞州"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["美國獨立", "民主革命", "十三州", "共和政治"],
-    "relatedEvents": ["industrial-revolution", "french-revolution"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1775-04-19",
+      "end": "1783-09-03",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "費城",
+      "coordinates": [
+        39.95,
+        -75.16
+      ],
+      "adminDivisions": [
+        "美國",
+        "賓夕法尼亞州"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "美國獨立",
+      "民主革命",
+      "十三州",
+      "共和政治"
+    ],
+    "relatedEvents": [
+      "industrial-revolution",
+      "french-revolution"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "lin-shuang-wen",
+    "title": "林爽文事件",
+    "description": "1786年天地會首領林爽文起兵反清，攻佔彰化，全臺震動，為臺灣史上最大規模民變，1788年遭福康安平定。",
+    "date": {
+      "start": "1786-11-01",
+      "end": "1788-02-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "大里杙（臺中市大里區）",
+      "coordinates": [
+        24.1,
+        120.68
+      ],
+      "adminDivisions": [
+        "臺中市",
+        "大里區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "林爽文",
+      "天地會",
+      "民變",
+      "福康安"
+    ],
+    "relatedEvents": [
+      "qing-cross-strait"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
   },
   {
     "id": "french-revolution",
     "title": "法國大革命",
     "description": "法國大革命衝擊舊制度，提出自由、平等、公民權等觀念，對歐洲與世界近代政治產生深遠影響。",
-    "date": { "start": "1789-07-14", "end": "1799-11-09", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "巴黎", "coordinates": [48.86, 2.35], "adminDivisions": ["法國"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["法國大革命", "自由平等", "人權", "共和"],
-    "relatedEvents": ["american-independence", "imperialism"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1789-07-14",
+      "end": "1799-11-09",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "巴黎",
+      "coordinates": [
+        48.86,
+        2.35
+      ],
+      "adminDivisions": [
+        "法國"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "法國大革命",
+      "自由平等",
+      "人權",
+      "共和"
+    ],
+    "relatedEvents": [
+      "american-independence",
+      "imperialism"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "opium-war",
+    "title": "鴉片戰爭",
+    "description": "英國與清朝因通商與鴉片問題爆發戰爭，清朝戰敗後簽訂不平等條約，成為中國近代史的重要轉折。",
+    "date": {
+      "start": "1839-01-01",
+      "end": "1842-08-29",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "廣州",
+      "coordinates": [
+        23.13,
+        113.26
+      ],
+      "adminDivisions": [
+        "中國",
+        "廣東省",
+        "廣州市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "鴉片戰爭",
+      "不平等條約",
+      "近代化",
+      "通商口岸"
+    ],
+    "relatedEvents": [
+      "zheng-he-voyages",
+      "first-sino-japanese-war",
+      "dagou-port"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
+    "id": "dagou-port",
+    "title": "打狗開港",
+    "description": "1858年天津條約後臺灣開放通商口岸，打狗（高雄）成為國際貿易港口，糖、茶、樟腦大量出口。",
+    "date": {
+      "start": "1858-01-01",
+      "end": "1895-05-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "打狗港（高雄市鼓山區）",
+      "coordinates": [
+        22.618,
+        120.275
+      ],
+      "adminDivisions": [
+        "高雄市",
+        "鼓山區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "開港通商",
+      "打狗",
+      "糖",
+      "茶葉",
+      "樟腦"
+    ],
+    "relatedEvents": [
+      "tamsui-open",
+      "japanese-1895"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "tamsui-open",
+    "title": "淡水開港",
+    "description": "1860年淡水正式開港，成為北臺灣最重要的通商口岸，洋行林立，茶葉經淡水出口至歐美。",
+    "date": {
+      "start": "1860-01-01",
+      "end": "1895-05-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "淡水港（新北市淡水區）",
+      "coordinates": [
+        25.172,
+        121.44
+      ],
+      "adminDivisions": [
+        "新北市",
+        "淡水區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "淡水",
+      "開港",
+      "茶葉",
+      "洋行",
+      "馬偕"
+    ],
+    "relatedEvents": [
+      "dagou-port",
+      "mackay-mission"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
   },
   {
     "id": "imperialism",
     "title": "帝國主義擴張",
     "description": "十九世紀工業國家為了市場、原料與戰略利益展開殖民擴張，改變全球政治與經濟秩序。",
-    "date": { "start": "1870-01-01", "end": "1914-07-27", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "柏林", "coordinates": [52.52, 13.4], "adminDivisions": ["德國"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["帝國主義", "殖民", "柏林會議", "工業國家"],
-    "relatedEvents": ["industrial-revolution", "first-world-war"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "date": {
+      "start": "1870-01-01",
+      "end": "1914-07-27",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "柏林",
+      "coordinates": [
+        52.52,
+        13.4
+      ],
+      "adminDivisions": [
+        "德國"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "帝國主義",
+      "殖民",
+      "柏林會議",
+      "工業國家"
+    ],
+    "relatedEvents": [
+      "industrial-revolution",
+      "first-world-war"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
   },
   {
-    "id": "first-world-war",
-    "title": "第一次世界大戰",
-    "description": "歐洲列強衝突最終引爆第一次世界大戰，全面戰爭改變國際秩序，也加速帝國瓦解。",
-    "date": { "start": "1914-07-28", "end": "1918-11-11", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "塞拉耶佛", "coordinates": [43.86, 18.41], "adminDivisions": ["波士尼亞與赫塞哥維納"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["第一次世界大戰", "同盟國", "協約國", "全面戰爭"],
-    "relatedEvents": ["imperialism", "second-world-war"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科八年級下冊 世界史"] }
-  },
-  {
-    "id": "second-world-war",
-    "title": "第二次世界大戰",
-    "description": "第二次世界大戰席捲歐亞非，造成重大破壞與人員傷亡，也重新塑造戰後世界秩序。",
-    "date": { "start": "1939-09-01", "end": "1945-09-02", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "華沙", "coordinates": [52.23, 21.01], "adminDivisions": ["波蘭"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["第二次世界大戰", "軸心國", "同盟國", "戰後秩序"],
-    "relatedEvents": ["first-world-war", "un-founded", "wwii-taiwan"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科八年級下冊 世界史"] }
-  },
-  {
-    "id": "un-founded",
-    "title": "聯合國成立",
-    "description": "第二次世界大戰後，聯合國成立，期望透過國際合作維持和平並處理全球性問題。",
-    "date": { "start": "1945-10-24", "end": "1945-10-24", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "舊金山", "coordinates": [37.77, -122.42], "adminDivisions": ["美國", "加州"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["聯合國", "國際合作", "戰後秩序", "和平"],
-    "relatedEvents": ["second-world-war", "cold-war-begins"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
-  },
-  {
-    "id": "cold-war-begins",
-    "title": "冷戰開始",
-    "description": "第二次世界大戰後，美蘇對立逐漸形成冷戰格局，世界進入意識形態與陣營競爭的時代。",
-    "date": { "start": "1947-03-12", "end": "1991-12-26", "period": "戰後時期", "periodId": "postwar" },
-    "location": { "name": "柏林", "coordinates": [52.52, 13.4], "adminDivisions": ["德國"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["冷戰", "美蘇對立", "柏林", "意識形態"],
-    "relatedEvents": ["un-founded", "martial-law"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+    "id": "mackay-mission",
+    "title": "馬偕來臺傳教",
+    "description": "1872年加拿大傳教士馬偕抵達淡水，建立教會、醫院和學堂，推動西方醫學與教育在臺發展。",
+    "date": {
+      "start": "1872-03-01",
+      "end": "1901-06-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "淡水（新北市淡水區）",
+      "coordinates": [
+        25.172,
+        121.44
+      ],
+      "adminDivisions": [
+        "新北市",
+        "淡水區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理",
+      "公民"
+    ],
+    "keywords": [
+      "馬偕",
+      "傳教士",
+      "淡水",
+      "醫療",
+      "教育"
+    ],
+    "relatedEvents": [
+      "tamsui-open"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
   },
   {
     "id": "mudan-incident",
     "title": "牡丹社事件",
     "description": "琉球船民在臺灣南部遇害後，日本以此為由出兵臺灣，促使清廷更重視臺灣防務與治理。",
-    "date": { "start": "1874-05-01", "end": "1874-12-31", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "牡丹社（今屏東縣牡丹鄉）", "coordinates": [22.15, 120.79], "adminDivisions": ["屏東縣", "牡丹鄉"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["牡丹社事件", "日本出兵", "琉球", "臺灣防務"],
-    "relatedEvents": ["shen-baozhen-taiwan", "sino-french-war-taiwan"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
+    "date": {
+      "start": "1874-05-01",
+      "end": "1874-12-31",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "牡丹社（今屏東縣牡丹鄉）",
+      "coordinates": [
+        22.15,
+        120.79
+      ],
+      "adminDivisions": [
+        "屏東縣",
+        "牡丹鄉"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "牡丹社事件",
+      "日本出兵",
+      "琉球",
+      "臺灣防務"
+    ],
+    "relatedEvents": [
+      "shen-baozhen-taiwan",
+      "sino-french-war-taiwan"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
   },
   {
     "id": "shen-baozhen-taiwan",
     "title": "沈葆楨來臺與開山撫番",
     "description": "牡丹社事件後，清廷派沈葆楨來臺推動開山撫番、設防與交通建設，強化對臺治理。",
-    "date": { "start": "1874-07-01", "end": "1875-12-31", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "恆春", "coordinates": [22.0, 120.74], "adminDivisions": ["屏東縣", "恆春鎮"] },
-    "categories": ["歷史", "地理", "公民"],
-    "keywords": ["沈葆楨", "開山撫番", "防務", "清廷治臺"],
-    "relatedEvents": ["mudan-incident", "liu-mingchuan"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
+    "date": {
+      "start": "1874-07-01",
+      "end": "1875-12-31",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "恆春",
+      "coordinates": [
+        22,
+        120.74
+      ],
+      "adminDivisions": [
+        "屏東縣",
+        "恆春鎮"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理",
+      "公民"
+    ],
+    "keywords": [
+      "沈葆楨",
+      "開山撫番",
+      "防務",
+      "清廷治臺"
+    ],
+    "relatedEvents": [
+      "mudan-incident",
+      "liu-mingchuan"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "taipei-city-wall",
+    "title": "臺北府城建城",
+    "description": "1884年清朝設立臺北府，建築城牆與城門，今日臺北城門即為當時遺跡，標誌北臺灣行政中心遷移。",
+    "date": {
+      "start": "1882-01-01",
+      "end": "1884-12-31",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺北府城（臺北市中正區）",
+      "coordinates": [
+        25.037,
+        121.515
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "臺北建城",
+      "城門",
+      "劉銘傳",
+      "北門"
+    ],
+    "relatedEvents": [
+      "liu-mingchuan",
+      "japanese-1895"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
   },
   {
     "id": "sino-french-war-taiwan",
     "title": "清法戰爭在臺灣",
     "description": "清法戰爭期間，法軍進攻基隆與淡水，臺灣防務的重要性提升，也成為之後建省的背景之一。",
-    "date": { "start": "1884-08-01", "end": "1885-04-01", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "滬尾（今新北市淡水區）", "coordinates": [25.17, 121.44], "adminDivisions": ["新北市", "淡水區"] },
-    "categories": ["歷史", "地理"],
-    "keywords": ["清法戰爭", "基隆", "淡水", "臺灣防務"],
-    "relatedEvents": ["mudan-incident", "liu-mingchuan", "tamsui-open"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
+    "date": {
+      "start": "1884-08-01",
+      "end": "1885-04-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "滬尾（今新北市淡水區）",
+      "coordinates": [
+        25.17,
+        121.44
+      ],
+      "adminDivisions": [
+        "新北市",
+        "淡水區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "清法戰爭",
+      "基隆",
+      "淡水",
+      "臺灣防務"
+    ],
+    "relatedEvents": [
+      "mudan-incident",
+      "liu-mingchuan",
+      "tamsui-open"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "liu-mingchuan",
+    "title": "劉銘傳建設臺灣",
+    "description": "1885年臺灣建省，劉銘傳任首任巡撫，推動鐵路建設、電報、新式學堂、清丈田畝等現代化改革。",
+    "date": {
+      "start": "1885-01-01",
+      "end": "1891-06-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺北（臺灣省城）",
+      "coordinates": [
+        25.037,
+        121.515
+      ],
+      "adminDivisions": [
+        "臺北市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理",
+      "公民"
+    ],
+    "keywords": [
+      "劉銘傳",
+      "臺灣建省",
+      "鐵路",
+      "現代化"
+    ],
+    "relatedEvents": [
+      "taipei-city-wall",
+      "japanese-1895"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "first-sino-japanese-war",
+    "title": "甲午戰爭",
+    "description": "清朝與日本因朝鮮問題爆發甲午戰爭，清朝戰敗後簽訂馬關條約，深刻影響東亞局勢與臺灣命運。",
+    "date": {
+      "start": "1894-07-25",
+      "end": "1895-04-17",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "威海衛",
+      "coordinates": [
+        37.5,
+        122.12
+      ],
+      "adminDivisions": [
+        "中國",
+        "山東省",
+        "威海市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "甲午戰爭",
+      "清朝",
+      "日本",
+      "馬關條約"
+    ],
+    "relatedEvents": [
+      "opium-war",
+      "japanese-1895",
+      "taiwan-republic"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
+    "id": "japanese-1895",
+    "title": "日治時期開始",
+    "description": "1895年甲午戰爭清廷戰敗，簽訂馬關條約割讓臺灣給日本，臺灣進入日治時期。",
+    "date": {
+      "start": "1895-04-17",
+      "end": "1895-06-17",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "馬關（今日本下關）／臺灣",
+      "coordinates": [
+        25.037,
+        121.515
+      ],
+      "adminDivisions": [
+        "臺北市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "馬關條約",
+      "甲午戰爭",
+      "割讓",
+      "日治"
+    ],
+    "relatedEvents": [
+      "liu-mingchuan",
+      "taiwan-republic"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "taiwan-republic",
+    "title": "臺灣民主國",
+    "description": "1895年5月臺灣紳民宣告成立臺灣民主國，唐景崧任總統，抵抗日本接收，僅存在約150天即潰散。",
+    "date": {
+      "start": "1895-05-23",
+      "end": "1895-10-21",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺北城（臺北市中正區）",
+      "coordinates": [
+        25.037,
+        121.515
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "臺灣民主國",
+      "唐景崧",
+      "抗日",
+      "藍地黃虎旗"
+    ],
+    "relatedEvents": [
+      "japanese-1895",
+      "bagua-mountain"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "bagua-mountain",
+    "title": "八卦山之役",
+    "description": "1895年8月日軍進攻彰化八卦山，臺灣義軍激烈抵抗但遭殲滅，為乙未戰爭中最大規模會戰。",
+    "date": {
+      "start": "1895-08-27",
+      "end": "1895-08-28",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "八卦山（彰化縣彰化市）",
+      "coordinates": [
+        24.078,
+        120.55
+      ],
+      "adminDivisions": [
+        "彰化縣",
+        "彰化市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "八卦山",
+      "乙未戰爭",
+      "義軍",
+      "抗日"
+    ],
+    "relatedEvents": [
+      "taiwan-republic"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
   },
   {
     "id": "law-63",
     "title": "六三法",
     "description": "日本在臺實施六三法，授權總督府發布具有法律效力的命令，顯示殖民統治的高度集權性。",
-    "date": { "start": "1896-03-31", "end": "1906-03-31", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺北", "coordinates": [25.04, 121.51], "adminDivisions": ["臺北市"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["六三法", "總督府", "殖民統治", "法律"],
-    "relatedEvents": ["japanese-1895", "taiwan-republic"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
+    "date": {
+      "start": "1896-03-31",
+      "end": "1906-03-31",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺北",
+      "coordinates": [
+        25.04,
+        121.51
+      ],
+      "adminDivisions": [
+        "臺北市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "六三法",
+      "總督府",
+      "殖民統治",
+      "法律"
+    ],
+    "relatedEvents": [
+      "japanese-1895",
+      "taiwan-republic"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "taichung-park",
+    "title": "臺中市區改正",
+    "description": "日治時期臺中實施市區改正計劃，仿京都棋盤式街道設計，建設臺中公園及車站，成為中部現代化都市。",
+    "date": {
+      "start": "1900-01-01",
+      "end": "1917-12-31",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺中市區（臺中市中區）",
+      "coordinates": [
+        24.138,
+        120.683
+      ],
+      "adminDivisions": [
+        "臺中市",
+        "中區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "市區改正",
+      "都市計畫",
+      "棋盤式街道",
+      "臺中"
+    ],
+    "relatedEvents": [
+      "hsinchu-railway"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "hsinchu-railway",
+    "title": "縱貫鐵路通車",
+    "description": "1908年縱貫鐵路全線通車，連接基隆至高雄，大幅縮短南北交通時間，促進臺灣經濟整合。",
+    "date": {
+      "start": "1908-04-20",
+      "end": "1908-04-20",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺中公園（臺中市北區）",
+      "coordinates": [
+        24.145,
+        120.683
+      ],
+      "adminDivisions": [
+        "臺中市",
+        "北區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "縱貫鐵路",
+      "交通",
+      "現代化",
+      "基隆",
+      "高雄"
+    ],
+    "relatedEvents": [
+      "japanese-1895"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "xinhai-revolution",
+    "title": "辛亥革命",
+    "description": "武昌起義引發辛亥革命，推翻清朝，建立中華民國，象徵中國帝制結束與近代政治轉型。",
+    "date": {
+      "start": "1911-10-10",
+      "end": "1912-02-12",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "武昌",
+      "coordinates": [
+        30.55,
+        114.31
+      ],
+      "adminDivisions": [
+        "中國",
+        "湖北省",
+        "武漢市"
+      ]
+    },
+    "categories": [
+      "歷史"
+    ],
+    "keywords": [
+      "辛亥革命",
+      "武昌起義",
+      "中華民國",
+      "清朝滅亡"
+    ],
+    "relatedEvents": [
+      "first-sino-japanese-war",
+      "opium-war"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
+    "id": "first-world-war",
+    "title": "第一次世界大戰",
+    "description": "歐洲列強衝突最終引爆第一次世界大戰，全面戰爭改變國際秩序，也加速帝國瓦解。",
+    "date": {
+      "start": "1914-07-28",
+      "end": "1918-11-11",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "塞拉耶佛",
+      "coordinates": [
+        43.86,
+        18.41
+      ],
+      "adminDivisions": [
+        "波士尼亞與赫塞哥維納"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "第一次世界大戰",
+      "同盟國",
+      "協約國",
+      "全面戰爭"
+    ],
+    "relatedEvents": [
+      "imperialism",
+      "second-world-war"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "chiayi-tapani",
+    "title": "嘉義事件",
+    "description": "1915年余清芳等人在臺南玉井（噍吧哖）武裝抗日，日軍大規模鎮壓，為日治時期最大規模漢人武裝抗爭。",
+    "date": {
+      "start": "1915-07-01",
+      "end": "1916-04-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "噍吧哖（臺南市玉井區）",
+      "coordinates": [
+        23.123,
+        120.464
+      ],
+      "adminDivisions": [
+        "臺南市",
+        "玉井區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "西來庵",
+      "余清芳",
+      "抗日",
+      "噍吧哖"
+    ],
+    "relatedEvents": [
+      "japanese-1895",
+      "wushe-incident"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "taihoku-imperial",
+    "title": "臺北帝國大學成立",
+    "description": "1928年臺北帝國大學成立（今國立臺灣大學），為日治時期臺灣最高學府，培育許多在地菁英。",
+    "date": {
+      "start": "1928-03-01",
+      "end": "1928-03-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺北帝國大學（臺北市大安區）",
+      "coordinates": [
+        25.017,
+        121.537
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "大安區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "帝國大學",
+      "教育",
+      "臺大",
+      "高等教育"
+    ],
+    "relatedEvents": [
+      "japanese-1895"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "wushe-incident",
+    "title": "武霸事件",
+    "description": "1930年賽德克族頭目莫那·魯道率族人於霧社起義抗日，為日治時期最大規模原住民武裝抗爭。",
+    "date": {
+      "start": "1930-10-27",
+      "end": "1930-12-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "霧社（南投縣仁愛鄉）",
+      "coordinates": [
+        24.02,
+        121.13
+      ],
+      "adminDivisions": [
+        "南投縣",
+        "仁愛鄉"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "霧社",
+      "莫那魯道",
+      "賽德克族",
+      "原住民",
+      "抗日"
+    ],
+    "relatedEvents": [
+      "chiayi-tapani"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
   },
   {
     "id": "kominka-movement",
     "title": "皇民化運動",
     "description": "二戰前後日本在臺推動皇民化運動，透過語言、宗教與姓名政策強化殖民同化。",
-    "date": { "start": "1937-07-07", "end": "1945-08-15", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺北", "coordinates": [25.04, 121.51], "adminDivisions": ["臺北市"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["皇民化", "同化政策", "日治", "殖民統治"],
-    "relatedEvents": ["japanese-1895", "wwii-taiwan", "retrocession-taiwan"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
+    "date": {
+      "start": "1937-07-07",
+      "end": "1945-08-15",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺北",
+      "coordinates": [
+        25.04,
+        121.51
+      ],
+      "adminDivisions": [
+        "臺北市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "皇民化",
+      "同化政策",
+      "日治",
+      "殖民統治"
+    ],
+    "relatedEvents": [
+      "japanese-1895",
+      "wwii-taiwan",
+      "retrocession-taiwan"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "second-world-war",
+    "title": "第二次世界大戰",
+    "description": "第二次世界大戰席捲歐亞非，造成重大破壞與人員傷亡，也重新塑造戰後世界秩序。",
+    "date": {
+      "start": "1939-09-01",
+      "end": "1945-09-02",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "華沙",
+      "coordinates": [
+        52.23,
+        21.01
+      ],
+      "adminDivisions": [
+        "波蘭"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "第二次世界大戰",
+      "軸心國",
+      "同盟國",
+      "戰後秩序"
+    ],
+    "relatedEvents": [
+      "first-world-war",
+      "un-founded",
+      "wwii-taiwan"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "wwii-taiwan",
+    "title": "二戰下的臺灣",
+    "description": "二戰期間臺灣作為日本南進基地，遭受盟軍大規模轟炸，戰後1945年日本投降，臺灣由中華民國接收。",
+    "date": {
+      "start": "1941-12-08",
+      "end": "1945-08-15",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺灣全島",
+      "coordinates": [
+        23.7,
+        121
+      ],
+      "adminDivisions": [
+        "臺灣省"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "二戰",
+      "轟炸",
+      "南進基地",
+      "日本投降"
+    ],
+    "relatedEvents": [
+      "japanese-1895",
+      "feb28-incident"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "un-founded",
+    "title": "聯合國成立",
+    "description": "第二次世界大戰後，聯合國成立，期望透過國際合作維持和平並處理全球性問題。",
+    "date": {
+      "start": "1945-10-24",
+      "end": "1945-10-24",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "舊金山",
+      "coordinates": [
+        37.77,
+        -122.42
+      ],
+      "adminDivisions": [
+        "美國",
+        "加州"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "聯合國",
+      "國際合作",
+      "戰後秩序",
+      "和平"
+    ],
+    "relatedEvents": [
+      "second-world-war",
+      "cold-war-begins"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
   },
   {
     "id": "retrocession-taiwan",
     "title": "戰後接收臺灣",
     "description": "第二次世界大戰結束後，中華民國政府接收臺灣，臺灣正式脫離日本統治，進入戰後新局。",
-    "date": { "start": "1945-10-25", "end": "1945-10-25", "period": "近代變革", "periodId": "industrial-age" },
-    "location": { "name": "臺北公會堂（今中山堂）", "coordinates": [25.04, 121.51], "adminDivisions": ["臺北市", "中正區"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["光復", "接收臺灣", "戰後", "政權轉移"],
-    "relatedEvents": ["second-world-war", "feb28-incident"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
+    "date": {
+      "start": "1945-10-25",
+      "end": "1945-10-25",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺北公會堂（今中山堂）",
+      "coordinates": [
+        25.04,
+        121.51
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "光復",
+      "接收臺灣",
+      "戰後",
+      "政權轉移"
+    ],
+    "relatedEvents": [
+      "second-world-war",
+      "feb28-incident"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "feb28-incident",
+    "title": "二二八事件",
+    "description": "1947年2月27日因查緝私菸引發臺北市民與軍警衝突，迅速蔓延全臺，成為臺灣戰後重大政治創傷。",
+    "date": {
+      "start": "1947-02-27",
+      "end": "1947-05-16",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "臺北市大稻埕（臺北市大同區）",
+      "coordinates": [
+        25.057,
+        121.51
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "大同區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "二二八",
+      "緝菸",
+      "衝突",
+      "清鄉",
+      "戒嚴"
+    ],
+    "relatedEvents": [
+      "wwii-taiwan",
+      "martial-law"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "cold-war-begins",
+    "title": "冷戰開始",
+    "description": "第二次世界大戰後，美蘇對立逐漸形成冷戰格局，世界進入意識形態與陣營競爭的時代。",
+    "date": {
+      "start": "1947-03-12",
+      "end": "1991-12-26",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "柏林",
+      "coordinates": [
+        52.52,
+        13.4
+      ],
+      "adminDivisions": [
+        "德國"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "冷戰",
+      "美蘇對立",
+      "柏林",
+      "意識形態"
+    ],
+    "relatedEvents": [
+      "un-founded",
+      "martial-law"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
+    "id": "land-reform",
+    "title": "土地改革",
+    "description": "1949至1953年政府實施三七五減租、公地放領、耕者有其田三部曲，改善佃農生活，奠定工業化基礎。",
+    "date": {
+      "start": "1949-01-01",
+      "end": "1953-12-31",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "臺灣農村地區",
+      "coordinates": [
+        23.7,
+        121
+      ],
+      "adminDivisions": [
+        "臺灣省"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理",
+      "公民"
+    ],
+    "keywords": [
+      "三七五減租",
+      "公地放領",
+      "耕者有其田",
+      "土地改革"
+    ],
+    "relatedEvents": [
+      "economic-miracle"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "martial-law",
+    "title": "戒嚴令發布",
+    "description": "1949年5月20日臺灣實施戒嚴，限制憲法保障的基本人權，白色恐怖期間許多政治犯遭逮捕審判，長達38年。",
+    "date": {
+      "start": "1949-05-20",
+      "end": "1987-07-15",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "臺灣全島",
+      "coordinates": [
+        23.7,
+        121
+      ],
+      "adminDivisions": [
+        "臺灣省"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "戒嚴",
+      "白色恐怖",
+      "人權",
+      "黨禁"
+    ],
+    "relatedEvents": [
+      "feb28-incident",
+      "lift-martial-law"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "economic-miracle",
+    "title": "臺灣經濟奇蹟",
+    "description": "1960至1980年代臺灣經歷快速工業化與出口導向經濟成長，加工出口區、十大建設推動經濟起飛。",
+    "date": {
+      "start": "1960-01-01",
+      "end": "1980-12-31",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "高雄加工出口區（高雄市前鎮區）",
+      "coordinates": [
+        22.58,
+        120.32
+      ],
+      "adminDivisions": [
+        "高雄市",
+        "前鎮區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理",
+      "公民"
+    ],
+    "keywords": [
+      "經濟奇蹟",
+      "加工出口區",
+      "十大建設",
+      "工業化"
+    ],
+    "relatedEvents": [
+      "land-reform",
+      "lift-martial-law"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "圖表判讀",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
   },
   {
     "id": "formosa-incident",
     "title": "美麗島事件",
     "description": "黨外人士於高雄舉辦集會遭鎮壓，美麗島事件成為臺灣民主化的重要轉折與反對運動象徵。",
-    "date": { "start": "1979-12-10", "end": "1980-04-18", "period": "戰後時期", "periodId": "postwar" },
-    "location": { "name": "高雄市", "coordinates": [22.63, 120.3], "adminDivisions": ["高雄市"] },
-    "categories": ["歷史", "公民"],
-    "keywords": ["美麗島事件", "黨外", "民主運動", "高雄"],
-    "relatedEvents": ["martial-law", "lift-martial-law"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
+    "date": {
+      "start": "1979-12-10",
+      "end": "1980-04-18",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "高雄市",
+      "coordinates": [
+        22.63,
+        120.3
+      ],
+      "adminDivisions": [
+        "高雄市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "美麗島事件",
+      "黨外",
+      "民主運動",
+      "高雄"
+    ],
+    "relatedEvents": [
+      "martial-law",
+      "lift-martial-law"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "lift-martial-law",
+    "title": "臺灣解嚴",
+    "description": "1987年7月15日蔣經國總統宣布解嚴，結束38年戒嚴統治，開放黨禁報禁，臺灣邁入民主化新階段。",
+    "date": {
+      "start": "1987-07-15",
+      "end": "1987-07-15",
+      "period": "民主化時期",
+      "periodId": "democratization"
+    },
+    "location": {
+      "name": "臺北（中華民國總統府）",
+      "coordinates": [
+        25.04,
+        121.512
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "解嚴",
+      "蔣經國",
+      "黨禁",
+      "報禁",
+      "民主化"
+    ],
+    "relatedEvents": [
+      "martial-law",
+      "direct-election"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "wild-lily",
+    "title": "野百合學運",
+    "description": "1990年3月大學生在中正紀念堂前靜坐抗議萬年國代，要求國會全面改選，為臺灣最大規模學生運動。",
+    "date": {
+      "start": "1990-03-16",
+      "end": "1990-03-22",
+      "period": "民主化時期",
+      "periodId": "democratization"
+    },
+    "location": {
+      "name": "中正紀念堂（臺北市中正區）",
+      "coordinates": [
+        25.035,
+        121.52
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "野百合",
+      "學運",
+      "國會改革",
+      "萬年國代"
+    ],
+    "relatedEvents": [
+      "lift-martial-law",
+      "direct-election"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "direct-election",
+    "title": "首次總統直選",
+    "description": "1996年3月23日臺灣舉行首次總統直接民選，李登輝當選，完成民主化最後一哩路。",
+    "date": {
+      "start": "1996-03-23",
+      "end": "1996-03-23",
+      "period": "民主化時期",
+      "periodId": "democratization"
+    },
+    "location": {
+      "name": "臺北市中正區",
+      "coordinates": [
+        25.037,
+        121.518
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "總統直選",
+      "李登輝",
+      "民主化",
+      "選舉"
+    ],
+    "relatedEvents": [
+      "lift-martial-law",
+      "wild-lily",
+      "power-transfer"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "power-transfer",
+    "title": "首次政黨輪替",
+    "description": "2000年5月20日陳水扁就任總統，民進黨首次執政，實現臺灣首次和平政黨輪替。",
+    "date": {
+      "start": "2000-05-20",
+      "end": "2000-05-20",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "總統府（臺北市中正區）",
+      "coordinates": [
+        25.04,
+        121.512
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "政黨輪替",
+      "陳水扁",
+      "民進黨",
+      "民主"
+    ],
+    "relatedEvents": [
+      "direct-election"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科九年級上冊 臺灣近現代史"
+      ]
+    }
+  },
+  {
+    "id": "sunflower-movement",
+    "title": "太陽花學運",
+    "description": "2014年3月學生因反對兩岸服務貿易協議審查程序，佔領立法院24天，影響後續兩岸政策走向。",
+    "date": {
+      "start": "2014-03-18",
+      "end": "2014-04-10",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "立法院（臺北市中正區）",
+      "coordinates": [
+        25.043,
+        121.52
+      ],
+      "adminDivisions": [
+        "臺北市",
+        "中正區"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "公民"
+    ],
+    "keywords": [
+      "太陽花",
+      "服貿",
+      "學運",
+      "佔領立法院"
+    ],
+    "relatedEvents": [
+      "wild-lily",
+      "power-transfer"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "概念解釋",
+        "價值辨析"
+      ],
+      "textbookReferences": [
+        "社會科九年級下冊 臺灣近現代史"
+      ]
+    }
   }
 ]
