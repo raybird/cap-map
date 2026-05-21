@@ -2,7 +2,7 @@ import { createAction, props } from '@ngrx/store';
 
 export const setCurrentPeriod = createAction(
   '[Timeline] Set Current Period',
-  props<{ periodId: string }>()
+  props<{ periodId: string | null }>()
 );
 
 export const loadTimelinePeriods = createAction(

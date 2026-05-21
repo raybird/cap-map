@@ -7,7 +7,7 @@ import * as MapActions from '../store/actions/map.actions';
 import { selectPeriods, selectCurrentPeriodId, selectTimelineLoading, selectTimelineError } from '../store/selectors/timeline.selectors';
 import { selectEvents } from '../store/selectors/event.selectors';
 import { Subscription, Observable, combineLatest } from 'rxjs';
-import { map, tap } from 'rxjs/operators';
+import { map, tap, first } from 'rxjs/operators';
 
 @Component({
   selector: 'app-timeline',
@@ -90,7 +90,10 @@ export class TimelineComponent implements OnInit, OnDestroy {
   }
 
   onPeriodClick(period: any): void {
-    this.store.dispatch(TimelineActions.setCurrentPeriod({ periodId: period.id }));
+    this.currentPeriodId$.pipe(first()).subscribe(currentId => {
+      const periodId = currentId === period.id ? null : period.id;
+      this.store.dispatch(TimelineActions.setCurrentPeriod({ periodId }));
+    });
   }
 
   onScroll(): void {}
