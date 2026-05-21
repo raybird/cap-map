@@ -84,6 +84,7 @@ export class MapContainerComponent implements OnInit, OnDestroy {
       if (event.location && event.location.coordinates) {
         const [lat, lng] = event.location.coordinates;
         const marker = L.marker([lat, lng], { icon: this.createInkIcon() });
+        (marker as any)._eventId = event.id;
 
         const popupContent = `<div class="marker-popup">
           <h3>${event.title}</h3>
