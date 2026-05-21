@@ -960,6 +960,54 @@
     }
   },
   {
+    "id": "ming-qing-sea-ban",
+    "title": "明清海禁與通商變化",
+    "description": "明朝實施海禁限制民間出海貿易，清朝雖曾短暫開放，後又設立廣州一口通商制度，直至鴉片戰爭後才全面開放通商口岸。",
+    "date": {
+      "start": "1433-01-01",
+      "end": "1757-12-31",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "廣州",
+      "coordinates": [
+        23.13,
+        113.26
+      ],
+      "adminDivisions": [
+        "中國",
+        "廣東省",
+        "廣州市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理"
+    ],
+    "keywords": [
+      "海禁",
+      "廣州一口通商",
+      "通商政策",
+      "對外貿易"
+    ],
+    "relatedEvents": [
+      "zheng-he-voyages",
+      "opium-war",
+      "dutch-zeelandia"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "概念解釋"
+      ],
+      "textbookReferences": [
+        "社會科八年級上冊 中國史"
+      ]
+    }
+  },
+  {
     "id": "age-of-discovery",
     "title": "地理大發現",
     "description": "歐洲各國在十五、十六世紀進行遠洋航行，開啟新航路，改變全球貿易、殖民與文化交流格局。",
@@ -1592,6 +1640,50 @@
     }
   },
   {
+    "id": "congress-of-vienna",
+    "title": "維也納會議",
+    "description": "拿破崙戰爭後，歐洲列強召開維也納會議重劃政治版圖，確立保守秩序與勢力均衡原則，影響此後歐洲政治格局。",
+    "date": {
+      "start": "1814-09-01",
+      "end": "1815-06-09",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "維也納",
+      "coordinates": [
+        48.21,
+        16.37
+      ],
+      "adminDivisions": [
+        "奧地利"
+      ]
+    },
+    "categories": [
+      "歷史"
+    ],
+    "keywords": [
+      "維也納會議",
+      "勢力均衡",
+      "保守主義",
+      "歐洲秩序"
+    ],
+    "relatedEvents": [
+      "french-revolution",
+      "imperialism"
+    ],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": [
+        "概念解釋",
+        "因果分析"
+      ],
+      "textbookReferences": [
+        "社會科八年級下冊 世界史"
+      ]
+    }
+  },
+  {
     "id": "opium-war",
     "title": "鴉片戰爭",
     "description": "英國與清朝因通商與鴉片問題爆發戰爭，清朝戰敗後簽訂不平等條約，成為中國近代史的重要轉折。",
@@ -2048,6 +2140,53 @@
       "questionTypes": [
         "概念解釋",
         "圖表判讀"
+      ],
+      "textbookReferences": [
+        "社會科七年級下冊 臺灣史"
+      ]
+    }
+  },
+  {
+    "id": "taiwan-province",
+    "title": "臺灣建省",
+    "description": "1885年清廷正式將臺灣升格為省，任命劉銘傳為首任巡撫，強化對臺管治並推動鐵路、電報等現代化建設。",
+    "date": {
+      "start": "1885-10-12",
+      "end": "1895-05-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺北（臺灣省城）",
+      "coordinates": [
+        25.037,
+        121.515
+      ],
+      "adminDivisions": [
+        "臺北市"
+      ]
+    },
+    "categories": [
+      "歷史",
+      "地理",
+      "公民"
+    ],
+    "keywords": [
+      "臺灣建省",
+      "劉銘傳",
+      "巡撫",
+      "清廷治臺"
+    ],
+    "relatedEvents": [
+      "mudan-incident",
+      "liu-mingchuan",
+      "sino-french-war-taiwan"
+    ],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": [
+        "因果分析",
+        "概念解釋"
       ],
       "textbookReferences": [
         "社會科七年級下冊 臺灣史"
