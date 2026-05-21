@@ -88,7 +88,7 @@
       <h4>相關事件</h4>
       <div class="related-list">
         <div class="related-item" *ngFor="let relId of event.relatedEvents">
-          <span class="rel-title">{{ relId }}</span>
+          <span class="rel-title">{{ getEventTitle(relId) }}</span>
         </div>
       </div>
     </div>

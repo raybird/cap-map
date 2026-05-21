@@ -93,6 +93,10 @@ export class EventSidebarComponent implements OnInit, OnDestroy {
            this.selectedAnswers.every(a => a !== null);
   }
 
+  getEventTitle(id: string): string {
+    return this.allEvents.find(e => e.id === id)?.title ?? id;
+  }
+
   closeSidebar(): void {
     this.store.dispatch(EventActions.clearSelectedEvent());
     this.store.dispatch(MapActions.clearSelectedEvent());
