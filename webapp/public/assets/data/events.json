@@ -8,7 +8,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["舊石器時代", "八仙洞", "長濱文化", "打製石器"],
     "relatedEvents": ["peinan-culture"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 第1章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "peinan-culture",
@@ -19,7 +19,7 @@
     "categories": ["歷史", "地理", "公民"],
     "keywords": ["新石器時代", "卑南文化", "玉器", "石板棺"],
     "relatedEvents": ["changbin-culture", "shihsanhang-culture"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 第1章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "shihsanhang-culture",
@@ -30,7 +30,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["金石並用", "煉鐵", "貿易", "十三行"],
     "relatedEvents": ["peinan-culture"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級上冊 第1章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "dutch-zeelandia",
@@ -41,7 +41,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["荷蘭", "熱蘭遮城", "東印度公司", "安平"],
     "relatedEvents": ["spanish-kelang", "zheng-expel-dutch"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "spanish-kelang",
@@ -52,7 +52,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["西班牙", "基隆", "和平島", "聖薩爾瓦多"],
     "relatedEvents": ["dutch-zeelandia"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "guo-huaiyi-revolt",
@@ -63,7 +63,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["郭懷一", "抗荷", "農民起義"],
     "relatedEvents": ["dutch-zeelandia", "zheng-expel-dutch"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "zheng-expel-dutch",
@@ -74,7 +74,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["鄭成功", "驅逐荷蘭", "熱蘭遮城", "揆一"],
     "relatedEvents": ["dutch-zeelandia", "zheng-tuntian"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "zheng-tuntian",
@@ -85,7 +85,7 @@
     "categories": ["歷史", "地理", "公民"],
     "keywords": ["屯田", "寓兵於農", "農業開發", "營盤田"],
     "relatedEvents": ["zheng-expel-dutch", "qing-annex-taiwan"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "qing-annex-taiwan",
@@ -96,7 +96,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["施琅", "澎湖", "鄭克塽", "清朝", "納入版圖"],
     "relatedEvents": ["zheng-tuntian", "qing-cross-strait"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科七年級上冊 臺灣史"] }
   },
   {
     "id": "qing-cross-strait",
@@ -107,7 +107,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["渡臺禁令", "移民", "偷渡", "福建"],
     "relatedEvents": ["qing-annex-taiwan", "lin-shuang-wen"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
   },
   {
     "id": "lin-shuang-wen",
@@ -118,7 +118,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["林爽文", "天地會", "民變", "福康安"],
     "relatedEvents": ["qing-cross-strait"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["因果分析"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
   },
   {
     "id": "dagou-port",
@@ -129,7 +129,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["開港通商", "打狗", "糖", "茶葉", "樟腦"],
     "relatedEvents": ["tamsui-open", "japanese-1895"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
   },
   {
     "id": "tamsui-open",
@@ -140,7 +140,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["淡水", "開港", "茶葉", "洋行", "馬偕"],
     "relatedEvents": ["dagou-port", "mackay-mission"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
   },
   {
     "id": "mackay-mission",
@@ -151,7 +151,7 @@
     "categories": ["歷史", "地理", "公民"],
     "keywords": ["馬偕", "傳教士", "淡水", "醫療", "教育"],
     "relatedEvents": ["tamsui-open"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
   },
   {
     "id": "taipei-city-wall",
@@ -162,7 +162,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["臺北建城", "城門", "劉銘傳", "北門"],
     "relatedEvents": ["liu-mingchuan", "japanese-1895"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
   },
   {
     "id": "liu-mingchuan",
@@ -173,7 +173,7 @@
     "categories": ["歷史", "地理", "公民"],
     "keywords": ["劉銘傳", "臺灣建省", "鐵路", "現代化"],
     "relatedEvents": ["taipei-city-wall", "japanese-1895"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科七年級下冊 第4章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
   },
   {
     "id": "japanese-1895",
@@ -184,7 +184,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["馬關條約", "甲午戰爭", "割讓", "日治"],
     "relatedEvents": ["liu-mingchuan", "taiwan-republic"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "taiwan-republic",
@@ -195,7 +195,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["臺灣民主國", "唐景崧", "抗日", "藍地黃虎旗"],
     "relatedEvents": ["japanese-1895", "bagua-mountain"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "bagua-mountain",
@@ -206,7 +206,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["八卦山", "乙未戰爭", "義軍", "抗日"],
     "relatedEvents": ["taiwan-republic"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "hsinchu-railway",
@@ -217,7 +217,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["縱貫鐵路", "交通", "現代化", "基隆", "高雄"],
     "relatedEvents": ["japanese-1895"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "taichung-park",
@@ -228,7 +228,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["市區改正", "都市計畫", "棋盤式街道", "臺中"],
     "relatedEvents": ["hsinchu-railway"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["圖表判讀"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "chiayi-tapani",
@@ -239,7 +239,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["西來庵", "余清芳", "抗日", "噍吧哖"],
     "relatedEvents": ["japanese-1895", "wushe-incident"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析"], "textbookReferences": ["社會科八年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "wushe-incident",
@@ -250,7 +250,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["霧社", "莫那魯道", "賽德克族", "原住民", "抗日"],
     "relatedEvents": ["chiayi-tapani"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科八年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "taihoku-imperial",
@@ -261,7 +261,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["帝國大學", "教育", "臺大", "高等教育"],
     "relatedEvents": ["japanese-1895"],
-    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科八年級上冊 第2章"] }
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "wwii-taiwan",
@@ -272,7 +272,7 @@
     "categories": ["歷史", "地理"],
     "keywords": ["二戰", "轟炸", "南進基地", "日本投降"],
     "relatedEvents": ["japanese-1895", "feb28-incident"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科八年級下冊 第1章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "feb28-incident",
@@ -283,18 +283,18 @@
     "categories": ["歷史", "公民"],
     "keywords": ["二二八", "緝菸", "衝突", "清鄉", "戒嚴"],
     "relatedEvents": ["wwii-taiwan", "martial-law"],
-    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "價值辨析"], "textbookReferences": ["社會科八年級下冊 第1章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "martial-law",
-    "title": "戒嚴時期",
+    "title": "戒嚴令發布",
     "description": "1949年5月20日臺灣實施戒嚴，限制憲法保障的基本人權，白色恐怖期間許多政治犯遭逮捕審判，長達38年。",
     "date": { "start": "1949-05-20", "end": "1987-07-15", "period": "戰後時期", "periodId": "postwar" },
     "location": { "name": "臺灣全島", "coordinates": [23.7, 121.0], "adminDivisions": ["臺灣省"] },
     "categories": ["歷史", "公民"],
     "keywords": ["戒嚴", "白色恐怖", "人權", "黨禁"],
     "relatedEvents": ["feb28-incident", "lift-martial-law"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科八年級下冊 第1章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "land-reform",
@@ -305,7 +305,7 @@
     "categories": ["歷史", "地理", "公民"],
     "keywords": ["三七五減租", "公地放領", "耕者有其田", "土地改革"],
     "relatedEvents": ["economic-miracle"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科八年級下冊 第2章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "圖表判讀"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "economic-miracle",
@@ -316,18 +316,18 @@
     "categories": ["歷史", "地理", "公民"],
     "keywords": ["經濟奇蹟", "加工出口區", "十大建設", "工業化"],
     "relatedEvents": ["land-reform", "lift-martial-law"],
-    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科八年級下冊 第2章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["圖表判讀", "概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "lift-martial-law",
-    "title": "解嚴",
+    "title": "臺灣解嚴",
     "description": "1987年7月15日蔣經國總統宣布解嚴，結束38年戒嚴統治，開放黨禁報禁，臺灣邁入民主化新階段。",
     "date": { "start": "1987-07-15", "end": "1987-07-15", "period": "民主化時期", "periodId": "democratization" },
     "location": { "name": "臺北（中華民國總統府）", "coordinates": [25.04, 121.512], "adminDivisions": ["臺北市", "中正區"] },
     "categories": ["歷史", "公民"],
     "keywords": ["解嚴", "蔣經國", "黨禁", "報禁", "民主化"],
     "relatedEvents": ["martial-law", "direct-election"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "wild-lily",
@@ -338,7 +338,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["野百合", "學運", "國會改革", "萬年國代"],
     "relatedEvents": ["lift-martial-law", "direct-election"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "direct-election",
@@ -349,18 +349,18 @@
     "categories": ["歷史", "公民"],
     "keywords": ["總統直選", "李登輝", "民主化", "選舉"],
     "relatedEvents": ["lift-martial-law", "wild-lily", "power-transfer"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "power-transfer",
-    "title": "政黨輪替",
+    "title": "首次政黨輪替",
     "description": "2000年5月20日陳水扁就任總統，民進黨首次執政，實現臺灣首次和平政黨輪替。",
     "date": { "start": "2000-05-20", "end": "2000-05-20", "period": "當代", "periodId": "contemporary" },
     "location": { "name": "總統府（臺北市中正區）", "coordinates": [25.04, 121.512], "adminDivisions": ["臺北市", "中正區"] },
     "categories": ["歷史", "公民"],
     "keywords": ["政黨輪替", "陳水扁", "民進黨", "民主"],
     "relatedEvents": ["direct-election"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 第3章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   },
   {
     "id": "sunflower-movement",
@@ -371,7 +371,7 @@
     "categories": ["歷史", "公民"],
     "keywords": ["太陽花", "服貿", "學運", "佔領立法院"],
     "relatedEvents": ["wild-lily", "power-transfer"],
-    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級下冊 第2章"] }
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級下冊 臺灣近現代史"] }
   },
   {
     "id": "yellow-river-agriculture",
@@ -724,5 +724,82 @@
     "keywords": ["冷戰", "美蘇對立", "柏林", "意識形態"],
     "relatedEvents": ["un-founded", "martial-law"],
     "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科八年級下冊 世界史"] }
+  },
+  {
+    "id": "mudan-incident",
+    "title": "牡丹社事件",
+    "description": "琉球船民在臺灣南部遇害後，日本以此為由出兵臺灣，促使清廷更重視臺灣防務與治理。",
+    "date": { "start": "1874-05-01", "end": "1874-12-31", "period": "近代變革", "periodId": "industrial-age" },
+    "location": { "name": "牡丹社（今屏東縣牡丹鄉）", "coordinates": [22.15, 120.79], "adminDivisions": ["屏東縣", "牡丹鄉"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["牡丹社事件", "日本出兵", "琉球", "臺灣防務"],
+    "relatedEvents": ["shen-baozhen-taiwan", "sino-french-war-taiwan"],
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
+  },
+  {
+    "id": "shen-baozhen-taiwan",
+    "title": "沈葆楨來臺與開山撫番",
+    "description": "牡丹社事件後，清廷派沈葆楨來臺推動開山撫番、設防與交通建設，強化對臺治理。",
+    "date": { "start": "1874-07-01", "end": "1875-12-31", "period": "近代變革", "periodId": "industrial-age" },
+    "location": { "name": "恆春", "coordinates": [22.0, 120.74], "adminDivisions": ["屏東縣", "恆春鎮"] },
+    "categories": ["歷史", "地理", "公民"],
+    "keywords": ["沈葆楨", "開山撫番", "防務", "清廷治臺"],
+    "relatedEvents": ["mudan-incident", "liu-mingchuan"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
+  },
+  {
+    "id": "sino-french-war-taiwan",
+    "title": "清法戰爭在臺灣",
+    "description": "清法戰爭期間，法軍進攻基隆與淡水，臺灣防務的重要性提升，也成為之後建省的背景之一。",
+    "date": { "start": "1884-08-01", "end": "1885-04-01", "period": "近代變革", "periodId": "industrial-age" },
+    "location": { "name": "滬尾（今新北市淡水區）", "coordinates": [25.17, 121.44], "adminDivisions": ["新北市", "淡水區"] },
+    "categories": ["歷史", "地理"],
+    "keywords": ["清法戰爭", "基隆", "淡水", "臺灣防務"],
+    "relatedEvents": ["mudan-incident", "liu-mingchuan", "tamsui-open"],
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "圖表判讀"], "textbookReferences": ["社會科七年級下冊 臺灣史"] }
+  },
+  {
+    "id": "law-63",
+    "title": "六三法",
+    "description": "日本在臺實施六三法，授權總督府發布具有法律效力的命令，顯示殖民統治的高度集權性。",
+    "date": { "start": "1896-03-31", "end": "1906-03-31", "period": "近代變革", "periodId": "industrial-age" },
+    "location": { "name": "臺北", "coordinates": [25.04, 121.51], "adminDivisions": ["臺北市"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["六三法", "總督府", "殖民統治", "法律"],
+    "relatedEvents": ["japanese-1895", "taiwan-republic"],
+    "examRelevance": { "importance": "medium", "questionTypes": ["概念解釋", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
+  },
+  {
+    "id": "kominka-movement",
+    "title": "皇民化運動",
+    "description": "二戰前後日本在臺推動皇民化運動，透過語言、宗教與姓名政策強化殖民同化。",
+    "date": { "start": "1937-07-07", "end": "1945-08-15", "period": "近代變革", "periodId": "industrial-age" },
+    "location": { "name": "臺北", "coordinates": [25.04, 121.51], "adminDivisions": ["臺北市"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["皇民化", "同化政策", "日治", "殖民統治"],
+    "relatedEvents": ["japanese-1895", "wwii-taiwan", "retrocession-taiwan"],
+    "examRelevance": { "importance": "high", "questionTypes": ["概念解釋", "因果分析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
+  },
+  {
+    "id": "retrocession-taiwan",
+    "title": "戰後接收臺灣",
+    "description": "第二次世界大戰結束後，中華民國政府接收臺灣，臺灣正式脫離日本統治，進入戰後新局。",
+    "date": { "start": "1945-10-25", "end": "1945-10-25", "period": "近代變革", "periodId": "industrial-age" },
+    "location": { "name": "臺北公會堂（今中山堂）", "coordinates": [25.04, 121.51], "adminDivisions": ["臺北市", "中正區"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["光復", "接收臺灣", "戰後", "政權轉移"],
+    "relatedEvents": ["second-world-war", "feb28-incident"],
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "概念解釋"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
+  },
+  {
+    "id": "formosa-incident",
+    "title": "美麗島事件",
+    "description": "黨外人士於高雄舉辦集會遭鎮壓，美麗島事件成為臺灣民主化的重要轉折與反對運動象徵。",
+    "date": { "start": "1979-12-10", "end": "1980-04-18", "period": "戰後時期", "periodId": "postwar" },
+    "location": { "name": "高雄市", "coordinates": [22.63, 120.3], "adminDivisions": ["高雄市"] },
+    "categories": ["歷史", "公民"],
+    "keywords": ["美麗島事件", "黨外", "民主運動", "高雄"],
+    "relatedEvents": ["martial-law", "lift-martial-law"],
+    "examRelevance": { "importance": "high", "questionTypes": ["因果分析", "價值辨析"], "textbookReferences": ["社會科九年級上冊 臺灣近現代史"] }
   }
 ]
