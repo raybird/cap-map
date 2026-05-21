@@ -81,17 +81,26 @@ export class QuizService {
   }
 
   private buildSequenceQuestion(event: any, allEvents: any[]): QuizQuestion | null {
-    const relatedIds = event.relatedEvents || [];
-    if (relatedIds.length === 0) return null;
-    const related = allEvents.find(e => e.id === relatedIds[0]);
-    if (!related) return null;
-    const correct = related.title;
-    const others: string[] = allEvents
-      .filter(e => e.id !== event.id && e.id !== related.id)
-      .slice(0, 3)
-      .map(e => e.title);
-    if (others.length < 3) return null;
-    const options: string[] = this.shuffle([...others, correct]);
+    const eventYear = this.parseYear(event.date?.start);
+    if (eventYear === null) return null;
+
+    const next = allEvents
+      .filter(e => e.id !== event.id)
+      .map(e => ({ event: e, year: this.parseYear(e.date?.start) }))
+      .filter(e => e.year !== null && e.year > eventYear)
+      .sort((a, b) => (a.year as number) - (b.year as number))[0]?.event;
+
+    if (!next) return null;
+    const correct = next.title;
+
+    const distractors: string[] = this.shuffle(
+      allEvents
+        .filter(e => e.id !== event.id && e.id !== next.id)
+        .map(e => e.title)
+    ).slice(0, 3);
+    if (distractors.length < 3) return null;
+
+    const options: string[] = this.shuffle([...distractors, correct]);
     return {
       id: `sequence-${event.id}`,
       type: 'sequence',
@@ -99,6 +108,16 @@ export class QuizService {
       options,
       correctAnswer: correct
     };
+  }
+
+  private parseYear(dateStr: string | undefined): number | null {
+    if (!dateStr) return null;
+    if (dateStr.startsWith('-')) {
+      const year = parseInt(dateStr.substring(1).split('-')[0], 10);
+      return isNaN(year) ? null : -year;
+    }
+    const year = parseInt(dateStr.split('-')[0], 10);
+    return isNaN(year) ? null : year;
   }
 
   private shuffle<T>(arr: T[]): T[] {
