@@ -72,13 +72,12 @@ export class MapContainerComponent implements OnInit, OnDestroy {
   }
 
   private getCategoryColor(categories: string[]): string {
-    if (categories.includes('歷史')) return '#c41e3a';
     if (categories.includes('地理')) return '#3a87bc';
     if (categories.includes('公民')) return '#5a9a3a';
     return '#c41e3a';
   }
 
-  private createInkIcon(color: string = '#c41e3a', size: number = 18): L.DivIcon {
+  private createInkIcon(color: string = '#c41e3a', size: number = 26): L.DivIcon {
     return L.divIcon({
       className: 'ink-marker',
       html: `<div class="ink-marker-inner" style="width:${size}px;height:${size}px;">

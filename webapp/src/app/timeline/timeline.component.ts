@@ -129,7 +129,6 @@ export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
 
   getEventColor(event: any): string {
     const cats: string[] = event.categories ?? [];
-    if (cats.includes('歷史')) return '#c41e3a';
     if (cats.includes('地理')) return '#3a87bc';
     if (cats.includes('公民')) return '#5a9a3a';
     return '#c41e3a';

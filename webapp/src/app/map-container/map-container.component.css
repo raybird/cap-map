@@ -97,7 +97,7 @@
 
 ::ng-deep .selected-marker .ink-marker-inner {
   transform: scale(1.5);
-  filter: drop-shadow(0 0 8px rgba(196, 30, 58, 0.55)) drop-shadow(0 0 18px rgba(196, 30, 58, 0.3));
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.5)) drop-shadow(0 0 16px rgba(0, 0, 0, 0.25));
 }
 
 ::ng-deep .dimmed-marker .ink-marker-inner {
