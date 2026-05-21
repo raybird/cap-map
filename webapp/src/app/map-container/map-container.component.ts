@@ -1,11 +1,11 @@
-import { Component, OnInit, OnDestroy, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import * as L from 'leaflet';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
-import { selectEvent, clearSelectedEvent } from '../store/actions/map.actions';
+import { selectEvent } from '../store/actions/map.actions';
 import * as EventActions from '../store/actions/event.actions';
-import { selectMapEvents, selectSelectedEventId, selectMapActiveLayers } from '../store/selectors/map.selectors';
-import { Subscription, Observable } from 'rxjs';
+import { selectMapEvents, selectSelectedEventId } from '../store/selectors/map.selectors';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-map-container',
