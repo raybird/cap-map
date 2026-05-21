@@ -14,9 +14,9 @@
           <input type="checkbox"
                  [checked]="activeLayers.includes(layer.id)"
                  (change)="toggleLayer(layer.id)">
+          <span class="layer-dot" [style.background-color]="layer.color"></span>
           <span class="layer-name">{{ layer.name }}</span>
         </label>
-        <div class="layer-desc">{{ layer.description }}</div>
       </div>
     </ng-container>
   </div>

@@ -11,6 +11,9 @@
     (mousemove)="onMouseMove($event)"
     (mouseup)="onDragEnd()"
     (mouseleave)="onDragEnd()"
+    (touchstart)="onTouchStart($event)"
+    (touchmove)="onTouchMove($event)"
+    (touchend)="onTouchEnd()"
     (scroll)="onScroll()">
     <div class="timeline-track" [style.width.px]="trackWidth">
 

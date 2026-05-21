@@ -4,7 +4,7 @@ import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import { selectEvent } from '../store/actions/map.actions';
 import * as EventActions from '../store/actions/event.actions';
-import { selectMapEvents, selectSelectedEventId } from '../store/selectors/map.selectors';
+import { selectMapEvents, selectSelectedEventId, selectMapActiveLayers } from '../store/selectors/map.selectors';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -18,6 +18,8 @@ export class MapContainerComponent implements OnInit, OnDestroy {
   private markers: L.LayerGroup = L.layerGroup();
   private selectedLayer: L.Layer | null = null;
   private currentSelectedEventId: string | null = null;
+  private currentEvents: any[] = [];
+  private activeLayers: string[] = ['歷史', '地理', '公民'];
   private eventSubscriptions: Subscription[] = [];
 
   constructor(private store: Store<AppState>) {}
@@ -61,6 +63,21 @@ export class MapContainerComponent implements OnInit, OnDestroy {
       this.highlightMarker(eventId);
     });
     this.eventSubscriptions.push(selectedEventSub);
+
+    const layersSub = this.store.select(selectMapActiveLayers).subscribe(layers => {
+      this.activeLayers = layers;
+      this.updateEventMarkers(this.currentEvents);
+    });
+    this.eventSubscriptions.push(layersSub);
+  }
+
+  private getCategoryColor(categories: string[]): string {
+    const hasGeo = categories.includes('地理');
+    const hasCivic = categories.includes('公民');
+    if (hasGeo && hasCivic) return '#c8863a';
+    if (hasGeo) return '#3a87bc';
+    if (hasCivic) return '#5a9a3a';
+    return '#c41e3a';
   }
 
   private createInkIcon(color: string = '#c41e3a', size: number = 18): L.DivIcon {
@@ -80,14 +97,22 @@ export class MapContainerComponent implements OnInit, OnDestroy {
   }
 
   private updateEventMarkers(events: any[]): void {
+    this.currentEvents = events;
     this.markers.clearLayers();
     this.selectedLayer = null;
 
-    events.forEach(event => {
+    const visibleEvents = events.filter(event =>
+      !event.categories?.length ||
+      event.categories.some((cat: string) => this.activeLayers.includes(cat))
+    );
+
+    visibleEvents.forEach(event => {
       if (event.location && event.location.coordinates) {
         const [lat, lng] = event.location.coordinates;
-        const marker = L.marker([lat, lng], { icon: this.createInkIcon() });
+        const color = this.getCategoryColor(event.categories ?? []);
+        const marker = L.marker([lat, lng], { icon: this.createInkIcon(color) });
         (marker as any)._eventId = event.id;
+        (marker as any)._coords = [lat, lng];
 
         const popupContent = `<div class="marker-popup">
           <h3>${event.title}</h3>
@@ -125,6 +150,16 @@ export class MapContainerComponent implements OnInit, OnDestroy {
       if ((layer as any)._eventId === eventId) {
         el.classList.add('selected-marker');
         this.selectedLayer = layer;
+        const coords = (layer as any)._coords;
+        if (coords) {
+          const targetZoom = Math.max(this.map.getZoom(), 11);
+          this.map.once('moveend', () => {
+            (layer as L.Marker).openPopup();
+          });
+          this.map.flyTo(coords, targetZoom, { animate: true, duration: 0.8 });
+        } else {
+          (layer as L.Marker).openPopup();
+        }
       } else {
         el.classList.add('dimmed-marker');
       }

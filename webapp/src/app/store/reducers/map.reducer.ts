@@ -10,7 +10,7 @@ export interface MapState {
 export const initialMapState: MapState = {
   events: [],
   selectedEventId: null,
-  activeLayers: []
+  activeLayers: ['歷史', '地理', '公民']
 };
 
 export const mapReducer = createReducer(

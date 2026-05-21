@@ -101,3 +101,12 @@
     height: 100px;
   }
 }
+
+@media (max-width: 480px) {
+  .bottom-overlay {
+    height: 90px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+  }
+}

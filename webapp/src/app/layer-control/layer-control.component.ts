@@ -16,12 +16,9 @@ export class LayerControlComponent implements OnInit {
   isOpen = false;
 
   availableLayers = [
-    { id: 'terrain', name: '地形圖', description: '顯示海拔和地形資訊' },
-    { id: 'climate', name: '氣候圖', description: '顯示雨量與溫度分布' },
-    { id: 'boundaries', name: '行政區劃', description: '顯示各時期行政界線變化' },
-    { id: 'economy', name: '經濟發展', description: '顯示產業與資源分布' },
-    { id: 'population', name: '人口分布', description: '顯示歷史人口密度與遷移' },
-    { id: 'transportation', name: '交通網絡', description: '顯示歷史路線與港口' }
+    { id: '歷史', name: '歷史事件', color: '#c41e3a' },
+    { id: '地理', name: '地理事件', color: '#3a87bc' },
+    { id: '公民', name: '公民事件', color: '#5a9a3a' },
   ];
 
   constructor(private store: Store<AppState>) {}

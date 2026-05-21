@@ -168,3 +168,9 @@
   color: var(--color-seal);
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  .search-results-container {
+    max-height: 45vh;
+  }
+}

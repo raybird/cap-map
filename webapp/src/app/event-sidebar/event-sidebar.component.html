@@ -1,4 +1,5 @@
 <div class="event-card" *ngIf="(selectedEvent$ | async) as event">
+  <div class="drag-handle"></div>
   <div class="card-header">
     <div class="header-left">
       <div class="dynasty-badge">{{ event.date?.period || '' }}</div>

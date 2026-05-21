@@ -127,10 +127,15 @@
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-.layer-desc {
-  font-size: 0.72rem;
-  color: #8c7b70;
-  margin-top: 4px;
-  margin-left: 23px;
-  line-height: 1.4;
+.layer-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .layer-panel {
+    width: calc(100vw - 32px);
+  }
 }

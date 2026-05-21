@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
+import { Component, OnInit, OnDestroy, AfterViewInit, ElementRef, ViewChild, HostListener } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as TimelineActions from '../store/actions/timeline.actions';
@@ -6,6 +6,7 @@ import * as EventActions from '../store/actions/event.actions';
 import * as MapActions from '../store/actions/map.actions';
 import { selectPeriods, selectCurrentPeriodId, selectTimelineLoading, selectTimelineError } from '../store/selectors/timeline.selectors';
 import { selectEvents, selectSelectedEvent } from '../store/selectors/event.selectors';
+import { selectMapEvents } from '../store/selectors/map.selectors';
 import { Subscription, Observable, combineLatest } from 'rxjs';
 import { map, tap, first, filter } from 'rxjs/operators';
 
@@ -40,6 +41,9 @@ export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
   private dragScrollLeft = 0;
   private hasDragged = false;
   private readonly DRAG_THRESHOLD = 5;
+  private touchStartX = 0;
+  private currentEvents: any[] = [];
+  private currentSelectedEventId: string | null = null;
 
   constructor(
     private store: Store<AppState>,
@@ -67,6 +71,16 @@ export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
         this.store.dispatch(MapActions.setMapEvents({ events: filtered }));
       })
     );
+
+    const mapEventsSub = this.store.select(selectMapEvents).subscribe(events => {
+      this.currentEvents = events;
+    });
+    this.subscriptions.push(mapEventsSub);
+
+    const selectedIdSub = this.store.select(selectSelectedEvent).subscribe(event => {
+      this.currentSelectedEventId = event?.id ?? null;
+    });
+    this.subscriptions.push(selectedIdSub);
   }
 
   ngAfterViewInit(): void {
@@ -114,6 +128,12 @@ export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   getEventColor(event: any): string {
+    const cats: string[] = event.categories ?? [];
+    const hasGeo = cats.includes('地理');
+    const hasCivic = cats.includes('公民');
+    if (hasGeo && hasCivic) return '#c8863a';
+    if (hasGeo) return '#3a87bc';
+    if (hasCivic) return '#5a9a3a';
     return '#c41e3a';
   }
 
@@ -153,6 +173,36 @@ export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
 
   onDragEnd(): void {
     this.isDragging = false;
+  }
+
+  onTouchStart(e: TouchEvent): void {
+    this.hasDragged = false;
+    this.touchStartX = e.touches[0].clientX;
+  }
+
+  onTouchMove(e: TouchEvent): void {
+    const walk = Math.abs(e.touches[0].clientX - this.touchStartX);
+    if (walk > this.DRAG_THRESHOLD) this.hasDragged = true;
+  }
+
+  onTouchEnd(): void {
+    // hasDragged is consumed by click handler
+  }
+
+  @HostListener('document:keydown', ['$event'])
+  onKeyDown(e: KeyboardEvent): void {
+    if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+    if (!this.currentEvents.length) return;
+    const sorted = [...this.currentEvents].sort((a, b) =>
+      this.getEventYear(a) - this.getEventYear(b));
+    const idx = sorted.findIndex(ev => ev.id === this.currentSelectedEventId);
+    const next = e.key === 'ArrowLeft'
+      ? sorted[idx <= 0 ? sorted.length - 1 : idx - 1]
+      : sorted[idx >= sorted.length - 1 ? 0 : idx + 1];
+    if (next) {
+      this.store.dispatch(EventActions.selectEvent({ eventId: next.id }));
+      this.store.dispatch(MapActions.selectEvent({ eventId: next.id }));
+    }
   }
 
   onScroll(): void {
