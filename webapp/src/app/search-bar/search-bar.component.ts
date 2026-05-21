@@ -29,8 +29,6 @@ export class SearchBarComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-    this.store.dispatch(EventActions.loadEvents());
-
     this.events$ = this.store.select(EventSelectors.selectEvents);
     this.loading$ = this.store.select(EventSelectors.selectEventLoading);
     this.error$ = this.store.select(EventSelectors.selectEventError);

@@ -40,9 +40,6 @@ export class TimelineComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.store.dispatch(TimelineActions.loadTimelinePeriods());
-    this.store.dispatch(EventActions.loadEvents());
-
     this.periods$ = this.store.select(selectPeriods);
     this.currentPeriodId$ = this.store.select(selectCurrentPeriodId);
     this.loading$ = this.store.select(selectTimelineLoading);

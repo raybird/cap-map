@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { MapContainerComponent } from './map-container/map-container.component';
-import { TimelineComponent } from './timeline/timeline.component';
+import { Component, OnInit } from '@angular/core';
+import { EventService } from './services/event.service';
+import { TimelineService } from './services/timeline.service';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +8,19 @@ import { TimelineComponent } from './timeline/timeline.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'cap-map';
   showExamMode = false;
+
+  constructor(
+    private eventService: EventService,
+    private timelineService: TimelineService
+  ) {}
+
+  ngOnInit(): void {
+    this.eventService.loadEvents();
+    this.timelineService.loadTimelinePeriods();
+  }
 
   toggleExamMode(): void {
     this.showExamMode = !this.showExamMode;
