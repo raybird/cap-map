@@ -7,7 +7,7 @@ import * as MapActions from '../store/actions/map.actions';
 import { selectPeriods, selectCurrentPeriodId, selectTimelineLoading, selectTimelineError } from '../store/selectors/timeline.selectors';
 import { selectEvents } from '../store/selectors/event.selectors';
 import { Subscription, Observable, combineLatest } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { map, tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-timeline',
@@ -51,11 +51,12 @@ export class TimelineComponent implements OnInit, OnDestroy {
     ]).pipe(
       map(([events, periodId]) => {
         if (!events) return [];
-        const filtered = !periodId
+        return !periodId
           ? events
           : events.filter((e: any) => e.date?.periodId === periodId || !e.date?.periodId);
+      }),
+      tap(filtered => {
         this.store.dispatch(MapActions.setMapEvents({ events: filtered }));
-        return filtered;
       })
     );
   }
