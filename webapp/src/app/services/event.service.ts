@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as EventActions from '../store/actions/event.actions';
+import { HistoricalEvent } from '../models/event.model';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,7 @@ export class EventService {
   loadEvents(): void {
     this.store.dispatch(EventActions.loadEvents());
     
-    this.http.get<any[]>(this.eventsDataUrl).subscribe({
+    this.http.get<HistoricalEvent[]>(this.eventsDataUrl).subscribe({
       next: (events) => {
         this.store.dispatch(EventActions.loadEventsSuccess({ events }));
       },
