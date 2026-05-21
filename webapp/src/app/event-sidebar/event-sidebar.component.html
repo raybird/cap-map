@@ -1,4 +1,4 @@
-<div class="event-card" *ngIf="(selectedEvent$ | async) as event; else emptyTemplate">
+<div class="event-card" *ngIf="(selectedEvent$ | async) as event">
   <div class="card-header">
     <div class="header-left">
       <div class="dynasty-badge">{{ event.date?.period || '' }}</div>
@@ -94,15 +94,3 @@
     </div>
   </div>
 </div>
-
-<ng-template #emptyTemplate>
-  <div class="event-card">
-    <div class="card-header">
-      <h3>請選擇一個事件</h3>
-      <button class="close-btn" (click)="closeSidebar()">×</button>
-    </div>
-    <div class="card-meta">
-      <span>點擊地圖標記或搜尋事件以查看詳細資訊</span>
-    </div>
-  </div>
-</ng-template>

@@ -17,6 +17,7 @@ export class MapContainerComponent implements OnInit, OnDestroy {
   private map!: L.Map;
   private markers: L.LayerGroup = L.layerGroup();
   private selectedLayer: L.Layer | null = null;
+  private currentSelectedEventId: string | null = null;
   private eventSubscriptions: Subscription[] = [];
 
   constructor(private store: Store<AppState>) {}
@@ -56,6 +57,7 @@ export class MapContainerComponent implements OnInit, OnDestroy {
     this.eventSubscriptions.push(eventsSub);
 
     const selectedEventSub = this.store.select(selectSelectedEventId).subscribe(eventId => {
+      this.currentSelectedEventId = eventId;
       this.highlightMarker(eventId);
     });
     this.eventSubscriptions.push(selectedEventSub);
@@ -79,6 +81,7 @@ export class MapContainerComponent implements OnInit, OnDestroy {
 
   private updateEventMarkers(events: any[]): void {
     this.markers.clearLayers();
+    this.selectedLayer = null;
 
     events.forEach(event => {
       if (event.location && event.location.coordinates) {
@@ -100,26 +103,30 @@ export class MapContainerComponent implements OnInit, OnDestroy {
         this.markers.addLayer(marker);
       }
     });
+
+    this.highlightMarker(this.currentSelectedEventId);
   }
 
   private highlightMarker(eventId: string | null): void {
-    // Reset previously selected marker
-    if (this.selectedLayer) {
-      const el = (this.selectedLayer as any).getElement?.();
-      if (el) el.classList.remove('selected-marker');
-    }
-
-    if (!eventId) {
-      this.selectedLayer = null;
-      return;
-    }
-
-    // Find and highlight the matching marker
     this.markers.eachLayer((layer: L.Layer) => {
+      const el = (layer as any).getElement?.();
+      if (el) {
+        el.classList.remove('selected-marker');
+        el.classList.remove('dimmed-marker');
+      }
+    });
+    this.selectedLayer = null;
+
+    if (!eventId) return;
+
+    this.markers.eachLayer((layer: L.Layer) => {
+      const el = (layer as any).getElement?.();
+      if (!el) return;
       if ((layer as any)._eventId === eventId) {
-        const el = (layer as any).getElement?.();
-        if (el) el.classList.add('selected-marker');
+        el.classList.add('selected-marker');
         this.selectedLayer = layer;
+      } else {
+        el.classList.add('dimmed-marker');
       }
     });
   }

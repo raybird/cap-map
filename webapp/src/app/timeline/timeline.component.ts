@@ -1,13 +1,13 @@
-import { Component, OnInit, OnDestroy, ElementRef, ViewChild } from '@angular/core';
+import { Component, OnInit, OnDestroy, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as TimelineActions from '../store/actions/timeline.actions';
 import * as EventActions from '../store/actions/event.actions';
 import * as MapActions from '../store/actions/map.actions';
 import { selectPeriods, selectCurrentPeriodId, selectTimelineLoading, selectTimelineError } from '../store/selectors/timeline.selectors';
-import { selectEvents } from '../store/selectors/event.selectors';
+import { selectEvents, selectSelectedEvent } from '../store/selectors/event.selectors';
 import { Subscription, Observable, combineLatest } from 'rxjs';
-import { map, tap, first } from 'rxjs/operators';
+import { map, tap, first, filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-timeline',
@@ -15,7 +15,7 @@ import { map, tap, first } from 'rxjs/operators';
   styleUrls: ['./timeline.component.css'],
   standalone: false
 })
-export class TimelineComponent implements OnInit, OnDestroy {
+export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('scrollContainer') scrollContainer!: ElementRef;
 
   periods$!: Observable<any[]>;
@@ -24,14 +24,22 @@ export class TimelineComponent implements OnInit, OnDestroy {
   error$!: Observable<string | null>;
   events$!: Observable<any[]>;
 
-  minYear = -5000;
+  minYear = -6000;
   maxYear = 2025;
-  pixelsPerYear = 5;
-  trackWidth = (this.maxYear - this.minYear) * this.pixelsPerYear;
+  pixelsPerYear = 10;
+  readonly trackPadding = 200;
+  trackWidth = (this.maxYear - this.minYear) * this.pixelsPerYear + this.trackPadding * 2;
 
   yearTicks: { year: number; label: string; major: boolean }[] = [];
+  currentCenterYear = 0;
 
   private subscriptions: Subscription[] = [];
+
+  isDragging = false;
+  private dragStartX = 0;
+  private dragScrollLeft = 0;
+  private hasDragged = false;
+  private readonly DRAG_THRESHOLD = 5;
 
   constructor(
     private store: Store<AppState>,
@@ -61,12 +69,33 @@ export class TimelineComponent implements OnInit, OnDestroy {
     );
   }
 
+  ngAfterViewInit(): void {
+    const selectedSub = this.store.select(selectSelectedEvent).pipe(
+      filter(event => !!event)
+    ).subscribe(event => {
+      this.scrollToEvent(event);
+    });
+    this.subscriptions.push(selectedSub);
+  }
+
   ngOnDestroy(): void {
     this.subscriptions.forEach(sub => sub.unsubscribe());
   }
 
   getPixelPosition(year: number): number {
-    return (year - this.minYear) * this.pixelsPerYear;
+    return this.trackPadding + (year - this.minYear) * this.pixelsPerYear;
+  }
+
+  scrollToEvent(event: any): void {
+    if (!this.scrollContainer?.nativeElement) return;
+    const year = this.getEventYear(event);
+    const pixelPos = this.getPixelPosition(year);
+    const containerWidth = this.scrollContainer.nativeElement.clientWidth;
+    const targetScroll = pixelPos - containerWidth / 2;
+    this.scrollContainer.nativeElement.scrollTo({
+      left: Math.max(0, targetScroll),
+      behavior: 'smooth'
+    });
   }
 
   getPixelWidth(startYear: number, endYear: number): number {
@@ -74,7 +103,14 @@ export class TimelineComponent implements OnInit, OnDestroy {
   }
 
   getEventYear(event: any): number {
-    return parseInt(event.date?.start?.split('-')[0]) || this.minYear;
+    const dateStr: string | undefined = event.date?.start;
+    if (!dateStr) return this.minYear;
+    if (dateStr.startsWith('-')) {
+      const year = parseInt(dateStr.substring(1).split('-')[0], 10);
+      return isNaN(year) ? this.minYear : Math.max(-year, this.minYear);
+    }
+    const year = parseInt(dateStr.split('-')[0], 10);
+    return isNaN(year) ? this.minYear : year;
   }
 
   getEventColor(event: any): string {
@@ -86,26 +122,63 @@ export class TimelineComponent implements OnInit, OnDestroy {
   }
 
   onEventClick(eventItem: any): void {
+    if (this.hasDragged) { this.hasDragged = false; return; }
     this.store.dispatch(EventActions.selectEvent({ eventId: eventItem.id }));
+    this.store.dispatch(MapActions.selectEvent({ eventId: eventItem.id }));
   }
 
   onPeriodClick(period: any): void {
+    if (this.hasDragged) { this.hasDragged = false; return; }
     this.currentPeriodId$.pipe(first()).subscribe(currentId => {
       const periodId = currentId === period.id ? null : period.id;
       this.store.dispatch(TimelineActions.setCurrentPeriod({ periodId }));
     });
   }
 
-  onScroll(): void {}
+  onMouseDown(e: MouseEvent): void {
+    this.isDragging = true;
+    this.hasDragged = false;
+    this.dragStartX = e.pageX - this.scrollContainer.nativeElement.offsetLeft;
+    this.dragScrollLeft = this.scrollContainer.nativeElement.scrollLeft;
+  }
+
+  onMouseMove(e: MouseEvent): void {
+    if (!this.isDragging) return;
+    e.preventDefault();
+    const x = e.pageX - this.scrollContainer.nativeElement.offsetLeft;
+    const walk = x - this.dragStartX;
+    if (Math.abs(walk) > this.DRAG_THRESHOLD) this.hasDragged = true;
+    this.scrollContainer.nativeElement.scrollLeft = this.dragScrollLeft - walk;
+  }
+
+  onDragEnd(): void {
+    this.isDragging = false;
+  }
+
+  onScroll(): void {
+    if (!this.scrollContainer?.nativeElement) return;
+    const el = this.scrollContainer.nativeElement;
+    this.currentCenterYear = Math.round(
+      this.minYear + (el.scrollLeft + el.clientWidth / 2 - this.trackPadding) / this.pixelsPerYear
+    );
+  }
+
+  getEventStaggerTop(event: any, events: any[]): number {
+    const year = this.getEventYear(event);
+    const bucket = Math.floor(year / 5) * 5;
+    const inBucket = events.filter(e => Math.floor(this.getEventYear(e) / 5) * 5 === bucket);
+    const idx = inBucket.indexOf(event);
+    if (inBucket.length <= 1) return 50;
+    const positions = [30, 70, 15, 85, 50];
+    return positions[idx % positions.length];
+  }
 
   private generateYearTicks(): void {
     this.yearTicks = [];
-    for (let year = this.minYear; year <= this.maxYear; year += 500) {
-      this.yearTicks.push({
-        year,
-        label: year < 0 ? `公元前${Math.abs(year)}` : `${year}年`,
-        major: year % 1000 === 0
-      });
+    for (let year = this.minYear; year <= this.maxYear; year += 100) {
+      const absYear = Math.abs(year);
+      const label = year < 0 ? `前${absYear}` : `${year}`;
+      this.yearTicks.push({ year, label, major: year % 500 === 0 });
     }
   }
 }

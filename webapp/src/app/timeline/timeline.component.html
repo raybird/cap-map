@@ -1,6 +1,19 @@
 <div class="timeline-wrapper">
-  <div class="timeline-container" #scrollContainer (scroll)="onScroll()">
+  <div class="year-indicator" *ngIf="currentCenterYear !== 0">
+    {{ currentCenterYear < 0 ? '公元前' + (-currentCenterYear) : currentCenterYear + ' 年' }}
+  </div>
+
+  <div class="center-needle"></div>
+
+  <div class="timeline-container" #scrollContainer
+    [class.dragging]="isDragging"
+    (mousedown)="onMouseDown($event)"
+    (mousemove)="onMouseMove($event)"
+    (mouseup)="onDragEnd()"
+    (mouseleave)="onDragEnd()"
+    (scroll)="onScroll()">
     <div class="timeline-track" [style.width.px]="trackWidth">
+
       <!-- Dynasty bands -->
       <div class="dynasty-bands">
         <div class="dynasty-band"
@@ -17,11 +30,13 @@
       </div>
 
       <!-- Event dots -->
-      <div class="event-dots">
+      <div class="event-dots" *ngIf="events$ | async as events">
         <div class="event-dot"
-          *ngFor="let event of (events$ | async)"
+          *ngFor="let event of events"
           [style.left.px]="getPixelPosition(getEventYear(event))"
+          [style.top.%]="getEventStaggerTop(event, events)"
           [style.background-color]="getEventColor(event)"
+          [title]="event.title"
           (click)="onEventClick(event)">
         </div>
       </div>
