@@ -3469,5 +3469,389 @@
         "社會科九年級下冊 臺灣近現代史"
       ]
     }
+  },
+  {
+    "id": "tapenkeng-culture",
+    "title": "大坌坑文化",
+    "description": "臺灣新石器時代最具代表性的早期文化，距今約六千至四千年前，以粗繩紋陶器為特徵，分布遍及臺灣西部沿海與北部地區，是臺灣原住民族的共同祖先文化基礎之一。",
+    "date": {
+      "start": "-4000-01-01",
+      "end": "-2500-01-01",
+      "period": "史前時代",
+      "periodId": "prehistory"
+    },
+    "location": {
+      "name": "大坌坑遺址（新北市八里區）",
+      "coordinates": [25.14, 121.41],
+      "adminDivisions": ["新北市", "八里區"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["新石器時代", "大坌坑", "繩紋陶", "史前文化", "八里"],
+    "relatedEvents": ["changbin-culture", "peinan-culture", "shihsanhang-culture"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科七年級上冊 臺灣史"]
+    }
+  },
+  {
+    "id": "spring-autumn-warring",
+    "title": "春秋戰國與百家爭鳴",
+    "description": "東周時期（前770至前221年），諸侯割據、戰事頻繁，同時各家學說競相發展，儒、道、法、墨等百家爭鳴，奠定中國思想與政治的深厚基礎。",
+    "date": {
+      "start": "-0770-01-01",
+      "end": "-0221-01-01",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "東周王城洛邑（今河南洛陽）",
+      "coordinates": [34.68, 112.45],
+      "adminDivisions": ["中國", "河南省"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["春秋", "戰國", "百家爭鳴", "儒家", "道家", "法家", "孔子"],
+    "relatedEvents": ["qin-unification", "han-silk-road"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "ancient-india",
+    "title": "古印度文明",
+    "description": "印度河流域的哈拉帕文化是世界最早城市文明之一，其後恆河文明發展吠陀文化與婆羅門教，並在西元前5世紀誕生佛教，對亞洲文明影響深遠。",
+    "date": {
+      "start": "-2500-01-01",
+      "end": "-0300-01-01",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "恆河平原（今印度）",
+      "coordinates": [25.32, 83.0],
+      "adminDivisions": ["印度"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["古印度", "印度河文明", "哈拉帕", "恆河", "種姓制度", "佛教"],
+    "relatedEvents": ["buddhism-china"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "zhu-yigui-revolt",
+    "title": "朱一貴事件",
+    "description": "1721年臺灣南部爆發的大規模民變，朱一貴以「反清復明」為號召率眾起事，短暫佔領臺灣府城，後遭清廷平定，是清領時期三大民變之一。",
+    "date": {
+      "start": "1721-04-01",
+      "end": "1721-10-01",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "鳳山縣（今高雄市）",
+      "coordinates": [22.65, 120.31],
+      "adminDivisions": ["臺灣南部", "今高雄市"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["朱一貴", "民變", "三大民變", "反清", "清代臺灣"],
+    "relatedEvents": ["dai-chaochun-revolt", "lin-shuang-wen", "qing-annex-taiwan"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科七年級下冊 臺灣史"]
+    }
+  },
+  {
+    "id": "glorious-revolution",
+    "title": "英國光榮革命",
+    "description": "1688至1689年，英國國會迎接荷蘭執政威廉三世登基，以不流血方式推翻詹姆斯二世，確立議會主權高於王權，奠定英國君主立憲制度的基礎。",
+    "date": {
+      "start": "1688-11-01",
+      "end": "1689-02-13",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "倫敦（英國）",
+      "coordinates": [51.51, -0.13],
+      "adminDivisions": ["英國", "倫敦"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["光榮革命", "君主立憲", "議會主權", "英國", "威廉三世", "權利法典"],
+    "relatedEvents": ["enlightenment", "french-revolution", "american-independence"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "enlightenment",
+    "title": "啟蒙運動",
+    "description": "17至18世紀歐洲思想運動，強調理性、自由與人權，洛克、伏爾泰、盧梭、孟德斯鳩等思想家的學說深刻影響法國大革命、美國獨立及近代民主政治的發展。",
+    "date": {
+      "start": "1680-01-01",
+      "end": "1789-01-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "巴黎（法國）",
+      "coordinates": [48.85, 2.35],
+      "adminDivisions": ["法國", "巴黎"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["啟蒙運動", "理性主義", "洛克", "盧梭", "伏爾泰", "孟德斯鳩", "人權"],
+    "relatedEvents": ["glorious-revolution", "french-revolution", "american-independence"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "napoleon-empire",
+    "title": "拿破崙帝國",
+    "description": "法國大革命後，拿破崙波拿巴崛起，1804年稱帝，透過軍事征服橫掃歐洲，傳播《拿破崙法典》與革命理念，最終於1815年滑鐵盧之戰後退位。",
+    "date": {
+      "start": "1799-11-09",
+      "end": "1815-06-18",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "巴黎（法國）",
+      "coordinates": [48.86, 2.35],
+      "adminDivisions": ["法國", "巴黎"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["拿破崙", "法蘭西第一帝國", "拿破崙法典", "滑鐵盧", "民族主義"],
+    "relatedEvents": ["french-revolution", "congress-of-vienna", "enlightenment"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "dai-chaochun-revolt",
+    "title": "戴潮春事件",
+    "description": "1862至1865年臺灣中部爆發的大規模民變，戴潮春聚眾抗清，一度控制彰化、臺中一帶，歷時三年多才被平定，是清領時期規模最大的民變之一。",
+    "date": {
+      "start": "1862-03-01",
+      "end": "1865-08-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "彰化縣（今彰化市）",
+      "coordinates": [24.08, 120.54],
+      "adminDivisions": ["彰化縣", "彰化市"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["戴潮春", "民變", "三大民變", "清代臺灣", "彰化"],
+    "relatedEvents": ["zhu-yigui-revolt", "lin-shuang-wen", "mudan-incident"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科七年級下冊 臺灣史"]
+    }
+  },
+  {
+    "id": "russian-revolution",
+    "title": "俄國十月革命",
+    "description": "1917年列寧領導布爾什維克黨推翻俄國臨時政府，建立世界第一個社會主義國家，後來發展為蘇聯，對20世紀全球政治格局產生深遠影響。",
+    "date": {
+      "start": "1917-11-07",
+      "end": "1917-11-08",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "彼得格勒（今聖彼得堡，俄羅斯）",
+      "coordinates": [59.93, 30.32],
+      "adminDivisions": ["俄羅斯", "聖彼得堡"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["俄國革命", "布爾什維克", "列寧", "蘇維埃", "社會主義", "共產主義"],
+    "relatedEvents": ["first-world-war", "cold-war-begins", "soviet-collapse"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "versailles-treaty",
+    "title": "凡爾賽條約與國際聯盟",
+    "description": "1919年一戰後，戰勝國在巴黎和會簽訂凡爾賽條約，對德國實施嚴厲懲罰，同時成立國際聯盟，是首次以集體安全機制維護和平的嘗試，但也埋下二戰遠因。",
+    "date": {
+      "start": "1919-06-28",
+      "end": "1919-06-28",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "凡爾賽宮（法國）",
+      "coordinates": [48.80, 2.12],
+      "adminDivisions": ["法國", "凡爾賽"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["凡爾賽條約", "國際聯盟", "巴黎和會", "一戰結束", "民族自決", "集體安全"],
+    "relatedEvents": ["first-world-war", "second-world-war", "un-founded"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "white-terror",
+    "title": "白色恐怖",
+    "description": "二二八事件後，國民政府以《動員戡亂時期臨時條款》為依據，在臺灣大規模逮捕、審判異見人士，造成數萬人遭監禁或處死，政治壓迫持續至1987年解嚴。",
+    "date": {
+      "start": "1949-05-19",
+      "end": "1987-07-14",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "綠島（政治犯關押地）",
+      "coordinates": [22.67, 121.47],
+      "adminDivisions": ["臺東縣", "綠島鄉"]
+    },
+    "categories": ["歷史", "公民"],
+    "keywords": ["白色恐怖", "政治迫害", "戒嚴", "綠島", "人權", "政治犯"],
+    "relatedEvents": ["feb28-incident", "martial-law", "lift-martial-law", "formosa-incident"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "價值辨析"],
+      "textbookReferences": ["社會科七年級下冊 臺灣史", "社會科九年級下冊 臺灣近現代史"]
+    }
+  },
+  {
+    "id": "korean-war",
+    "title": "韓戰",
+    "description": "1950至1953年，北韓入侵南韓，聯合國組成多國部隊介入，最終以停戰協定維持38度線現狀，是冷戰期間最激烈的直接武裝衝突之一，也深刻影響臺灣海峽的美軍部署。",
+    "date": {
+      "start": "1950-06-25",
+      "end": "1953-07-27",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "板門店（停戰談判地，韓國）",
+      "coordinates": [37.95, 126.68],
+      "adminDivisions": ["朝鮮半島"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["韓戰", "朝鮮戰爭", "38度線", "冷戰", "聯合國軍", "美軍"],
+    "relatedEvents": ["cold-war-begins", "un-founded", "martial-law"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科八年級下冊 世界史", "社會科九年級下冊 臺灣近現代史"]
+    }
+  },
+  {
+    "id": "taiwan-quit-un",
+    "title": "臺灣退出聯合國",
+    "description": "1971年10月25日，聯合國大會通過第2758號決議，承認中華人民共和國為中國唯一合法代表，中華民國隨即宣布退出聯合國，此後逐漸喪失邦交國，國際空間大幅壓縮。",
+    "date": {
+      "start": "1971-10-25",
+      "end": "1971-10-25",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "聯合國總部（美國紐約）",
+      "coordinates": [40.75, -73.97],
+      "adminDivisions": ["美國", "紐約"]
+    },
+    "categories": ["歷史", "公民"],
+    "keywords": ["退出聯合國", "2758號決議", "中華民國", "邦交", "外交孤立"],
+    "relatedEvents": ["cold-war-begins", "power-transfer"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "時事連結"],
+      "textbookReferences": ["社會科九年級下冊 臺灣近現代史"]
+    }
+  },
+  {
+    "id": "ten-major-constructions",
+    "title": "十大建設",
+    "description": "1974至1979年，蔣經國政府推動十大建設，涵蓋高速公路、鐵路電氣化、中正國際機場、臺中港、中鋼、核能電廠等重大基礎建設，大幅提升臺灣工業化與現代化程度。",
+    "date": {
+      "start": "1974-01-01",
+      "end": "1979-12-31",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "高雄（中國鋼鐵公司所在地）",
+      "coordinates": [22.63, 120.27],
+      "adminDivisions": ["高雄市"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["十大建設", "蔣經國", "基礎建設", "中山高速公路", "中鋼", "臺中港"],
+    "relatedEvents": ["economic-miracle"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["概念解釋", "圖表判讀"],
+      "textbookReferences": ["社會科七年級下冊 臺灣史"]
+    }
+  },
+  {
+    "id": "dpp-founded",
+    "title": "民主進步黨成立",
+    "description": "1986年9月28日，黨外人士在威權統治下公然宣布成立民主進步黨，打破長期一黨執政局面，是臺灣政治自由化的重大里程碑，隨後推動解嚴與憲政改革。",
+    "date": {
+      "start": "1986-09-28",
+      "end": "1986-09-28",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "圓山大飯店（臺北市）",
+      "coordinates": [25.07, 121.52],
+      "adminDivisions": ["臺北市", "中山區"]
+    },
+    "categories": ["歷史", "公民"],
+    "keywords": ["民主進步黨", "黨外運動", "反對黨", "1986", "臺灣民主化", "多黨政治"],
+    "relatedEvents": ["formosa-incident", "lift-martial-law", "wild-lily", "direct-election"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "時間排序"],
+      "textbookReferences": ["社會科九年級下冊 臺灣近現代史"]
+    }
+  },
+  {
+    "id": "soviet-collapse",
+    "title": "蘇聯解體",
+    "description": "1991年12月25日，戈巴契夫辭去蘇聯總統職務，蘇聯正式解體為15個獨立國家，冷戰宣告結束。這是20世紀最重大的地緣政治轉變之一，開啟後冷戰時代的新格局。",
+    "date": {
+      "start": "1991-12-25",
+      "end": "1991-12-25",
+      "period": "民主化時期",
+      "periodId": "democratization"
+    },
+    "location": {
+      "name": "克里姆林宮（俄羅斯莫斯科）",
+      "coordinates": [55.75, 37.62],
+      "adminDivisions": ["俄羅斯", "莫斯科"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["蘇聯解體", "冷戰結束", "戈巴契夫", "俄羅斯", "獨立國協"],
+    "relatedEvents": ["cold-war-begins", "russian-revolution"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
   }
 ]
