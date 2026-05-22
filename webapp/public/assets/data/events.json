@@ -3853,5 +3853,341 @@
       "questionTypes": ["概念解釋", "比較分析"],
       "textbookReferences": ["社會科八年級下冊 世界史"]
     }
+  },
+  {
+    "id": "han-wudi-confucianism",
+    "title": "漢武帝獨尊儒術",
+    "description": "漢武帝採納董仲舒建議，罷黜百家、獨尊儒術，設立太學培養儒學官員，使儒家學說成為中國歷代政治與文化的核心，深刻影響東亞文明兩千年。",
+    "date": {
+      "start": "-0134-01-01",
+      "end": "-0087-01-01",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "長安（今陝西西安）",
+      "coordinates": [34.27, 108.93],
+      "adminDivisions": ["中國", "陝西省"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["漢武帝", "罷黜百家", "獨尊儒術", "董仲舒", "太學", "儒家"],
+    "relatedEvents": ["spring-autumn-warring", "qin-unification", "han-silk-road"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "alexander-great-conquest",
+    "title": "亞歷山大大帝東征",
+    "description": "馬其頓國王亞歷山大率軍東征，征服波斯帝國、埃及與中亞，深入印度次大陸邊緣，建立橫跨歐亞非的龐大帝國，推動希臘文化與東方文明融合的希臘化時代。",
+    "date": {
+      "start": "-0334-01-01",
+      "end": "-0323-01-01",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "馬其頓（今希臘北部）",
+      "coordinates": [40.52, 22.0],
+      "adminDivisions": ["希臘"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["亞歷山大", "馬其頓", "東征", "希臘化", "波斯帝國"],
+    "relatedEvents": ["athens-democracy", "roman-empire", "ancient-india"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "wei-jin-ethnic-fusion",
+    "title": "魏晉南北朝民族融合",
+    "description": "漢朝滅亡後，中國進入三國至南北朝的分裂時期，北方少數民族大量遷入，與漢族在語言、文化、風俗上逐漸融合，孕育出更多元的隋唐盛世基礎，是中國歷史上重要的民族融合時期。",
+    "date": {
+      "start": "0220-01-01",
+      "end": "0589-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "洛陽（魏晉都城，今河南）",
+      "coordinates": [34.68, 112.45],
+      "adminDivisions": ["中國", "河南省"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["魏晉南北朝", "民族融合", "五胡亂華", "漢化", "分裂時代"],
+    "relatedEvents": ["han-wudi-confucianism", "sui-grand-canal", "tang-changan-exchange"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "tang-keju-system",
+    "title": "科舉制度",
+    "description": "隋朝創立科舉制度，唐朝逐步完善，以考試選拔官員，打破門第限制，提供平民晉升管道。科舉制度成為中國政治制度的核心特色，並對朝鮮、越南、日本等鄰近文化圈產生深遠影響。",
+    "date": {
+      "start": "0605-01-01",
+      "end": "1905-01-01",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "長安（唐代京城，今陝西西安）",
+      "coordinates": [34.27, 108.93],
+      "adminDivisions": ["中國", "陝西省"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["科舉", "科舉制度", "隋朝", "唐朝", "選官制度", "進士"],
+    "relatedEvents": ["sui-grand-canal", "tang-changan-exchange", "song-commercial-revolution"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "european-feudalism",
+    "title": "歐洲中古封建制度",
+    "description": "西羅馬帝國滅亡後，歐洲形成以土地為核心的封建制度，國王、貴族、騎士層層效忠，莊園經濟自給自足，教會與世俗王權並立，構成中世紀歐洲社會的基本架構，延續近千年。",
+    "date": {
+      "start": "0800-01-01",
+      "end": "1300-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "法蘭克王國（今法國）",
+      "coordinates": [48.85, 2.35],
+      "adminDivisions": ["法國"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["封建制度", "中古歐洲", "莊園", "騎士", "領主", "教會"],
+    "relatedEvents": ["crusades", "renaissance", "black-death"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "black-death",
+    "title": "黑死病",
+    "description": "14世紀中葉，鼠疫從中亞沿商路蔓延至歐洲，歐洲人口銳減約三分之一，動搖封建制度與教會權威，農業勞動力短缺促成農民地位上升，間接加速文藝復興與近代社會的到來。",
+    "date": {
+      "start": "1347-01-01",
+      "end": "1351-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "義大利（鼠疫登陸歐洲起點）",
+      "coordinates": [41.9, 12.5],
+      "adminDivisions": ["義大利"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["黑死病", "鼠疫", "中世紀", "疫病", "歐洲人口"],
+    "relatedEvents": ["european-feudalism", "renaissance", "crusades"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "因果分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "ottoman-empire",
+    "title": "鄂圖曼帝國征服君士坦丁堡",
+    "description": "1453年，鄂圖曼土耳其蘇丹穆罕默德二世攻陷君士坦丁堡，東羅馬帝國滅亡，鄂圖曼帝國控制東西貿易要道，迫使歐洲商人另尋海路，間接促成地理大發現與大航海時代的到來。",
+    "date": {
+      "start": "1299-01-01",
+      "end": "1453-05-29",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "君士坦丁堡（今伊斯坦堡，土耳其）",
+      "coordinates": [41.01, 28.95],
+      "adminDivisions": ["土耳其", "伊斯坦堡"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["鄂圖曼帝國", "君士坦丁堡", "東羅馬帝國", "伊斯蘭", "貿易路線"],
+    "relatedEvents": ["age-of-discovery", "islam-expansion", "crusades"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "因果分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "qing-golden-age",
+    "title": "清朝康乾盛世",
+    "description": "康熙、雍正、乾隆三代皇帝（1661–1796年）統治期間，清朝版圖擴至極盛，人口大幅增長，主導《四庫全書》等龐大文化工程，是前近代東亞最強大的帝國，但同期也逐漸閉關鎖國、落後西方。",
+    "date": {
+      "start": "1661-01-01",
+      "end": "1796-12-31",
+      "period": "近世交流",
+      "periodId": "early-modern"
+    },
+    "location": {
+      "name": "北京故宮（清朝皇宮）",
+      "coordinates": [39.92, 116.39],
+      "adminDivisions": ["中國", "北京"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["康熙", "雍正", "乾隆", "康乾盛世", "四庫全書", "閉關鎖國"],
+    "relatedEvents": ["ming-qing-sea-ban", "opium-war", "qing-annex-taiwan"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "meiji-restoration",
+    "title": "明治維新",
+    "description": "1868年日本推翻幕府、奉還大政，明治天皇主導政治、經濟、軍事全面近代化改革，廢藩置縣、引進西方制度，使日本成為亞洲第一個近代化帝國，並藉甲午戰爭與日俄戰爭崛起為列強。",
+    "date": {
+      "start": "1868-01-01",
+      "end": "1912-07-30",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "東京（原江戶）",
+      "coordinates": [35.69, 139.69],
+      "adminDivisions": ["日本", "東京"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["明治維新", "日本近代化", "廢藩置縣", "脫亞入歐", "帝國主義"],
+    "relatedEvents": ["first-sino-japanese-war", "imperialism", "industrial-revolution"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "self-strengthening-movement",
+    "title": "洋務運動",
+    "description": "清朝歷經太平天國與外國侵略後，曾國藩、李鴻章等官員推動洋務運動（1861–1895），引進西方技術與軍備，設立江南製造局、北洋艦隊等，但甲午戰爭的失敗揭示其「中體西用」路線的局限。",
+    "date": {
+      "start": "1861-01-01",
+      "end": "1895-04-17",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "江南製造局（今上海）",
+      "coordinates": [31.23, 121.47],
+      "adminDivisions": ["中國", "上海"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["洋務運動", "自強運動", "中體西用", "李鴻章", "江南製造局", "北洋艦隊"],
+    "relatedEvents": ["opium-war", "first-sino-japanese-war", "xinhai-revolution"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "german-unification",
+    "title": "德意志統一與民族主義",
+    "description": "19世紀民族主義浪潮下，義大利於1861年完成統一，普魯士首相俾斯麥以「鐵血政策」先後擊敗奧地利與法國，於1871年建立德意志帝國，改變歐洲權力格局，加劇列強競爭。",
+    "date": {
+      "start": "1861-03-17",
+      "end": "1871-01-18",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "柏林（普魯士首都）",
+      "coordinates": [52.52, 13.41],
+      "adminDivisions": ["德國", "柏林"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["德意志統一", "俾斯麥", "鐵血政策", "民族主義", "義大利統一", "普法戰爭"],
+    "relatedEvents": ["congress-of-vienna", "imperialism", "first-world-war"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "marshall-plan",
+    "title": "馬歇爾計畫",
+    "description": "二戰後美國推出歐洲復興計畫（馬歇爾計畫，1948–1952），提供西歐大量經濟援助以重建戰後廢墟，同時防止共產主義藉貧困擴張，是冷戰時期美國對抗蘇聯影響力的重要外交工具。",
+    "date": {
+      "start": "1948-04-03",
+      "end": "1952-12-31",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "華盛頓特區（美國）",
+      "coordinates": [38.89, -77.04],
+      "adminDivisions": ["美國", "華盛頓特區"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["馬歇爾計畫", "歐洲復興", "冷戰", "美援", "反共"],
+    "relatedEvents": ["cold-war-begins", "second-world-war", "un-founded"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["概念解釋", "因果分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "vietnam-war",
+    "title": "越戰",
+    "description": "越戰（1955–1975年）是冷戰在東南亞的代理衝突，北越共產政府與南越及美軍長期對峙，1975年西貢陷落，南北越統一為越南社會主義共和國，是美國冷戰期間最重大的軍事挫敗。",
+    "date": {
+      "start": "1955-11-01",
+      "end": "1975-04-30",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "西貢（今胡志明市，越南）",
+      "coordinates": [10.82, 106.63],
+      "adminDivisions": ["越南", "胡志明市"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["越戰", "冷戰", "北越", "南越", "美軍撤退", "西貢陷落"],
+    "relatedEvents": ["cold-war-begins", "korean-war", "un-founded"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "china-reform-opening",
+    "title": "中國改革開放",
+    "description": "1978年中共十一屆三中全會，鄧小平主導改革開放，廢除計畫經濟、引進外資，實行「一國兩制」構想，中國從封閉走向市場經濟，經濟高速成長，逐漸成為全球重要製造業與貿易大國。",
+    "date": {
+      "start": "1978-12-22",
+      "end": "2000-01-01",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "北京（中共中央所在地）",
+      "coordinates": [39.92, 116.39],
+      "adminDivisions": ["中國", "北京"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["改革開放", "鄧小平", "中國經濟", "市場經濟", "一國兩制"],
+    "relatedEvents": ["soviet-collapse", "cold-war-begins", "power-transfer"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
   }
 ]
