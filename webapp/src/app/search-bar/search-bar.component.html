@@ -1,23 +1,55 @@
 <div class="search-box-container">
-  <div class="search-input-wrapper">
+  <div class="search-input-wrapper" [class.has-chips]="selectedTextbooks.length > 0">
     <span class="search-icon">🔍</span>
+
+    <span
+      class="filter-chip"
+      *ngFor="let tb of selectedTextbooks"
+      (mousedown)="$event.preventDefault()"
+      (click)="removeTextbook(tb)">
+      {{ getLabel(tb) }}
+      <span class="filter-chip-remove">✕</span>
+    </span>
+
     <input
       type="text"
       class="search-input"
       id="search-input"
-      placeholder="搜尋歷史事件..."
+      [placeholder]="selectedTextbooks.length > 0 ? '輸入關鍵字進一步篩選...' : '選擇課本或輸入關鍵字...'"
       (input)="onSearch($event)"
       (focus)="onFocus()"
       (blur)="onBlur()"
       autocomplete="off"
     />
-    <button class="clear-button" *ngIf="searchResults.length > 0 || queryText" (click)="clearSearch()">×</button>
+    <button
+      class="clear-button"
+      *ngIf="searchResults.length > 0 || queryText || selectedTextbooks.length > 0"
+      (click)="clearSearch()">×</button>
   </div>
 
-  <div class="search-results-container" *ngIf="isFocused && searchResults.length > 0">
+  <!-- 課本篩選面板（focus + 無文字） -->
+  <div class="filter-panel" *ngIf="showFilterPanel">
+    <div class="filter-panel-header">課本範圍篩選</div>
+    <div class="filter-chip-grid">
+      <button
+        class="filter-option"
+        [class.selected]="isTextbookSelected(opt.value)"
+        *ngFor="let opt of textbookOptions"
+        (mousedown)="$event.preventDefault()"
+        (click)="toggleTextbook(opt.value)">
+        {{ opt.label }}
+      </button>
+    </div>
+  </div>
+
+  <!-- 搜尋結果 -->
+  <div class="search-results-container" *ngIf="showResults">
     <div class="results-header">
       <h4>搜尋結果</h4>
-      <span class="result-count">{{ searchResults.length }} 個結果</span>
+      <span class="result-count">
+        {{ searchResults.length }} 個結果
+        <span *ngIf="selectedTextbooks.length > 0" class="filter-active-badge">已套用篩選</span>
+      </span>
     </div>
     <ul class="results-list">
       <li class="result-item" *ngFor="let event of searchResults" (click)="selectEvent(event.id)">

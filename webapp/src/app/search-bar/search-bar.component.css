@@ -9,6 +9,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   background: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -17,7 +18,49 @@
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
   transition: all 0.2s ease;
   gap: 6px;
-  padding-left: 12px;
+  padding: 6px 6px 6px 12px;
+}
+
+.search-input-wrapper.has-chips {
+  padding: 6px 6px 6px 12px;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(200, 164, 39, 0.15);
+  border: 1px solid rgba(200, 164, 39, 0.45);
+  color: #7a5c00;
+  border-radius: 20px;
+  padding: 3px 8px 3px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.filter-chip:hover {
+  background: rgba(200, 164, 39, 0.28);
+}
+
+.filter-chip-remove {
+  font-size: 0.65rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(200, 164, 39, 0.2);
+  transition: background 0.15s ease;
+}
+
+.filter-chip:hover .filter-chip-remove {
+  background: rgba(200, 164, 39, 0.5);
 }
 
 .search-input-wrapper:focus-within {
@@ -33,7 +76,8 @@
 
 .search-input {
   flex: 1;
-  padding: 0.75rem 1rem;
+  min-width: 120px;
+  padding: 0.5rem 0.5rem;
   font-size: 1rem;
   border: none;
   background: transparent;
@@ -167,6 +211,76 @@
   font-size: 0.875rem;
   color: var(--color-seal);
   text-align: center;
+}
+
+.filter-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(210, 190, 160, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  z-index: 310;
+}
+
+.filter-panel-header {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.filter-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-option {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  border: 1px solid rgba(139, 115, 85, 0.35);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--color-brown, #8b7355);
+  font-size: 0.82rem;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-option:hover {
+  background: rgba(200, 164, 39, 0.1);
+  border-color: rgba(200, 164, 39, 0.5);
+  color: #7a5c00;
+}
+
+.filter-option.selected {
+  background: rgba(200, 164, 39, 0.18);
+  border-color: rgba(200, 164, 39, 0.6);
+  color: #7a5c00;
+  font-weight: 600;
+}
+
+.filter-active-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: rgba(200, 164, 39, 0.15);
+  border: 1px solid rgba(200, 164, 39, 0.4);
+  color: #7a5c00;
+  font-size: 0.7rem;
+  font-weight: 600;
 }
 
 @media (max-width: 480px) {
