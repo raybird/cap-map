@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { AsyncPipe } from '@angular/common';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as EventActions from '../store/actions/event.actions';
@@ -11,7 +12,8 @@ import { Subscription, Observable } from 'rxjs';
   selector: 'app-event-sidebar',
   templateUrl: './event-sidebar.component.html',
   styleUrls: ['./event-sidebar.component.css'],
-  standalone: false
+  standalone: true,
+  imports: [AsyncPipe],
 })
 export class EventSidebarComponent implements OnInit, OnDestroy {
   selectedEvent$!: Observable<any>;

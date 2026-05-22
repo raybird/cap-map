@@ -11,7 +11,8 @@ import { Subscription } from 'rxjs';
   selector: 'app-map-container',
   templateUrl: './map-container.component.html',
   styleUrls: ['./map-container.component.css'],
-  standalone: false
+  standalone: true,
+  imports: [],
 })
 export class MapContainerComponent implements OnInit, OnDestroy {
   private map!: L.Map;

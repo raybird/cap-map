@@ -1,10 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import { EventService } from './services/event.service';
 import { TimelineService } from './services/timeline.service';
+import { MapContainerComponent } from './map-container/map-container.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { EventSidebarComponent } from './event-sidebar/event-sidebar.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { LayerControlComponent } from './layer-control/layer-control.component';
 
 @Component({
   selector: 'app-root',
-  standalone: false,
+  standalone: true,
+  imports: [
+    MapContainerComponent,
+    TimelineComponent,
+    EventSidebarComponent,
+    SearchBarComponent,
+    LayerControlComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

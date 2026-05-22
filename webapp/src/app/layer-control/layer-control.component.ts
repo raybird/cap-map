@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AsyncPipe } from '@angular/common';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as MapActions from '../store/actions/map.actions';
@@ -9,7 +10,8 @@ import { Observable } from 'rxjs';
   selector: 'app-layer-control',
   templateUrl: './layer-control.component.html',
   styleUrls: ['./layer-control.component.css'],
-  standalone: false
+  standalone: true,
+  imports: [AsyncPipe],
 })
 export class LayerControlComponent implements OnInit {
   activeLayers$!: Observable<string[]>;

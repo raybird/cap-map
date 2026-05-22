@@ -2,22 +2,26 @@
   <span class="layer-icon">🗺</span>
 </div>
 
-<div class="layer-panel" *ngIf="isOpen" [class.open]="isOpen">
-  <div class="panel-header">
-    <h4>地圖圖層</h4>
-    <button class="close-btn" (click)="togglePanel()">×</button>
+@if (isOpen) {
+  <div class="layer-panel" [class.open]="isOpen">
+    <div class="panel-header">
+      <h4>地圖圖層</h4>
+      <button class="close-btn" (click)="togglePanel()">×</button>
+    </div>
+    <div class="panel-body">
+      @if (activeLayers$ | async; as activeLayers) {
+        @for (layer of availableLayers; track layer.id) {
+          <div class="layer-item">
+            <label class="layer-label">
+              <input type="checkbox"
+                     [checked]="activeLayers.includes(layer.id)"
+                     (change)="toggleLayer(layer.id)">
+              <span class="layer-dot" [style.background-color]="layer.color"></span>
+              <span class="layer-name">{{ layer.name }}</span>
+            </label>
+          </div>
+        }
+      }
+    </div>
   </div>
-  <div class="panel-body">
-    <ng-container *ngIf="activeLayers$ | async as activeLayers">
-      <div class="layer-item" *ngFor="let layer of availableLayers">
-        <label class="layer-label">
-          <input type="checkbox"
-                 [checked]="activeLayers.includes(layer.id)"
-                 (change)="toggleLayer(layer.id)">
-          <span class="layer-dot" [style.background-color]="layer.color"></span>
-          <span class="layer-name">{{ layer.name }}</span>
-        </label>
-      </div>
-    </ng-container>
-  </div>
-</div>
+}

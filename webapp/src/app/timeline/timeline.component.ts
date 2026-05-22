@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy, AfterViewInit, ElementRef, ViewChild, HostListener } from '@angular/core';
+import { AsyncPipe } from '@angular/common';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as TimelineActions from '../store/actions/timeline.actions';
@@ -14,7 +15,8 @@ import { map, tap, first, filter } from 'rxjs/operators';
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',
   styleUrls: ['./timeline.component.css'],
-  standalone: false
+  standalone: true,
+  imports: [AsyncPipe],
 })
 export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('scrollContainer') scrollContainer!: ElementRef;

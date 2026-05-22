@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { AsyncPipe } from '@angular/common';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
 import * as EventActions from '../store/actions/event.actions';
@@ -21,7 +22,8 @@ const TEXTBOOK_OPTIONS = [
   selector: 'app-search-bar',
   templateUrl: './search-bar.component.html',
   styleUrls: ['./search-bar.component.css'],
-  standalone: false
+  standalone: true,
+  imports: [AsyncPipe],
 })
 export class SearchBarComponent implements OnInit, OnDestroy {
   events$!: Observable<any[]>;
