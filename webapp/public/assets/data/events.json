@@ -4189,5 +4189,618 @@
       "questionTypes": ["概念解釋", "比較分析"],
       "textbookReferences": ["社會科八年級上冊 中國史"]
     }
+  },
+  {
+    "id": "western-zhou-feudalism",
+    "title": "西周封建制度",
+    "description": "西周建立後，周天子以「封邦建國」方式分封諸侯，實行宗法制度以血緣關係維繫政治秩序。分封制使周王朝得以統治廣大疆域，宗法制則確立嫡長子繼承原則，形成天子、諸侯、卿大夫、士的等級體系。",
+    "date": {
+      "start": "-1046-01-01",
+      "end": "-771-01-01",
+      "period": "古代文明",
+      "periodId": "ancient"
+    },
+    "location": {
+      "name": "鎬京（今陝西西安附近）",
+      "coordinates": [34.27, 108.95],
+      "adminDivisions": ["中國", "陝西省", "西安市"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["西周", "封建制度", "分封制", "宗法制", "嫡長子繼承", "周天子", "諸侯"],
+    "relatedEvents": ["spring-autumn-warring-states", "qin-unification"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "圖表判讀", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "song-four-inventions",
+    "title": "宋朝四大發明",
+    "description": "中國古代「四大發明」——造紙術、印刷術、火藥、指南針——在宋代達到成熟應用階段。活字印刷術由畢昇發明，火藥廣泛用於軍事，指南針應用於航海，深刻影響世界文明進程，並透過絲路與海路傳入歐洲。",
+    "date": {
+      "start": "0960-01-01",
+      "end": "1279-12-31",
+      "period": "中古交流",
+      "periodId": "medieval"
+    },
+    "location": {
+      "name": "開封（北宋都城）",
+      "coordinates": [34.8, 114.3],
+      "adminDivisions": ["中國", "河南省", "開封市"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["四大發明", "造紙術", "印刷術", "火藥", "指南針", "活字印刷", "畢昇", "宋代科技"],
+    "relatedEvents": ["song-commerce", "zheng-he-voyages"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "圖表判讀"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "wuxu-reform",
+    "title": "戊戌變法",
+    "description": "1898年光緒帝採納康有為、梁啟超等維新派建議，推行百日維新，涵蓋政治、教育、軍事、經濟等全面改革。慈禧太后發動政變終止變法，康梁出逃，六君子被殺，改革以失敗告終，但思想啟蒙影響深遠。",
+    "date": {
+      "start": "1898-06-11",
+      "end": "1898-09-21",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "北京（紫禁城）",
+      "coordinates": [39.92, 116.39],
+      "adminDivisions": ["中國", "北京"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["戊戌變法", "百日維新", "康有為", "梁啟超", "光緒帝", "慈禧太后", "維新運動", "六君子"],
+    "relatedEvents": ["yang-wu-movement", "xinhai-revolution", "opium-war"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["因果分析", "概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 中國史"]
+    }
+  },
+  {
+    "id": "jianan-irrigation",
+    "title": "嘉南大圳",
+    "description": "1920年由日本技師八田與一主導設計，歷經10年興建，1930年完工通水。烏山頭水庫與嘉南大圳灌溉網絡使嘉南平原15萬公頃農地得以穩定供水，大幅提升稻米、甘蔗等農業產量，是日治時期最重要的水利建設之一。",
+    "date": {
+      "start": "1920-09-01",
+      "end": "1930-04-10",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "烏山頭水庫（臺南官田）",
+      "coordinates": [23.24, 120.42],
+      "adminDivisions": ["臺灣", "臺南市", "官田區"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["嘉南大圳", "烏山頭水庫", "八田與一", "日治水利", "嘉南平原", "灌溉"],
+    "relatedEvents": ["japanese-colonial-begin", "縱貫鐵路通車"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋", "因果分析"],
+      "textbookReferences": ["社會科七年級上冊 臺灣史"]
+    }
+  },
+  {
+    "id": "823-artillery-battle",
+    "title": "八二三砲戰",
+    "description": "1958年8月23日，中共對金門島發動大規模砲擊，44天內共射擊約47萬發砲彈。美國第七艦隊協防臺灣海峽，最終砲戰轉為「單打雙不打」的象徵性砲擊持續至1979年。此役確立中華民國對金門、馬祖的實質控制。",
+    "date": {
+      "start": "1958-08-23",
+      "end": "1958-10-05",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "金門島",
+      "coordinates": [24.45, 118.35],
+      "adminDivisions": ["臺灣", "金門縣"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["八二三砲戰", "金門", "臺海危機", "中共砲擊", "美國協防", "兩岸關係"],
+    "relatedEvents": ["martial-law", "taiwan-228", "us-taiwan-derecognition"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["因果分析", "時序排列", "地圖判讀"],
+      "textbookReferences": ["社會科七年級上冊 臺灣史"]
+    }
+  },
+  {
+    "id": "us-taiwan-derecognition",
+    "title": "臺美斷交",
+    "description": "1979年1月1日，美國與中華人民共和國正式建交，同時宣布與中華民國斷絕外交關係、終止《中美共同防禦條約》並撤軍。美國隨後通過《臺灣關係法》以非官方方式維持實質關係，斷交事件對臺灣國際地位造成重大衝擊。",
+    "date": {
+      "start": "1979-01-01",
+      "end": "1979-01-01",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "臺北（中華民國政府所在地）",
+      "coordinates": [25.04, 121.51],
+      "adminDivisions": ["臺灣", "臺北市"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["臺美斷交", "臺灣關係法", "中美建交", "外交危機", "國際地位", "中美共同防禦條約"],
+    "relatedEvents": ["taiwan-un-exit", "823-artillery-battle", "kaohsiung-incident"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["因果分析", "時序排列", "概念解釋"],
+      "textbookReferences": ["社會科七年級上冊 臺灣史"]
+    }
+  },
+  {
+    "id": "decolonization-wave",
+    "title": "亞非去殖民化浪潮",
+    "description": "二戰結束後，亞洲與非洲各地掀起民族獨立運動。1955年萬隆會議確立亞非國家不結盟立場，1960年「非洲年」有17個非洲國家獨立，至1975年葡屬殖民地解放，殖民體系基本瓦解。去殖民化重塑全球政治版圖，第三世界興起。",
+    "date": {
+      "start": "1945-01-01",
+      "end": "1975-12-31",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "萬隆（印尼，萬隆會議召開地）",
+      "coordinates": [-6.91, 107.61],
+      "adminDivisions": ["印尼", "西爪哇省", "萬隆市"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["去殖民化", "民族獨立", "萬隆會議", "非洲年", "第三世界", "不結盟運動", "殖民主義"],
+    "relatedEvents": ["united-nations", "cold-war-begins", "marshall-plan"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "因果分析", "地圖判讀"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "israel-founding",
+    "title": "以色列建國",
+    "description": "1948年5月14日，以色列宣布建國，次日阿拉伯聯盟國家聯合入侵，第一次中東戰爭爆發。大批巴勒斯坦人流離失所（納克巴）。以色列建國源於19世紀猶太復國主義運動，二戰大屠殺加速國際社會支持，由此開啟長達數十年的中東衝突。",
+    "date": {
+      "start": "1948-05-14",
+      "end": "1948-05-14",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "特拉維夫（以色列獨立宣言發表地）",
+      "coordinates": [32.08, 34.78],
+      "adminDivisions": ["以色列", "特拉維夫區"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["以色列建國", "猶太復國主義", "中東衝突", "巴勒斯坦", "納克巴", "第一次中東戰爭", "聯合國181號決議"],
+    "relatedEvents": ["united-nations", "world-war-ii", "cold-war-begins"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["因果分析", "概念解釋", "地圖判讀"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "european-integration",
+    "title": "歐洲統合與歐盟",
+    "description": "1951年西歐六國簽訂《巴黎條約》成立歐洲煤鋼共同體（ECSC），1957年《羅馬條約》建立歐洲經濟共同體（EEC），逐步推動關稅同盟與人員自由流動。1993年《馬斯垂克條約》生效，歐洲聯盟（EU）正式成立，成為全球最重要的區域整合組織。",
+    "date": {
+      "start": "1951-04-18",
+      "end": "1993-11-01",
+      "period": "戰後時期",
+      "periodId": "postwar"
+    },
+    "location": {
+      "name": "布魯塞爾（歐盟總部所在地）",
+      "coordinates": [50.85, 4.35],
+      "adminDivisions": ["比利時", "布魯塞爾首都大區"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["歐盟", "歐洲整合", "歐洲煤鋼共同體", "歐洲經濟共同體", "馬斯垂克條約", "區域整合", "羅馬條約"],
+    "relatedEvents": ["marshall-plan", "cold-war-begins", "vienna-congress"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["概念解釋", "時序排列", "比較分析"],
+      "textbookReferences": ["社會科八年級下冊 世界史"]
+    }
+  },
+  {
+    "id": "qing-frontier-boundary",
+    "title": "清代番界（土牛溝）",
+    "description": "清廷為區隔漢人移墾區與原住民生活領域，於1760年代在西部平原邊緣設立「土牛溝」界線，並栽植刺竹為屏障。番界以東為「番地」，禁止漢人越界墾殖；然私墾屢禁不止，番界歷經多次東移，反映漢番關係的持續緊張與演變。",
+    "date": {
+      "start": "1760-01-01",
+      "end": "1875-01-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "大甲溪（番界中段代表地點）",
+      "coordinates": [24.27, 120.62],
+      "adminDivisions": ["臺灣", "臺中市"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["土牛溝", "番界", "漢番關係", "清代移墾", "原住民土地", "禁墾令"],
+    "relatedEvents": ["qing-cross-strait", "lin-shuang-wen", "dai-chaochun-revolt"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["地圖判讀", "概念解釋", "因果分析"],
+      "textbookReferences": ["社會科七年級上冊 臺灣史"]
+    }
+  },
+  {
+    "id": "taiwan-sugar-tea-industry",
+    "title": "臺灣糖業與茶業發展",
+    "description": "清末開港後，臺灣茶葉（烏龍茶、包種茶）大量出口歐美，大稻埕成為茶葉集散中心。日治時期，殖民政府推動製糖業現代化，1902年成立台灣製糖株式會社，建立橋仔頭糖廠（全亞洲第一座現代化糖廠），嘉南平原成為甘蔗主產區，糖與茶為臺灣最重要的出口商品。",
+    "date": {
+      "start": "1860-01-01",
+      "end": "1945-01-01",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "大稻埕（臺北，茶葉出口中心）",
+      "coordinates": [25.06, 121.51],
+      "adminDivisions": ["臺灣", "臺北市", "大同區"]
+    },
+    "categories": ["歷史", "地理"],
+    "keywords": ["糖業", "茶業", "大稻埕", "橋仔頭糖廠", "烏龍茶", "臺灣製糖", "出口貿易", "嘉南平原"],
+    "relatedEvents": ["tamsui-open", "dagou-port", "jianan-irrigation", "hsinchu-railway"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋", "因果分析"],
+      "textbookReferences": ["社會科七年級上冊 臺灣史"]
+    }
+  },
+  {
+    "id": "geo-taiwan-terrain",
+    "type": "geography",
+    "title": "臺灣地形",
+    "description": "臺灣地形多樣：中央山脈為南北脊樑，最高峰玉山（3952公尺）為東亞最高峰；西部為嘉南平原、彰化平原等沖積平原，是農業重心；北部盆地（臺北盆地）為人口集中區；台地如林口台地、大肚台地分布各地；東部縱谷夾於中央山脈與海岸山脈之間。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "玉山（臺灣最高峰）",
+      "coordinates": [23.47, 120.96],
+      "adminDivisions": ["臺灣", "南投縣", "信義鄉"]
+    },
+    "categories": ["地理"],
+    "keywords": ["中央山脈", "玉山", "嘉南平原", "臺北盆地", "台地", "縱谷", "地形"],
+    "relatedEvents": ["geo-taiwan-rivers", "geo-taiwan-climate"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "概念解釋", "圖表判讀"],
+      "textbookReferences": ["社會科七年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-taiwan-climate",
+    "type": "geography",
+    "title": "臺灣氣候與颱風",
+    "description": "臺灣位於熱帶與亞熱帶交界，北回歸線穿越中部。北部為亞熱帶季風氣候，南部為熱帶季風氣候，山地隨海拔呈垂直氣候分帶。每年6–10月為颱風季，平均每年3–4個颱風侵臺，為主要天然災害。東北季風（冬季）與西南季風（夏季）是降雨分布不均的主因。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "北回歸線（嘉義太保）",
+      "coordinates": [23.5, 120.4],
+      "adminDivisions": ["臺灣", "嘉義縣", "太保市"]
+    },
+    "categories": ["地理"],
+    "keywords": ["北回歸線", "颱風", "季風", "亞熱帶", "熱帶", "氣候分帶", "東北季風", "西南季風"],
+    "relatedEvents": ["geo-taiwan-terrain", "geo-taiwan-rivers"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科七年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-taiwan-rivers",
+    "type": "geography",
+    "title": "臺灣主要河川與水文",
+    "description": "臺灣河川因中央山脈阻隔而短促湍急，東西向為主。最長河川為濁水溪（187公里），最大流量為高屏溪。主要水系包括淡水河（北部）、大甲溪（中部，德基水庫）、曾文溪（南部，曾文水庫）。河川坡度大、含沙量高，水力發電潛力豐富。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "濁水溪出海口（彰化縣）",
+      "coordinates": [23.83, 120.32],
+      "adminDivisions": ["臺灣", "彰化縣"]
+    },
+    "categories": ["地理"],
+    "keywords": ["濁水溪", "高屏溪", "淡水河", "水庫", "河川", "水文", "水力發電"],
+    "relatedEvents": ["geo-taiwan-terrain", "jianan-irrigation"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "圖表判讀"],
+      "textbookReferences": ["社會科七年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-taiwan-population",
+    "type": "geography",
+    "title": "臺灣人口分布與都市化",
+    "description": "臺灣人口高度集中於西部平原與盆地，形成「西密東疏」的分布格局。臺北、新北、桃園、臺中、臺南、高雄六都占全國人口約七成。都市化率超過80%，人口持續向都會區集中，東部與山地離島人口稀少。少子化與人口老化是當前重大人口課題。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "臺北盆地",
+      "coordinates": [25.04, 121.51],
+      "adminDivisions": ["臺灣", "臺北市"]
+    },
+    "categories": ["地理"],
+    "keywords": ["人口分布", "都市化", "西密東疏", "六都", "少子化", "人口老化", "臺北盆地"],
+    "relatedEvents": ["geo-taiwan-terrain", "taiwan-economic-miracle"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["圖表判讀", "概念解釋", "地圖判讀"],
+      "textbookReferences": ["社會科七年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-taiwan-agriculture",
+    "type": "geography",
+    "title": "臺灣農業區位",
+    "description": "臺灣農業分布受地形、氣候與水源影響。嘉南平原為最大農業區，水稻一年二穫；北部丘陵（文山、坪林）盛產茶葉（包種茶、龍井）；中部高山（阿里山、梨山）種植高山茶與蔬果；日治時期南部甘蔗種植面積廣大，後轉型為多元精緻農業。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "嘉南平原（臺南市官田區）",
+      "coordinates": [23.27, 120.31],
+      "adminDivisions": ["臺灣", "臺南市"]
+    },
+    "categories": ["地理"],
+    "keywords": ["嘉南平原", "水稻", "茶葉", "甘蔗", "農業區位", "高山農業", "精緻農業"],
+    "relatedEvents": ["jianan-irrigation", "taiwan-sugar-tea-industry", "geo-taiwan-terrain"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科七年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-taiwan-industry",
+    "type": "geography",
+    "title": "臺灣工業區位",
+    "description": "臺灣工業分布呈「北科技、中精密、南重工」格局。北部新竹科學園區（1980年設立）為半導體與資通訊產業核心；中部精密機械聚集於台中工業區；南部高雄為石化、鋼鐵、造船重工業基地（台塑六輕在雲林離島工業區）；工業走廊沿西部縱貫線分布。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "新竹科學工業園區",
+      "coordinates": [24.78, 121.01],
+      "adminDivisions": ["臺灣", "新竹市"]
+    },
+    "categories": ["地理"],
+    "keywords": ["新竹科學園區", "半導體", "石化工業", "重工業", "工業區位", "台塑六輕", "高雄"],
+    "relatedEvents": ["taiwan-economic-miracle", "geo-taiwan-population"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "圖表判讀", "概念解釋"],
+      "textbookReferences": ["社會科七年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-taiwan-transport",
+    "type": "geography",
+    "title": "臺灣交通路線",
+    "description": "臺灣交通以西部走廊為主幹：高速公路（國道一號、三號）與臺灣高鐵（2007年通車，臺北至左營90分鐘）串聯西部都市。東部以蘇花公路、北迴鐵路為主，地形限制明顯。桃園國際機場為主要國際門戶，高雄港為最大貨櫃港口。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "臺灣高鐵臺中站",
+      "coordinates": [24.17, 120.66],
+      "adminDivisions": ["臺灣", "臺中市", "烏日區"]
+    },
+    "categories": ["地理"],
+    "keywords": ["高鐵", "高速公路", "國道", "桃園機場", "高雄港", "交通路線", "蘇花公路"],
+    "relatedEvents": ["hsinchu-railway", "geo-taiwan-population", "ten-major-constructions"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "概念解釋"],
+      "textbookReferences": ["社會科七年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-southeast-asia",
+    "type": "geography",
+    "title": "東南亞地形",
+    "description": "東南亞分為中南半島與海島兩大地形區。中南半島（越南、泰國、緬甸等）為山河相間地形，湄公河、伊洛瓦底江等大河流貫，平原為稻米產區。海島地區（印尼、菲律賓、馬來西亞）為弧形島鏈，位於環太平洋火環，地震火山頻繁，熱帶雨林廣布。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "新加坡（中南半島與海島交匯處）",
+      "coordinates": [1.35, 103.82],
+      "adminDivisions": ["新加坡"]
+    },
+    "categories": ["地理"],
+    "keywords": ["中南半島", "海島地形", "湄公河", "熱帶雨林", "火環", "東南亞", "稻米"],
+    "relatedEvents": ["geo-south-asia", "decolonization-wave"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "概念解釋", "比較分析"],
+      "textbookReferences": ["社會科八年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-south-asia",
+    "type": "geography",
+    "title": "南亞地形",
+    "description": "南亞以印度次大陸為核心，北部喜馬拉雅山脈為天然屏障（世界最高峰聖母峰），南部德干高原為古老地盾，恆河平原夾於兩者之間，土地肥沃、人口稠密。印度河流域（巴基斯坦）為古代印度河文明發源地。季風氣候造成乾溼季分明，農業深受影響。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "恆河平原（印度北部）",
+      "coordinates": [26.5, 80.9],
+      "adminDivisions": ["印度", "北方邦"]
+    },
+    "categories": ["地理"],
+    "keywords": ["喜馬拉雅山", "恆河平原", "德干高原", "印度次大陸", "季風", "印度河", "南亞地形"],
+    "relatedEvents": ["ancient-india", "geo-southeast-asia"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "概念解釋"],
+      "textbookReferences": ["社會科八年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-middle-east",
+    "type": "geography",
+    "title": "中東與波斯灣石油",
+    "description": "中東地區大部分為乾燥沙漠氣候（阿拉伯半島、伊朗高原），波斯灣沿岸蘊藏全球約半數已探明石油儲量。沙烏地阿拉伯、伊拉克、科威特、伊朗為主要產油國。石油出口帶動中東國家快速現代化，亦是冷戰後國際衝突的重要火藥桶。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "波斯灣（沙烏地阿拉伯沿岸）",
+      "coordinates": [26.0, 50.5],
+      "adminDivisions": ["沙烏地阿拉伯"]
+    },
+    "categories": ["地理"],
+    "keywords": ["波斯灣", "石油", "阿拉伯半島", "沙漠氣候", "OPEC", "中東", "能源"],
+    "relatedEvents": ["israel-founding", "cold-war-begins"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "概念解釋", "圖表判讀"],
+      "textbookReferences": ["社會科八年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-europe-rhine",
+    "type": "geography",
+    "title": "歐洲萊茵河工業帶",
+    "description": "萊茵河發源於阿爾卑斯山，流經瑞士、德國、法國、荷蘭入北海，全長1230公里。沿岸魯爾區（德國）為歐洲最重要的煤炭與鋼鐵工業中心，萊茵—魯爾工業帶集中歐洲重工業產能。萊茵河同時是歐洲最繁忙的內河航道，串聯內陸與鹿特丹大港。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "魯爾工業區（德國杜塞道夫）",
+      "coordinates": [51.22, 6.78],
+      "adminDivisions": ["德國", "北萊茵-威斯法倫邦"]
+    },
+    "categories": ["地理"],
+    "keywords": ["萊茵河", "魯爾區", "工業帶", "鋼鐵", "煤炭", "鹿特丹", "內河航道", "歐洲工業"],
+    "relatedEvents": ["industrial-revolution", "european-integration"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "概念解釋"],
+      "textbookReferences": ["社會科八年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-africa",
+    "type": "geography",
+    "title": "非洲撒哈拉與赤道雨林",
+    "description": "非洲地形以高原為主（「高原大陸」）。北部撒哈拉沙漠為世界最大沙漠，氣候極端乾燥；沿赤道為剛果盆地熱帶雨林（世界第二大雨林）；南北回歸線附近為莽原（熱帶草原）氣候帶。尼羅河（世界最長河）流貫東北部。氣候帶呈南北對稱分布為非洲地理特徵。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "撒哈拉沙漠中心（尼日境內）",
+      "coordinates": [20.0, 12.0],
+      "adminDivisions": ["尼日"]
+    },
+    "categories": ["地理"],
+    "keywords": ["撒哈拉", "赤道雨林", "剛果盆地", "尼羅河", "莽原", "熱帶草原", "非洲氣候帶"],
+    "relatedEvents": ["decolonization-wave", "geo-middle-east"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "概念解釋", "圖表判讀"],
+      "textbookReferences": ["社會科八年級上冊 地理"]
+    }
+  },
+  {
+    "id": "geo-americas",
+    "type": "geography",
+    "title": "美洲亞馬遜與洛磯山脈",
+    "description": "北美洛磯山脈為南北走向，阻隔太平洋氣流，東部大平原廣大肥沃，密西西比河流貫。南美亞馬遜河流域為世界最大熱帶雨林（約550萬平方公里），生物多樣性最豐富地區；南部安地斯山脈縱貫西側，是世界最長山脈。美洲地形因板塊碰撞呈現東老西新格局。",
+    "date": {
+      "start": "0001-01-01",
+      "end": "2025-01-01",
+      "period": "當代",
+      "periodId": "contemporary"
+    },
+    "location": {
+      "name": "亞馬遜河流域（巴西瑪瑙斯）",
+      "coordinates": [-3.1, -60.02],
+      "adminDivisions": ["巴西", "亞馬遜州"]
+    },
+    "categories": ["地理"],
+    "keywords": ["亞馬遜", "洛磯山脈", "安地斯山脈", "熱帶雨林", "大平原", "密西西比河", "美洲地形"],
+    "relatedEvents": ["american-independence", "geo-africa"],
+    "examRelevance": {
+      "importance": "high",
+      "questionTypes": ["地圖判讀", "概念解釋"],
+      "textbookReferences": ["社會科八年級上冊 地理"]
+    }
+  },
+  {
+    "id": "land-survey-taiwan",
+    "title": "臺灣土地調查事業",
+    "description": "1898年至1905年，日本總督府在兒玉源太郎、後藤新平主導下進行全臺土地調查，釐清地籍與土地所有權，廢除大租權，確立近代土地所有制度。調查奠定殖民地財政基礎，並使總督府掌握大量「無主地」，為此後農業開發與基礎建設提供土地資源。",
+    "date": {
+      "start": "1898-07-01",
+      "end": "1905-12-31",
+      "period": "近代變革",
+      "periodId": "industrial-age"
+    },
+    "location": {
+      "name": "臺灣總督府（臺北）",
+      "coordinates": [25.04, 121.51],
+      "adminDivisions": ["臺灣", "臺北市"]
+    },
+    "categories": ["歷史"],
+    "keywords": ["土地調查", "後藤新平", "地籍整理", "大租權", "日治殖民政策", "土地所有權", "兒玉源太郎"],
+    "relatedEvents": ["japanese-1895", "jianan-irrigation", "hsinchu-railway"],
+    "examRelevance": {
+      "importance": "medium",
+      "questionTypes": ["概念解釋", "因果分析"],
+      "textbookReferences": ["社會科七年級上冊 臺灣史"]
+    }
   }
 ]
