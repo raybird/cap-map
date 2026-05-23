@@ -131,3 +131,24 @@ npm run test:data
 - **工作流**：`.github/workflows/deploy.yml`
 
 > **首次啟用**：至儲存庫 **Settings → Pages → Build and deployment**，將 Source 設為 **GitHub Actions**。
+
+---
+
+## 🔗 相關專案 (Related Projects)
+
+| 專案 | 簡介 |
+|------|------|
+| [三國志](https://github.com/raybird/three-kingdoms-map) | 專為三國歷史愛好者設計的互動式時空地圖，結合歷史時間軸與地理空間，呈現三國時期的重要事件與人物 |
+| [⚔️ 金庸地圖](https://github.com/raybird/jymap) | 將金庸十五部小說的傳奇故事，交織在同一張互動地圖上，看見江湖隨朝代變遷。 |
+
+---
+
+## ☕ 贊助專案 (Donate)
+
+如果您喜歡這個專案，歡迎給作者買杯咖啡，您的支持是我們持續維護與擴充資料庫的最大動力！
+
+* 💳 **綠界線上贊助**：[點此贊助我](https://p.ecpay.com.tw/C50D090)
+* 📱 **掃描 QR Code 贊助**：  
+  ![Buy Me a Coffee](docs/buymeacoffee.png)
+
+---
