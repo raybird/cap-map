@@ -86,10 +86,10 @@
 
 @media (max-width: 1024px) {
   .bottom-overlay {
-    bottom: 12px;
+    bottom: 16px;
     left: 12px;
     right: 12px;
-    height: 90px;
+    height: 95px;
   }
 }
 
@@ -98,15 +98,16 @@
     top: 12px;
   }
   .bottom-overlay {
-    height: 100px;
+    bottom: 24px;
+    height: 110px;
   }
 }
 
 @media (max-width: 480px) {
   .bottom-overlay {
-    height: 90px;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
+    height: 115px;
+    left: 12px;
+    right: 12px;
+    bottom: 24px;
   }
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, HostListener, ElementRef } from '@angular/core';
 import { AsyncPipe } from '@angular/common';
 import { Store } from '@ngrx/store';
 import { AppState } from '../store/app.state';
@@ -34,6 +34,7 @@ export class SearchBarComponent implements OnInit, OnDestroy {
   fuse!: Fuse<any>;
   isFocused = false;
   queryText = '';
+  showFilterPanel = false;
 
   textbookOptions = TEXTBOOK_OPTIONS;
   selectedTextbooks: string[] = [];
@@ -41,7 +42,10 @@ export class SearchBarComponent implements OnInit, OnDestroy {
   private allEvents: any[] = [];
   private subscriptions: Subscription[] = [];
 
-  constructor(private store: Store<AppState>) {}
+  constructor(
+    private store: Store<AppState>,
+    private elementRef: ElementRef
+  ) {}
 
   ngOnInit(): void {
     this.events$ = this.store.select(EventSelectors.selectEvents);
@@ -59,10 +63,6 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.subscriptions.forEach(sub => sub.unsubscribe());
-  }
-
-  get showFilterPanel(): boolean {
-    return this.isFocused && !this.queryText;
   }
 
   get showResults(): boolean {
@@ -83,10 +83,23 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
   onFocus(): void {
     this.isFocused = true;
+    this.showFilterPanel = false;
   }
 
-  onBlur(): void {
-    setTimeout(() => { this.isFocused = false; }, 200);
+  toggleFilterPanel(event: Event): void {
+    event.stopPropagation();
+    this.showFilterPanel = !this.showFilterPanel;
+    if (this.showFilterPanel) {
+      this.isFocused = false;
+    }
+  }
+
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent): void {
+    if (!this.elementRef.nativeElement.contains(event.target)) {
+      this.isFocused = false;
+      this.showFilterPanel = false;
+    }
   }
 
   toggleTextbook(value: string): void {

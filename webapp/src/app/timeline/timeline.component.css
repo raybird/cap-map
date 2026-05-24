@@ -8,19 +8,6 @@
   pointer-events: auto !important;
 }
 
-.year-indicator {
-  position: absolute;
-  top: 2px;
-  right: 10px;
-  z-index: 30;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: rgba(44, 36, 27, 0.8);
-  font-family: var(--font-heading, serif);
-  pointer-events: none;
-  letter-spacing: 0.5px;
-}
-
 .center-needle {
   position: absolute;
   left: 50%;
@@ -39,17 +26,24 @@
   pointer-events: none;
 }
 
-.center-needle::before {
-  content: '';
+.needle-year-bubble {
   position: absolute;
-  top: 6px;
+  top: 4px;
   left: 50%;
   transform: translateX(-50%);
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 7px solid rgba(200, 164, 39, 0.8);
+  background: linear-gradient(135deg, rgba(235, 195, 85, 0.98), rgba(200, 164, 39, 0.98));
+  color: #2c241b;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+  font-family: var(--font-heading, serif);
+  z-index: 30;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 0px rgba(255, 255, 255, 0.4);
 }
 
 .center-needle::after {
@@ -75,7 +69,7 @@
   pointer-events: auto !important;
   user-select: none;
   box-sizing: border-box;
-  padding-bottom: 10px;
+  padding-bottom: 16px;
 }
 
 .timeline-container.dragging {
@@ -155,15 +149,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.95rem;
+  font-weight: 700;
   font-family: var(--font-heading);
-  color: rgba(44, 36, 27, 0.9);
+  color: rgba(44, 36, 27, 0.98);
   white-space: nowrap;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   pointer-events: none;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .dynasty-years {
@@ -250,16 +244,17 @@
   top: 13px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.7rem;
-  color: rgba(44, 36, 27, 0.8);
+  font-size: 0.82rem;
+  color: rgba(44, 36, 27, 0.95);
   white-space: nowrap;
-  font-weight: 600;
-  letter-spacing: 0.2px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
 @media (max-width: 768px) {
-  .dynasty-bands { height: 30px; }
-  .event-dots { margin-top: 8px; }
-  .dynasty-label { font-size: 0.7rem; }
+  .dynasty-bands { height: 32px; }
+  .event-dots { margin-top: 10px; }
+  .dynasty-label { font-size: 0.85rem; font-weight: 700; }
+  .year-label { font-size: 0.75rem; font-weight: 700; }
   .dynasty-years { display: none; }
 }

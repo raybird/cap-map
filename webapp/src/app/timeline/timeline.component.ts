@@ -86,6 +86,10 @@ export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit(): void {
+    setTimeout(() => {
+      this.onScroll();
+    }, 100);
+
     const selectedSub = this.store.select(selectSelectedEvent).pipe(
       filter(event => !!event)
     ).subscribe(event => {

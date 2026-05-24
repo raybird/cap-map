@@ -1,11 +1,11 @@
 <div class="timeline-wrapper">
-  @if (currentCenterYear !== 0) {
-    <div class="year-indicator">
-      {{ currentCenterYear < 0 ? '公元前' + (-currentCenterYear) : currentCenterYear + ' 年' }}
-    </div>
-  }
-
-  <div class="center-needle"></div>
+  <div class="center-needle">
+    @if (currentCenterYear !== 0) {
+      <div class="needle-year-bubble">
+        {{ currentCenterYear < 0 ? '前 ' + (-currentCenterYear) : currentCenterYear }}
+      </div>
+    }
+  </div>
 
   <div class="timeline-container" #scrollContainer
     [class.dragging]="isDragging"

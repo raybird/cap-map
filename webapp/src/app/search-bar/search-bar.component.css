@@ -288,3 +288,39 @@
     max-height: 45vh;
   }
 }
+
+/* 篩選切換按鈕樣式 */
+.filter-toggle-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-brown, #8b7355);
+  border-radius: 50%;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+}
+
+.filter-toggle-btn:hover {
+  background: rgba(200, 164, 39, 0.12);
+  color: #7a5c00;
+}
+
+.filter-toggle-btn.active {
+  background: rgba(200, 164, 39, 0.2);
+  color: #7a5c00;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.book-icon {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.2s ease;
+}
+
+.filter-toggle-btn:hover .book-icon {
+  transform: scale(1.08);
+}
