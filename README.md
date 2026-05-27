@@ -138,8 +138,8 @@ npm run test:data
 
 | 專案 | 簡介 |
 |------|------|
-| [三國志](https://github.com/raybird/three-kingdoms-map) | 專為三國歷史愛好者設計的互動式時空地圖，結合歷史時間軸與地理空間，呈現三國時期的重要事件與人物 |
-| [⚔️ 金庸地圖](https://github.com/raybird/jymap) | 將金庸十五部小說的傳奇故事，交織在同一張互動地圖上，看見江湖隨朝代變遷。 |
+| [⚔️ three-kingdoms-map](https://github.com/raybird/three-kingdoms-map) | 專為三國歷史愛好者設計的互動式時空地圖，涵蓋東漢末年至三國統一期間的史詩級歷史戰役、政治事件與人物軌跡。 |
+| [⚔️ jymap](https://github.com/raybird/jymap) | 將金庸十五部小說的傳奇故事，交織在同一張互動地圖上，看見江湖隨朝代變遷。 |
 
 ---
 
